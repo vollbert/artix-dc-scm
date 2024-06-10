@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name artix-dc-scm-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/artix-dc-scm-footprints)(options "")(descr ""))
-)
