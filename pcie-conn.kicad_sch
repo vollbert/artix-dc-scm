@@ -2175,7 +2175,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 175.26 102.87 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611cc4c6)
     (property "Reference" "TP12" (at 168.275 102.87 0)
       (effects (font (size 1.27 1.27)))
@@ -2201,9 +2201,6 @@
     (property "License" "Apache-2.0" (at 160.02 85.09 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "DNP" "DNP" (at 179.07 101.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
     (pin "1" (uuid 833e6fd5-45f6-4a48-b0d8-4f01ea1775b3))
     (instances
       (project "artix-dc-scm"
@@ -2215,7 +2212,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 175.26 100.33 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611cca21)
     (property "Reference" "TP13" (at 168.275 100.33 0)
       (effects (font (size 1.27 1.27)))
@@ -2241,9 +2238,6 @@
     (property "License" "Apache-2.0" (at 160.02 82.55 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "DNP" "DNP" (at 179.07 99.06 0)
-      (effects (font (size 1.27 1.27)))
-    )
     (pin "1" (uuid 164883e6-0a50-4cc3-8169-29d5cf7d24fb))
     (instances
       (project "artix-dc-scm"
@@ -2255,7 +2249,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 175.26 97.79 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000611cce09)
     (property "Reference" "TP14" (at 168.275 97.79 0)
       (effects (font (size 1.27 1.27)))
@@ -2280,9 +2274,6 @@
     )
     (property "License" "Apache-2.0" (at 160.02 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "DNP" "DNP" (at 179.07 96.52 0)
-      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid fa36e153-1834-4b0a-a88a-59820b5be127))
     (instances

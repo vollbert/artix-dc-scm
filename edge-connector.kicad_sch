@@ -1196,7 +1196,7 @@
     (uuid 71364f81-572b-44b1-94fa-edfd5d4f908c)
   )
   (polyline (pts (xy 33.02 77.47) (xy 106.68 77.47))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid 7320e869-184c-40ee-87fc-798a0b7bea52)
   )
 
@@ -1378,7 +1378,7 @@
     (uuid b2073658-a7eb-4010-ae5e-f609f583560c)
   )
   (polyline (pts (xy 106.68 90.17) (xy 33.02 90.17))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid b238145e-868f-447e-8290-5b10e413b28d)
   )
 
@@ -1407,7 +1407,7 @@
     (uuid bc546ee9-e2ac-4b93-8ff4-a80b564bb4c8)
   )
   (polyline (pts (xy 106.68 77.47) (xy 106.68 90.17))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid bc8f993a-cbc1-4f9e-ba13-6e401625397f)
   )
 
@@ -1548,7 +1548,7 @@
     (uuid e60863cf-1381-43b0-b8d9-79e8b357a47f)
   )
   (polyline (pts (xy 33.02 90.17) (xy 33.02 77.47))
-    (stroke (width 0) (type default))
+    (stroke (width 0) (type dash))
     (uuid e726fd74-c308-4c7c-92e3-040ad9eaf3a4)
   )
 
@@ -2935,7 +2935,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 200.66 53.34 0) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d49f2e)
     (property "Reference" "TP10" (at 207.645 53.34 0)
       (effects (font (size 1.27 1.27)))
@@ -2961,9 +2961,6 @@
     (property "License" "Apache-2.0" (at 215.9 35.56 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "DNP" "DNP" (at 203.835 50.8 0)
-      (effects (font (size 1.27 1.27)))
-    )
     (pin "1" (uuid 696b680e-7f24-4db9-a85b-1dc6d83c6f49))
     (instances
       (project "artix-dc-scm"
@@ -2975,7 +2972,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 200.66 55.88 0) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000060d4a897)
     (property "Reference" "TP11" (at 207.645 55.88 0)
       (effects (font (size 1.27 1.27)))
@@ -3000,9 +2997,6 @@
     )
     (property "License" "Apache-2.0" (at 215.9 38.1 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "DNP" "DNP" (at 203.835 58.42 0)
-      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 05c9b020-61ff-4f15-b98e-cf824a808949))
     (instances

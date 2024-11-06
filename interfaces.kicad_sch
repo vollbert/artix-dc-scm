@@ -10636,7 +10636,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 76.2 265.43 180) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-00006028084e)
     (property "Reference" "TP3" (at 73.025 267.97 0)
       (effects (font (size 1.27 1.27)))
@@ -10661,9 +10661,6 @@
     )
     (property "License" "Apache-2.0" (at 60.96 247.65 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "DNP" "DNP" (at 74.93 262.89 0)
-      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 1117c279-0000-420d-87d7-36ba88a44795))
     (instances
@@ -12785,7 +12782,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 134.62 86.36 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000606a4be3)
     (property "Reference" "TP7" (at 139.065 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -12810,9 +12807,6 @@
     )
     (property "License" "Apache-2.0" (at 149.86 104.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "DNP" "DNP" (at 137.16 88.9 0)
-      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 5b46423f-06fb-4b8d-9853-dd20aca9bb3c))
     (instances
@@ -15050,7 +15044,7 @@
   )
 
   (symbol (lib_id "antmicroTestPoints:TP_1mm_SMD") (at 215.9 43.18 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-0000619b4844)
     (property "Reference" "TP8" (at 220.345 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -15075,9 +15069,6 @@
     )
     (property "License" "Apache-2.0" (at 231.14 60.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
-    )
-    (property "DNP" "DNP" (at 219.075 40.64 0)
-      (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid 7971ad54-199d-4305-bd0d-530896fbfcfa))
     (instances
