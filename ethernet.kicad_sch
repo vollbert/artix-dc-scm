@@ -6,8 +6,8 @@
 
   (title_block
     (title "Artix - Datacenter Secure Control Module (DC-SCM)")
-    (date "2024-03-26")
-    (rev "1.1.2:c4a37")
+    (date "2024-11-06")
+    (rev "1.1.3")
   )
 
   (lib_symbols
