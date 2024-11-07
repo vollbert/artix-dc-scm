@@ -2,7 +2,7 @@
 Artix DC-SCM
 ============
 
-Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2024 `Antmicro <https://www.antmicro.com>`_
 
 .. image:: https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square
    :target: https://opensource.antmicro.com/projects/artix-dc-scm 
@@ -53,4 +53,4 @@ Block diagram
 License
 =======
 
-`Apache-2.0 <LICENSE>`_
+This project is published under the `Apache-2.0 <LICENSE>`_  license.
