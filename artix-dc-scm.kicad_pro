@@ -172,8 +172,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -227,6 +227,7 @@
         0.15,
         0.175,
         0.2,
+        0.4,
         0.5,
         0.8
       ],
@@ -623,16 +624,16 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "clearance": 0.1,
         "line_style": 0,
-        "name": "DDR3_Address",
+        "name": "DDR3_Address_T2",
         "pcb_color": "rgb(255, 245, 0)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 149)",
         "track_width": 0.175,
         "tuning_profile": "",
@@ -641,9 +642,22 @@
       },
       {
         "clearance": 0.1,
-        "name": "DDR3_Data0",
+        "line_style": 0,
+        "name": "DDR3_Address_T3",
+        "pcb_color": "rgb(0, 132, 0)",
+        "priority": 2,
+        "schematic_color": "rgb(22, 255, 3)",
+        "track_width": 0.175,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "line_style": 0,
+        "name": "DDR3_BYTE_0",
         "pcb_color": "rgb(0, 135, 255)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgb(76, 255, 247)",
         "track_width": 0.175,
         "tuning_profile": "",
@@ -654,9 +668,9 @@
         "bus_width": 6,
         "clearance": 0.1,
         "line_style": 0,
-        "name": "DDR3_Data1",
+        "name": "DDR3_BYTE_1",
         "pcb_color": "rgb(194, 255, 0)",
-        "priority": 3,
+        "priority": 5,
         "schematic_color": "rgb(0, 124, 255)",
         "track_width": 0.175,
         "tuning_profile": "",
@@ -666,12 +680,25 @@
       },
       {
         "clearance": 0.1,
-        "diff_pair_gap": 0.11,
+        "diff_pair_gap": 0.16,
+        "diff_pair_width": 0.11,
+        "name": "DDR3_CLK",
+        "pcb_color": "rgb(0, 255, 216)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 27)",
+        "track_width": 0.11,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
+      },
+      {
+        "clearance": 0.1,
+        "diff_pair_gap": 0.16,
         "diff_pair_width": 0.11,
         "line_style": 0,
-        "name": "DDR3_Diff",
+        "name": "DDR3_DQS",
         "pcb_color": "rgb(97, 255, 0)",
-        "priority": 1,
+        "priority": 4,
         "schematic_color": "rgb(127, 6, 255)",
         "track_width": 0.11,
         "tuning_profile": "",
@@ -688,11 +715,11 @@
         "microvia_drill": 0.1,
         "name": "Ethernet",
         "pcb_color": "rgb(163, 0, 255)",
-        "priority": 4,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -706,11 +733,11 @@
         "microvia_drill": 0.2,
         "name": "PCIe",
         "pcb_color": "rgb(255, 176, 0)",
-        "priority": 5,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -724,11 +751,11 @@
         "microvia_drill": 0.1,
         "name": "PCIe_inner",
         "pcb_color": "rgb(7, 235, 255)",
-        "priority": 6,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
@@ -742,11 +769,11 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(255, 0, 204)",
-        "priority": 7,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
         "tuning_profile": "",
-        "via_diameter": 0.5,
+        "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       }
@@ -949,43 +976,27 @@
         "pattern": "USB2_D_P"
       },
       {
-        "netclass": "DDR3_Address",
-        "pattern": "*DDR3_A*"
+        "netclass": "DDR3_Address_T3",
+        "pattern": "DDR3_A(1|4|5|6|7|8|9|11|12|13|14)"
       },
       {
-        "netclass": "DDR3_Address",
-        "pattern": "*DDR3_B*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": ""
-      },
-      {
-        "netclass": "DDR3_Diff",
-        "pattern": "DDR3_DQS(0_N|0_P|1_N|1_P)"
-      },
-      {
-        "netclass": "DDR3_Data1",
-        "pattern": "DDR3_DQ(0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15)"
-      },
-      {
-        "netclass": "DDR3_Diff",
+        "netclass": "DDR3_CLK",
         "pattern": "DDR3_CLK_(N|P)"
       },
       {
-        "netclass": "DDR3_Data1",
-        "pattern": "DDR3_DM(0|1)"
+        "netclass": "DDR3_Address_T2",
+        "pattern": "DDR3_(A0|A2|A3|A10|BA0|BA1|BA2|CAS|CKE|ODT|RAS|WE)"
       },
       {
-        "netclass": "DDR3_Address",
-        "pattern": "DDR3_(CAS|CKE|CS|ODT|RAS|WE)"
-      },
-      {
-        "netclass": "DDR3_Data0",
+        "netclass": "DDR3_BYTE_0",
         "pattern": "DDR3_D(M0|Q0|Q1|Q2|Q3|Q4|Q5|Q6|Q7)"
       },
       {
-        "netclass": "DDR3_Data1",
+        "netclass": "DDR3_DQS",
+        "pattern": "DDR3_DQS(0_N|0_P|1_N|1_P)"
+      },
+      {
+        "netclass": "DDR3_BYTE_1",
         "pattern": "DDR3_D(M1|Q8|Q9|Q10|Q11|Q12|Q13|Q14|Q15)"
       }
     ]
