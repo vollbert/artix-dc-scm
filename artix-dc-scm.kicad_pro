@@ -172,7 +172,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.05,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -633,7 +633,7 @@
         "line_style": 0,
         "name": "DDR3_Address_T2",
         "pcb_color": "rgb(255, 245, 0)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 0, 149)",
         "track_width": 0.175,
         "tuning_profile": "",
@@ -645,7 +645,7 @@
         "line_style": 0,
         "name": "DDR3_Address_T3",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(22, 255, 3)",
         "track_width": 0.175,
         "tuning_profile": "",
@@ -657,7 +657,7 @@
         "line_style": 0,
         "name": "DDR3_BYTE_0",
         "pcb_color": "rgb(0, 135, 255)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(76, 255, 247)",
         "track_width": 0.175,
         "tuning_profile": "",
@@ -670,7 +670,7 @@
         "line_style": 0,
         "name": "DDR3_BYTE_1",
         "pcb_color": "rgb(194, 255, 0)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 124, 255)",
         "track_width": 0.175,
         "tuning_profile": "",
@@ -684,7 +684,7 @@
         "diff_pair_width": 0.11,
         "name": "DDR3_CLK",
         "pcb_color": "rgb(0, 255, 216)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 27)",
         "track_width": 0.11,
         "tuning_profile": "",
@@ -698,7 +698,7 @@
         "line_style": 0,
         "name": "DDR3_DQS",
         "pcb_color": "rgb(97, 255, 0)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(127, 6, 255)",
         "track_width": 0.11,
         "tuning_profile": "",
@@ -715,7 +715,7 @@
         "microvia_drill": 0.1,
         "name": "Ethernet",
         "pcb_color": "rgb(163, 0, 255)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "",
@@ -733,7 +733,7 @@
         "microvia_drill": 0.2,
         "name": "PCIe",
         "pcb_color": "rgb(255, 176, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "",
@@ -751,13 +751,25 @@
         "microvia_drill": 0.1,
         "name": "PCIe_inner",
         "pcb_color": "rgb(7, 235, 255)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "line_style": 0,
+        "name": "Power",
+        "pcb_color": "rgb(132, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(194, 0, 0)",
+        "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
       },
       {
         "bus_width": 12,
@@ -769,7 +781,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(255, 0, 204)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
         "tuning_profile": "",
@@ -782,14 +794,7 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "DDR3_A0": [
-        "DDR3_Address"
-      ],
-      "DDR3_A1": [
-        "DDR3_Address"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Ethernet",
@@ -998,6 +1003,18 @@
       {
         "netclass": "DDR3_BYTE_1",
         "pattern": "DDR3_D(M1|Q8|Q9|Q10|Q11|Q12|Q13|Q14|Q15)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC1V35"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC3V3"
       }
     ]
   },
@@ -1151,7 +1168,7 @@
         "uuid": "f3cd042e-9a46-4397-9768-c62eb1c291be"
       }
     ],
-    "used_designators": "IC1",
+    "used_designators": "R99-100,R198-199,#PWR188,C63,C221,C255-258,IC1",
     "variants": []
   },
   "sheets": [
