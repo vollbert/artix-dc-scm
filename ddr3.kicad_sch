@@ -9731,18 +9731,6 @@
 				(justify right)
 			)
 		)
-		(property "Net Class" "DDR3_Address"
-			(at 190.5 106.1784 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "DDR3_DQ0"
 		(shape bidirectional)
@@ -9967,18 +9955,6 @@
 		(uuid "f8f96dd4-a199-4903-94ec-4075cca7f25c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 179.8838 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Net Class" "DDR3_Address"
-			(at 190.5 108.7184 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

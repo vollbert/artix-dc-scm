@@ -16563,30 +16563,6 @@
 			)
 		)
 	)
-	(global_label "DDR3_A8"
-		(shape input)
-		(at 334.01 186.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "786a12f4-3ec9-4722-82e8-8137c09e278c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -45.085 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "DDR3_CLK_N"
 		(shape input)
 		(at 334.01 179.07 0)
@@ -18131,6 +18107,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "DDR3_A8"
+		(shape input)
+		(at 334.01 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fdf0f3aa-4717-4687-a99a-60fab5894f34")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 344.6262 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
