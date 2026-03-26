@@ -12573,6 +12573,16 @@
 		)
 		(uuid "6b6e6e13-721e-4cbe-b2e6-9ff697f767d3")
 	)
+	(text "XC7A100T-2FGG484C (speed grade -2 1,066 rating)"
+		(exclude_from_sim no)
+		(at 299.974 57.912 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0cb49e2-8352-4e61-932d-1746f0f98254")
+	)
 	(text "User LEDs"
 		(exclude_from_sim no)
 		(at 120.65 215.9 0)

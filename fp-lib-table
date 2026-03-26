@@ -1,5 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "IS43TR16256B-125KBL") (type "KiCad") (uri "${KIPRJMOD}/library/LIB_IS43TR16256B-125KBL/IS43TR16256B-125KBL/KiCad") (options "") (descr ""))
 	(lib (name "artix-dc-scm") (type "KiCad") (uri "${KIPRJMOD}/library/artix-dc-scm.pretty") (options "") (descr ""))
 )

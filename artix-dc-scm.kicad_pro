@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.15
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -59,6 +59,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.16,
+          "via_gap": 0.0,
+          "width": 0.1
         }
       ],
       "drc_exclusions": [
@@ -236,25 +241,25 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.01,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 0.6
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.01,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.5
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "min_amplitude": 0.01,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.5
         }
       },
       "via_dimensions": [
@@ -659,7 +664,10 @@
         "pcb_color": "rgb(0, 135, 255)",
         "priority": 6,
         "schematic_color": "rgb(76, 255, 247)",
-        "tuning_profile": "50 Ohm"
+        "track_width": 0.175,
+        "tuning_profile": "50 Ohm",
+        "via_diameter": 0.4,
+        "via_drill": 0.2
       },
       {
         "bus_width": 6,
@@ -1203,7 +1211,7 @@
         "uuid": "f3cd042e-9a46-4397-9768-c62eb1c291be"
       }
     ],
-    "used_designators": "R99-100,R198-199,#PWR188,C63,C221,C255-258,IC1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -1283,7 +1291,7 @@
             "diff_pair_gap": 0,
             "signal_layer": "In5.Cu",
             "top_reference_layer": "In4.Cu",
-            "width": 164865
+            "width": 175000
           }
         ],
         "profile_name": "50 Ohm",

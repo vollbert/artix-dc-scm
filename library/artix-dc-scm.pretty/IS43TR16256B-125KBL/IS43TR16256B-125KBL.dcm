@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP IS43TR16256B-125KBL
-D DRAM 4G, 1.5V, DDR3, 256Mx16, 1600MT/s @ 11-11-11, 96 ball BGA (9mm x13mm) RoHS
-K
-F https://componentsearchengine.com/Datasheets/1/IS43TR16256B-125KBL.pdf
-$ENDCMP
-#
-#End Doc Library

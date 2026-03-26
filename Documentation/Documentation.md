@@ -5,12 +5,17 @@
 - [x] Route the DDR3 memory
 - [ ] impedance matching
 	- 50 ohm single ended
-		layer 
+		layer 3 and 5 trace thickness 0.175mm from multicb datasheet 
+	- 100 Ohm differential 
+		- 0.11 / 0.16mm (used calculator tool) 
 - [ ] include all tha package delays
+- [ ] replace obsolete .. with alternative
+- MT41K256M16TW-093:P:  DDR3L 256x16 with speed grade 2133
+	- make s skew limits much more relaxed
+
 - [ ] Do the Delay Matching for DDR3 memory
-	- [ ] Route CK/CK# first → lock length as reference - 
-	- [ ] Addr/Cmd/Ctrl within ±25 mil of CK with 8ps target
-	- [ ]  DQ/DM within ±5 mil of DQS in same byte lane 
+![[Pasted image 20260326165011.png]]
+	- [ ]  DQ/DM within ±50 of DQS in same byte lane 
 	- [ ] DQS/DQS# differential skew < 2 mil 
 	- [ ] DQS to CK within ±25 mil (MIG leveling handles the rest) 
 	- [ ] Fly-by topology for Addr/Cmd/CK 
@@ -37,3 +42,7 @@
 	![[Pasted image 20260325150038.png]]	
 - [ ] Add series termination resistors on transmitter sides for rgmii
 - [ ] 
+
+# Things to consider for Second design
+- Better stackup with thinner traces (other manufacturer)
+- replace 0402 with 0201 resistors and caps to improve routing

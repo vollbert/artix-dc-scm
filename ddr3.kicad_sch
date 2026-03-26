@@ -21053,7 +21053,7 @@
 		(fields_autoplaced yes)
 		(uuid "497c827a-4dfd-405a-b28e-226ca9c0cb74")
 		(property "Reference" "U7"
-			(at 218.44 52.705 0)
+			(at 218.44 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21063,7 +21063,7 @@
 				)
 			)
 		)
-		(property "Value" "AS4C256M16D3"
+		(property "Value" "MT41K256M16TW-093:P"
 			(at 251.46 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -21076,7 +21076,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:BGA-96-48_7.5x13.5mm_Layout9x16_P0.8mm"
+		(property "Footprint" "artix-dc-scm:BGA96C80P9X16_800X1400X120"
 			(at 251.46 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -21089,7 +21089,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://www.alliancememory.com/wp-content/uploads/AllianceMemory_4G_DDR3L_AS4C256M16D3LC_March2020_Rev1.0.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Micron_07-31-2025_MT41K.pdf"
 			(at 251.46 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -21102,7 +21102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SDRAM - DDR3 Memory IC 4Gbit Parallel 800 MHz 20 ns 96-FBGA (9x13)"
+		(property "Description" "DRAM DDR3 4Gbit 16 96/144TFBGA 1 CT"
 			(at 200.66 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -21113,7 +21113,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Alliance Memory"
+		(property "Manufacturer" "Micron"
 			(at 251.46 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -21126,8 +21126,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "AS4C256M16D3LC-12BCN"
-			(at 218.44 55.245 0)
+		(property "MPN" "MT41K256M16TW-093:P"
+			(at 218.44 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
