@@ -40,9 +40,17 @@
 - [ ] "RGMII v2.0 is supported at 1.8V in HP I/O or up to 2.5V in HR I/O"  
 	- i think i stay with the 3.3V 
 	![[Pasted image 20260325150038.png]]	
-- [ ] Add series termination resistors on transmitter sides for rgmii
-- [ ] 
+- [.] Add series termination resistors on transmitter sides for rgmii
+- [ ] impedance matching 50 rgmii and 100 ohm differential ethernet 
+
+## USB
+
+## eMMC
+- [ ] chip obsolete find alternative to MTFC16GAPALNA-AIT 
+	- all micron parts with unclear lifecycle information
+	- SFEM016GB2ED1TO-I-5E-111-STD : 16Gb better write speed and active lifecycle
 
 # Things to consider for Second design
 - Better stackup with thinner traces (other manufacturer)
 - replace 0402 with 0201 resistors and caps to improve routing
+- clock with higher than 400mhz ddr but check impedance (i think you need 40 ohm for this)

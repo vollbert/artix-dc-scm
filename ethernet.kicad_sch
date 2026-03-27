@@ -10,6 +10,147 @@
 		(rev "1.1.3")
 	)
 	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -5130,7 +5271,7 @@
 	)
 	(text "Pullup resistors"
 		(exclude_from_sim no)
-		(at 130.81 127 0)
+		(at 114.3 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5210,7 +5351,7 @@
 		(uuid "303e38a1-7d95-48bd-80ad-3cb777162c13")
 	)
 	(junction
-		(at 132.08 128.27)
+		(at 115.57 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30fbff41-2ad5-48e4-a0a3-8400b36bfbe5")
@@ -5573,7 +5714,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 128.27) (xy 132.08 129.54)
+			(xy 115.57 120.65) (xy 115.57 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5603,16 +5744,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 139.7) (xy 196.85 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a24e979-40d7-43dd-aeae-c861eb9667ca")
-	)
-	(wire
-		(pts
 			(xy 189.23 156.21) (xy 196.85 156.21)
 		)
 		(stroke
@@ -5620,6 +5751,16 @@
 			(type default)
 		)
 		(uuid "1a7555f7-4bed-43d7-bca1-7fd50a3034e3")
+	)
+	(wire
+		(pts
+			(xy 157.48 137.16) (xy 161.29 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b7865fe-9339-44c4-bdba-0fc634596f27")
 	)
 	(wire
 		(pts
@@ -5643,6 +5784,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 139.7) (xy 196.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e469dbb-8fbb-4670-b151-0717a19d90a9")
+	)
+	(wire
+		(pts
 			(xy 299.72 156.21) (xy 279.4 156.21)
 		)
 		(stroke
@@ -5660,6 +5811,16 @@
 			(type default)
 		)
 		(uuid "1f496bad-1972-4e13-83f5-75828942c63a")
+	)
+	(wire
+		(pts
+			(xy 166.37 134.62) (xy 196.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20fcea90-183e-4d8e-9961-24b64dc7ac00")
 	)
 	(wire
 		(pts
@@ -5783,6 +5944,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 137.16) (xy 196.85 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e3a321-e4b4-4fdd-b059-8d343c6b0e50")
+	)
+	(wire
+		(pts
 			(xy 266.7 120.65) (xy 266.7 106.68)
 		)
 		(stroke
@@ -5863,16 +6034,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 144.78) (xy 196.85 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "410777cc-0e1b-447c-ad50-9bf9d0b7bfb7")
-	)
-	(wire
-		(pts
 			(xy 274.32 67.31) (xy 266.7 67.31)
 		)
 		(stroke
@@ -5930,6 +6091,16 @@
 			(type default)
 		)
 		(uuid "497f7b2b-716e-4ec2-b383-5de3efc788e4")
+	)
+	(wire
+		(pts
+			(xy 166.37 147.32) (xy 196.85 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5cf167-0267-4ce4-8478-d9c339e056f4")
 	)
 	(wire
 		(pts
@@ -6023,16 +6194,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 137.16) (xy 189.23 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe4bad7-681c-493d-9019-3f8d6c5ae068")
-	)
-	(wire
-		(pts
 			(xy 168.91 106.68) (xy 168.91 107.95)
 		)
 		(stroke
@@ -6103,6 +6264,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 139.7) (xy 161.29 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bfb87f6-98ae-42f5-8ea3-df36adc6e090")
+	)
+	(wire
+		(pts
 			(xy 243.84 176.53) (xy 242.57 176.53)
 		)
 		(stroke
@@ -6113,7 +6284,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 134.62) (xy 140.97 137.16)
+			(xy 124.46 127) (xy 124.46 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6153,7 +6324,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 139.7) (xy 132.08 134.62)
+			(xy 115.57 132.08) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
@@ -6163,13 +6334,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 129.54) (xy 140.97 128.27)
+			(xy 124.46 121.92) (xy 124.46 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "73b5f1b6-9e55-4f8c-8304-c94dcf9207ce")
+	)
+	(wire
+		(pts
+			(xy 166.37 144.78) (xy 196.85 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75677b61-e2b9-442b-851a-6709732d4f8d")
 	)
 	(wire
 		(pts
@@ -6193,7 +6374,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 139.7) (xy 132.08 139.7)
+			(xy 140.97 132.08) (xy 115.57 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6240,6 +6421,16 @@
 			(type default)
 		)
 		(uuid "7e22bfcc-0a67-47ba-a9c4-557509e91687")
+	)
+	(wire
+		(pts
+			(xy 157.48 144.78) (xy 161.29 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80be345b-5a95-4445-b8fc-14d709af0831")
 	)
 	(wire
 		(pts
@@ -6310,6 +6501,16 @@
 			(type default)
 		)
 		(uuid "8b3d5acb-adc7-43ea-975e-f667f16e1128")
+	)
+	(wire
+		(pts
+			(xy 157.48 142.24) (xy 161.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebeb36c-0b7e-4407-8d1e-773a593f8d40")
 	)
 	(wire
 		(pts
@@ -6450,6 +6651,16 @@
 			(type default)
 		)
 		(uuid "a215fe70-f873-411c-8754-ede5ad65351c")
+	)
+	(wire
+		(pts
+			(xy 157.48 147.32) (xy 161.29 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4795ce9-eea2-43fc-a7bd-616ef0efd984")
 	)
 	(wire
 		(pts
@@ -6663,7 +6874,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 128.27) (xy 132.08 128.27)
+			(xy 124.46 120.65) (xy 115.57 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6700,6 +6911,26 @@
 			(type default)
 		)
 		(uuid "c78b08b8-7c98-406e-8ef2-c14788941639")
+	)
+	(wire
+		(pts
+			(xy 166.37 142.24) (xy 196.85 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ed8804-9400-43e3-8923-5f34af114c5e")
+	)
+	(wire
+		(pts
+			(xy 157.48 134.62) (xy 161.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9647c07-2b0a-47cb-8c60-41203a4f2c33")
 	)
 	(wire
 		(pts
@@ -6743,7 +6974,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 137.16) (xy 140.97 137.16)
+			(xy 140.97 129.54) (xy 124.46 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6853,16 +7084,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 147.32) (xy 189.23 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db8aa8e7-3b8c-4c78-909c-1a29c65e82c7")
-	)
-	(wire
-		(pts
 			(xy 161.29 86.36) (xy 161.29 87.63)
 		)
 		(stroke
@@ -6913,16 +7134,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 134.62) (xy 196.85 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e10cb3d7-c23a-4e18-b029-fedfed7c8270")
-	)
-	(wire
-		(pts
 			(xy 161.29 86.36) (xy 152.4 86.36)
 		)
 		(stroke
@@ -6943,7 +7154,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 128.27) (xy 132.08 128.27)
+			(xy 114.3 120.65) (xy 115.57 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7173,16 +7384,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 142.24) (xy 189.23 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa64c419-6a6a-4e01-9d6e-7d2dd73b5ba9")
-	)
-	(wire
-		(pts
 			(xy 316.23 67.31) (xy 307.34 67.31)
 		)
 		(stroke
@@ -7251,6 +7452,16 @@
 		)
 		(uuid "02be96b6-30e3-4eda-9469-41803143b499")
 	)
+	(label "RGMII_TXD0_PHY"
+		(at 173.99 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0699ebf7-eaed-4275-a0d5-620fd8df2e38")
+	)
 	(label "ETH1_N"
 		(at 257.81 130.81 180)
 		(effects
@@ -7281,6 +7492,16 @@
 		)
 		(uuid "14f52682-1070-406e-be57-8f28f579ab5c")
 	)
+	(label "RGMII_CLK_PHY"
+		(at 173.99 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "153cd84c-e689-4f4c-9691-1b8262e0a109")
+	)
 	(label "ETH_LED2"
 		(at 341.63 144.78 180)
 		(effects
@@ -7290,6 +7511,16 @@
 			(justify right bottom)
 		)
 		(uuid "2ad20913-1e61-45da-bfe0-7dbad4e0c9b0")
+	)
+	(label "RGMII_TXD2_PHY"
+		(at 173.99 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e5c9fda-f910-4108-8fc4-3a62190d27f8")
 	)
 	(label "ETH4_P"
 		(at 257.81 147.32 180)
@@ -7361,6 +7592,16 @@
 		)
 		(uuid "98f9c786-ac70-4772-b858-f8280f4713c2")
 	)
+	(label "RGMII_TXD1_PHY"
+		(at 173.99 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a840ec67-58a3-4257-879d-26c1e341a3d0")
+	)
 	(label "ETH1_P"
 		(at 257.81 128.27 180)
 		(effects
@@ -7392,7 +7633,7 @@
 		(uuid "abbea804-8d16-4d21-9d92-c8c01b1ff53f")
 	)
 	(label "ETH_MDIO"
-		(at 157.48 139.7 180)
+		(at 140.97 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7422,7 +7663,7 @@
 		(uuid "ec91b866-fba6-4590-b9ba-5bf1a5cdd570")
 	)
 	(label "ETH_~{RESET}"
-		(at 157.48 137.16 180)
+		(at 140.97 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7431,28 +7672,25 @@
 		)
 		(uuid "eccf49cd-23fc-4368-9cf1-ca4769d60b3c")
 	)
-	(global_label "RGMII_TXD3"
-		(shape input)
-		(at 189.23 144.78 180)
-		(fields_autoplaced yes)
+	(label "RGMII_TX_EN_PHY"
+		(at 173.99 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "0190376d-a1ae-4046-b0a4-b474d386d5b2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "f33c2f08-4e90-4ae6-bec9-e709f7dae3f9")
+	)
+	(label "RGMII_TXD3_PHY"
+		(at 173.99 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "f91b65cc-a9c6-47cd-b731-6a3ee6373176")
 	)
 	(global_label "ETH_INT_N"
 		(shape output)
@@ -7467,52 +7705,6 @@
 		(uuid "0215a8c3-8ddb-402e-b607-449bb50a0c83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.925 -30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "RGMII_TXD2"
-		(shape input)
-		(at 189.23 142.24 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "033d654f-780a-42fa-94da-1c4afce6622b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "RGMII_TXD1"
-		(shape input)
-		(at 189.23 139.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09d25e31-c56f-4939-85f1-e0b4dfde81ec")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7641,6 +7833,29 @@
 			)
 		)
 	)
+	(global_label "RGMII_TXD1"
+		(shape input)
+		(at 157.48 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e42a77d-9b61-44d4-90f3-867bf1a23c0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 2.54 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "VCC3V3"
 		(shape input)
 		(at 332.74 132.08 0)
@@ -7662,6 +7877,52 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "RGMII_TX_DV"
+		(shape input)
+		(at 157.48 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48040821-e131-4d94-aefe-3249efeaceba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 2.54 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RGMII_TX_CLK"
+		(shape input)
+		(at 157.48 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a6ab706-78e1-439f-8b25-cc2324c1f0e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 2.54 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 	)
@@ -7807,9 +8068,32 @@
 			)
 		)
 	)
+	(global_label "RGMII_TXD2"
+		(shape input)
+		(at 157.48 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c56d97f-ca3a-4507-a542-68d5537e839f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 2.54 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "VCC3V3"
 		(shape input)
-		(at 130.81 128.27 180)
+		(at 114.3 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7819,7 +8103,7 @@
 		)
 		(uuid "8ee469f7-365d-440c-a704-96ffaacbd453")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -85.09 354.965 90)
+			(at -101.6 347.345 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7878,52 +8162,6 @@
 			)
 		)
 	)
-	(global_label "RGMII_TX_DV"
-		(shape input)
-		(at 189.23 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "99ea448e-36a3-408d-9b93-580da3089d63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "RGMII_TXD0"
-		(shape input)
-		(at 189.23 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9bf685df-63d2-422c-aab8-97b2c0476a8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "ETH_~{RESET}"
 		(shape input)
 		(at 189.23 121.92 180)
@@ -7970,29 +8208,6 @@
 			)
 		)
 	)
-	(global_label "RGMII_TX_CLK"
-		(shape input)
-		(at 189.23 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae8d1fc0-76ec-4c3c-aaff-67c09827da19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.29 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "RGMII_RXD2"
 		(shape passive)
 		(at 55.88 118.11 180)
@@ -8014,6 +8229,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "RGMII_TXD3"
+		(shape input)
+		(at 157.48 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c004b953-ef7a-4f8b-af0b-8978655a0041")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 2.54 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 	)
@@ -8054,6 +8292,29 @@
 		(uuid "d3389a61-f0bf-4346-a657-33b126682f29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.29 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "RGMII_TXD0"
+		(shape input)
+		(at 157.48 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d896a2f1-1f0a-49d9-aba9-4e984f5afca8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 2.54 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9598,7 +9859,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_10k2_0402")
-		(at 140.97 134.62 90)
+		(at 124.46 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9608,7 +9869,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ff6d118")
 		(property "Reference" "R156"
-			(at 142.24 130.81 90)
+			(at 125.73 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9619,7 +9880,7 @@
 			)
 		)
 		(property "Value" "R_10k2_0402"
-			(at 153.67 114.3 0)
+			(at 137.16 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9632,7 +9893,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 156.21 114.3 0)
+			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9645,7 +9906,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 158.75 114.3 0)
+			(at 142.24 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9658,7 +9919,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor"
-			(at 140.97 134.62 0)
+			(at 124.46 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9669,7 +9930,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 163.83 114.3 0)
+			(at 147.32 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9682,7 +9943,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1022GLF"
-			(at 161.29 114.3 0)
+			(at 144.78 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9695,7 +9956,7 @@
 			)
 		)
 		(property "Val" "10k2"
-			(at 142.24 133.35 90)
+			(at 125.73 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9707,7 +9968,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 166.37 114.3 0)
+			(at 149.86 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9720,7 +9981,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 168.91 114.3 0)
+			(at 152.4 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9733,7 +9994,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 151.13 114.3 0)
+			(at 134.62 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15316,7 +15577,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_4k7_0402")
-		(at 132.08 134.62 90)
+		(at 115.57 127 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15326,7 +15587,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000601d2172")
 		(property "Reference" "R155"
-			(at 133.35 130.81 90)
+			(at 116.84 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15337,7 +15598,7 @@
 			)
 		)
 		(property "Value" "R_4k7_0402"
-			(at 144.78 114.3 0)
+			(at 128.27 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15350,7 +15611,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 147.32 114.3 0)
+			(at 130.81 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15363,7 +15624,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 149.86 114.3 0)
+			(at 133.35 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15376,7 +15637,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 4.7 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 132.08 134.62 0)
+			(at 115.57 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15387,7 +15648,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 154.94 114.3 0)
+			(at 138.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15400,7 +15661,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-4701GLF"
-			(at 152.4 114.3 0)
+			(at 135.89 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15413,7 +15674,7 @@
 			)
 		)
 		(property "Val" "4k7"
-			(at 133.35 133.35 90)
+			(at 116.84 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15425,7 +15686,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 157.48 114.3 0)
+			(at 140.97 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15438,7 +15699,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 160.02 114.3 0)
+			(at 143.51 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15451,7 +15712,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 142.24 114.3 0)
+			(at 125.73 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17229,6 +17490,164 @@
 			(project "artix-dc-scm"
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.83 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "099d8290-5937-471f-9a0b-6c22e7c66d27")
+		(property "Reference" "R200"
+			(at 159.512 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 167.386 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 163.83 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5a08933-ee9e-480a-be9f-cde8cb6991bb")
+		)
+		(pin "2"
+			(uuid "20f818d0-6493-40fa-82a6-3d3713aa303d")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04"
+					(reference "R200")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.83 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b3a724d-6071-4b72-addf-f4fde5e333de")
+		(property "Reference" "R198"
+			(at 159.512 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 167.386 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 163.83 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c89666ff-8f31-47e2-936c-dc6f23981a26")
+		)
+		(pin "2"
+			(uuid "da295626-8a6f-4fff-99ca-26dbf1229495")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04"
+					(reference "R198")
 					(unit 1)
 				)
 			)
@@ -19939,6 +20358,322 @@
 			(project "artix-dc-scm"
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04"
 					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.83 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "980cd976-d180-4a95-9c5f-21c84e3252f0")
+		(property "Reference" "R199"
+			(at 159.512 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 167.386 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 163.83 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce967415-1f86-4470-9c36-de065829f5e2")
+		)
+		(pin "2"
+			(uuid "81fa4ff7-87e2-421c-9173-dca9d4c5e65a")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04"
+					(reference "R199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.83 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ff17cd5-d1bd-4fe5-acdc-686ce093280a")
+		(property "Reference" "R202"
+			(at 159.512 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 167.386 143.51 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 163.83 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21e44a59-ac44-46e4-9c9d-7c407069641a")
+		)
+		(pin "2"
+			(uuid "9b488436-be8d-473f-bbb0-6950ff36c618")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04"
+					(reference "R202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.83 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1007a5f-b576-42e8-af02-d7602f9d91e5")
+		(property "Reference" "R201"
+			(at 159.512 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 167.386 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 163.83 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2268c5d7-55c8-4a19-81e9-f071301bd74a")
+		)
+		(pin "2"
+			(uuid "a3d73cd4-6ee4-4087-a034-43369c58bc39")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.83 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b480cd92-95a7-45e2-bf5b-14a8c23371b0")
+		(property "Reference" "R203"
+			(at 159.512 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 167.386 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 163.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 163.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbe8eb12-9bb4-4b82-ac6f-10df3af68552")
+		)
+		(pin "2"
+			(uuid "1d27f70d-f0c5-4c78-a41f-471c0fc065a7")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04"
+					(reference "R203")
 					(unit 1)
 				)
 			)

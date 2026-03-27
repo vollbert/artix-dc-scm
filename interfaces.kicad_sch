@@ -21989,6 +21989,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SFEM016GB1ED1TO-I-5E-311-STD (Drop in Replacement)\n"
+		(exclude_from_sim no)
+		(at 89.154 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "126efeaa-4f45-4cf2-9082-04f3269d0db8")
+	)
 	(text "USB CLIENT"
 		(exclude_from_sim no)
 		(at 357.505 118.11 0)

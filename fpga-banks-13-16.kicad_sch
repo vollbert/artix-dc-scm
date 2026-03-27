@@ -10,6 +10,147 @@
 		(rev "1.1.3")
 	)
 	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
@@ -11954,6 +12095,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 132.08) (xy 212.09 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd93af7-56f0-4fc9-aeb0-fd2efc763208")
+	)
+	(wire
+		(pts
 			(xy 317.5 63.5) (xy 317.5 85.09)
 		)
 		(stroke
@@ -11974,7 +12125,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 165.1) (xy 252.73 165.1)
+			(xy 208.28 165.1) (xy 212.09 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12244,6 +12395,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 134.62) (xy 207.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c84b2c5-c22c-483f-b1c8-2e16d481d702")
+	)
+	(wire
+		(pts
 			(xy 250.19 149.86) (xy 252.73 149.86)
 		)
 		(stroke
@@ -12484,16 +12645,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 132.08) (xy 250.19 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48e980ae-824e-4508-bd54-e9572961ca91")
-	)
-	(wire
-		(pts
 			(xy 250.19 106.68) (xy 252.73 106.68)
 		)
 		(stroke
@@ -12584,6 +12735,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 139.7) (xy 252.73 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54702c1b-8130-4a3b-8f7e-994acacb396a")
+	)
+	(wire
+		(pts
 			(xy 350.52 63.5) (xy 341.63 63.5)
 		)
 		(stroke
@@ -12654,7 +12815,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 134.62) (xy 250.19 134.62)
+			(xy 217.17 134.62) (xy 252.73 134.62)
 		)
 		(stroke
 			(width 0)
@@ -12751,6 +12912,16 @@
 			(type default)
 		)
 		(uuid "6cf0f600-9c48-4d1c-bb56-465a817719b2")
+	)
+	(wire
+		(pts
+			(xy 217.17 132.08) (xy 252.73 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc7553d-a59d-4dd8-ac33-57aba5f4a9de")
 	)
 	(wire
 		(pts
@@ -12994,7 +13165,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 154.94) (xy 252.73 154.94)
+			(xy 208.28 154.94) (xy 212.09 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13014,6 +13185,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 154.94) (xy 252.73 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b3cea7-d1d7-460f-b8a7-206749c798d4")
+	)
+	(wire
+		(pts
 			(xy 250.19 152.4) (xy 252.73 152.4)
 		)
 		(stroke
@@ -13021,6 +13202,16 @@
 			(type default)
 		)
 		(uuid "88f1ffe5-ee9f-4baa-b6be-e1bab067ee0a")
+	)
+	(wire
+		(pts
+			(xy 217.17 160.02) (xy 252.73 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b39ca59-d075-49de-b0bb-1a6fc875d5c5")
 	)
 	(wire
 		(pts
@@ -13554,6 +13745,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 165.1) (xy 252.73 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c53171-9973-44cb-8193-88f5da2acab5")
+	)
+	(wire
+		(pts
 			(xy 245.11 50.8) (xy 251.46 50.8)
 		)
 		(stroke
@@ -13794,7 +13995,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 160.02) (xy 252.73 160.02)
+			(xy 208.28 160.02) (xy 212.09 160.02)
 		)
 		(stroke
 			(width 0)
@@ -14004,7 +14205,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 139.7) (xy 252.73 139.7)
+			(xy 207.01 139.7) (xy 212.09 139.7)
 		)
 		(stroke
 			(width 0)
@@ -14182,6 +14383,46 @@
 		)
 		(uuid "2fcbf9a2-4bb4-4825-9c59-cc75e53f34ce")
 	)
+	(label "RGMII_RXD0_FPGA"
+		(at 219.71 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "39bdefe2-144a-47bc-8db0-ea0468d3d290")
+	)
+	(label "RGMII_CLK_FPGA"
+		(at 219.71 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67d51e19-0ae1-47d8-b4f3-43f994b3a7b9")
+	)
+	(label "RGMII_RXD1_FPGA"
+		(at 219.71 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a34ace4c-3691-4e95-a57d-f2f54a22241d")
+	)
+	(label "RGMII_RXD2_FPGA"
+		(at 219.71 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a8e7620c-ecb2-4a7a-985f-07e31fde61e2")
+	)
 	(label "PUDC_B"
 		(at 135.89 101.6 180)
 		(effects
@@ -14191,6 +14432,26 @@
 			(justify right bottom)
 		)
 		(uuid "af3f09e1-5dec-426a-853d-fb6b5e470baa")
+	)
+	(label "RGMII_RXD3_FPGA"
+		(at 219.71 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1d7e708-357d-413d-b4fb-e66d9db49ee7")
+	)
+	(label "RGMII_RX_DV_FPGA"
+		(at 219.71 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b36a98bc-8d80-4123-a4ee-ea01fb54a489")
 	)
 	(global_label "I2C[0]_SDA"
 		(shape input)
@@ -14289,7 +14550,7 @@
 	)
 	(global_label "RGMII_RXD3"
 		(shape output)
-		(at 250.19 134.62 180)
+		(at 207.01 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14299,7 +14560,7 @@
 		)
 		(uuid "12925c60-2dd3-4bca-8835-8546fb11369b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 36.83 0)
+			(at 45.085 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14809,7 +15070,7 @@
 	)
 	(global_label "RGMII_RXD1"
 		(shape output)
-		(at 250.19 139.7 180)
+		(at 207.01 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14819,7 +15080,7 @@
 		)
 		(uuid "3e940d67-9233-4989-82e2-53ec7da6bc37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 36.83 0)
+			(at 45.085 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14923,6 +15184,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "RGMII_RXD2"
+		(shape output)
+		(at 207.01 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "403d2586-bf6c-40de-a3b4-dc6d9aefaa45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.085 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 	)
@@ -15089,29 +15373,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "RGMII_RXD2"
-		(shape output)
-		(at 250.19 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ff8b50d-530f-41ba-b749-dc45a61bb275")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 	)
@@ -15615,7 +15876,7 @@
 	)
 	(global_label "RGMII_RX_DV"
 		(shape output)
-		(at 250.19 165.1 180)
+		(at 208.28 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15625,7 +15886,7 @@
 		)
 		(uuid "791a76ea-0bdf-43f5-aafd-631525603ed4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 36.83 0)
+			(at 46.355 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15826,7 +16087,7 @@
 	)
 	(global_label "RGMII_RXD0"
 		(shape output)
-		(at 250.19 160.02 180)
+		(at 208.28 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15836,7 +16097,7 @@
 		)
 		(uuid "8ccc605d-3afc-4dc3-9601-81ccf2147582")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 36.83 0)
+			(at 46.355 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15968,7 +16229,7 @@
 	)
 	(global_label "RGMII_RX_CLK"
 		(shape output)
-		(at 250.19 154.94 180)
+		(at 208.28 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15978,7 +16239,7 @@
 		)
 		(uuid "9ade5216-3db7-47eb-80bd-8e8547f832ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.265 36.83 0)
+			(at 46.355 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17430,6 +17691,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 160.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0d99679e-b8d2-429a-9a3c-55d8f7c4a7fd")
+		(property "Reference" "R208"
+			(at 210.312 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 218.186 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc0c88e6-d1b8-4f1a-b385-1054fc872e1c")
+		)
+		(pin "2"
+			(uuid "1ff3de64-2efc-433d-91dd-1c6d60e8bd8a")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
+					(reference "R208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_470n_0402")
 		(at 332.74 69.85 270)
 		(mirror x)
@@ -18305,6 +18645,85 @@
 			(project "artix-dc-scm"
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
 					(reference "R135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 165.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1690e36c-015b-4b0c-bd1d-d933fd7ede27")
+		(property "Reference" "R209"
+			(at 210.312 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 218.186 163.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f3c6462-31a4-4c45-8dab-4f1c2779675d")
+		)
+		(pin "2"
+			(uuid "9e6e9cd0-a44e-4f89-8a27-d6c4fa1a329b")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -22453,6 +22872,85 @@
 			(project "artix-dc-scm"
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
 					(reference "C238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c000b09-e003-4022-a077-3c229efbf5aa")
+		(property "Reference" "R206"
+			(at 210.312 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 218.186 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5cfe2a4f-17d4-4f72-acfc-f1e470420ab3")
+		)
+		(pin "2"
+			(uuid "9e8792ed-6b08-4a68-bdd8-583c1f120ae5")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
+					(reference "R206")
 					(unit 1)
 				)
 			)
@@ -28194,6 +28692,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 154.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbe85347-df94-4e7e-83d6-ad0f99ab4f34")
+		(property "Reference" "R207"
+			(at 210.312 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 218.186 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "508ee3b8-c43d-443c-bcb1-ade449b13e95")
+		)
+		(pin "2"
+			(uuid "8f5255b8-0f92-4597-98d2-efba49e72f7d")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
+					(reference "R207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 365.76 158.75 0)
 		(mirror y)
@@ -28993,6 +29570,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd27cedb-05e1-4de4-b44b-4962421f16fd")
+		(property "Reference" "R205"
+			(at 210.312 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 218.186 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08cb7cc4-2c18-40ad-8250-c5a9add89e0f")
+		)
+		(pin "2"
+			(uuid "2f9377a1-92ef-462c-97f6-bc12e87e04e5")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
+					(reference "R205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicropower:GND")
 		(at 227.33 71.12 0)
 		(unit 1)
@@ -29462,6 +30118,85 @@
 			(project "artix-dc-scm"
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
 					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1942a99-0623-43e8-b37f-9549c06c158f")
+		(property "Reference" "R204"
+			(at 210.312 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 218.186 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c7f7e83-adf5-4928-bfac-1f1697207254")
+		)
+		(pin "2"
+			(uuid "a7575777-0ce8-4bd5-93ba-06eb853c8ae0")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
+					(reference "R204")
 					(unit 1)
 				)
 			)
