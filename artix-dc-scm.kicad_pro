@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.9,
-          "height": 5.5,
-          "width": 5.5
+          "drill": 0.0,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -208,9 +208,11 @@
       "track_widths": [
         0.0,
         0.1,
+        0.13,
         0.15,
         0.175,
         0.2,
+        0.245,
         0.4,
         0.5,
         0.8
@@ -610,7 +612,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.13,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.2,
@@ -621,7 +623,7 @@
         "line_style": 0,
         "name": "DDR3_Address_T2",
         "pcb_color": "rgb(255, 245, 0)",
-        "priority": 5,
+        "priority": 9,
         "schematic_color": "rgb(255, 0, 149)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -633,7 +635,7 @@
         "line_style": 0,
         "name": "DDR3_Address_T3",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 6,
+        "priority": 10,
         "schematic_color": "rgb(22, 255, 3)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -645,7 +647,7 @@
         "line_style": 0,
         "name": "DDR3_BYTE_0",
         "pcb_color": "rgb(0, 135, 255)",
-        "priority": 7,
+        "priority": 11,
         "schematic_color": "rgb(76, 255, 247)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -658,7 +660,7 @@
         "line_style": 0,
         "name": "DDR3_BYTE_1",
         "pcb_color": "rgb(194, 255, 0)",
-        "priority": 9,
+        "priority": 13,
         "schematic_color": "rgb(0, 124, 255)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -672,7 +674,7 @@
         "diff_pair_width": 0.1,
         "name": "DDR3_CLK",
         "pcb_color": "rgb(0, 255, 216)",
-        "priority": 4,
+        "priority": 8,
         "schematic_color": "rgb(255, 0, 27)",
         "track_width": 0.1,
         "tuning_profile": "100 Ohm",
@@ -686,12 +688,19 @@
         "line_style": 0,
         "name": "DDR3_DQS",
         "pcb_color": "rgb(97, 255, 0)",
-        "priority": 8,
+        "priority": 12,
         "schematic_color": "rgb(127, 6, 255)",
         "track_width": 0.1,
         "tuning_profile": "100 Ohm",
         "via_diameter": 0.4,
         "via_drill": 0.2
+      },
+      {
+        "name": "ESPI",
+        "pcb_color": "rgb(81, 89, 186)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 255)",
+        "tuning_profile": "50 Ohm"
       },
       {
         "bus_width": 12,
@@ -703,7 +712,7 @@
         "microvia_drill": 0.1,
         "name": "Ethernet",
         "pcb_color": "rgb(163, 0, 255)",
-        "priority": 10,
+        "priority": 14,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "100 Ohm",
@@ -715,12 +724,19 @@
         "clearance": 0.1,
         "name": "MMC",
         "pcb_color": "rgb(255, 255, 194)",
-        "priority": 0,
+        "priority": 4,
         "schematic_color": "rgb(0, 0, 132)",
         "track_width": 0.175,
-        "tuning_profile": "",
+        "tuning_profile": "50 Ohm",
         "via_diameter": 0.4,
         "via_drill": 0.2
+      },
+      {
+        "name": "NCSI",
+        "pcb_color": "rgb(96, 80, 104)",
+        "priority": 0,
+        "schematic_color": "rgb(110, 155, 184)",
+        "tuning_profile": "50 Ohm"
       },
       {
         "bus_width": 12,
@@ -732,10 +748,10 @@
         "microvia_drill": 0.2,
         "name": "PCIe",
         "pcb_color": "rgb(255, 176, 0)",
-        "priority": 11,
+        "priority": 15,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
-        "tuning_profile": "",
+        "tuning_profile": "85 Ohm",
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
@@ -750,7 +766,7 @@
         "microvia_drill": 0.1,
         "name": "PCIe_inner",
         "pcb_color": "rgb(7, 235, 255)",
-        "priority": 12,
+        "priority": 16,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "",
@@ -763,7 +779,7 @@
         "line_style": 0,
         "name": "Power",
         "pcb_color": "rgb(132, 0, 0)",
-        "priority": 3,
+        "priority": 7,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -771,10 +787,17 @@
         "via_drill": 0.2
       },
       {
+        "name": "QSPI",
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 132, 132)",
+        "tuning_profile": "50 Ohm"
+      },
+      {
         "clearance": 0.1,
         "name": "RGMII_RX",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 1,
+        "priority": 5,
         "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -785,12 +808,19 @@
         "clearance": 0.1,
         "name": "RGMII_TX",
         "pcb_color": "rgb(0, 132, 132)",
-        "priority": 2,
+        "priority": 6,
         "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
         "via_diameter": 0.4,
         "via_drill": 0.2
+      },
+      {
+        "name": "ULPII",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 72, 72)",
+        "tuning_profile": "50 Ohm"
       },
       {
         "bus_width": 12,
@@ -802,7 +832,7 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(255, 0, 204)",
-        "priority": 13,
+        "priority": 17,
         "schematic_color": "rgb(72, 0, 72)",
         "track_width": 0.11,
         "tuning_profile": "",
@@ -1068,6 +1098,62 @@
       {
         "netclass": "MMC",
         "pattern": "MMC_(CLK|CMD|DAT0|DAT1|DAT2|DAT3|DAT4|DAT5|DAT6|DAT7|RSTN)"
+      },
+      {
+        "netclass": "ULPII",
+        "pattern": "ULPI2_(CLKOUT|DATA0|DATA1|DATA2|DATA3|DATA4|DATA5|DATA6|DATA7|DIR|NXT|RESET|STP)"
+      },
+      {
+        "netclass": "ULPII",
+        "pattern": "ULPI1_(CLKOUT|DATA0|DATA1|DATA2|DATA3|DATA4|DATA5|DATA6|DATA7|DIR|NXT|RESET|STP)"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "QSPI(A1_CS_N|A1_D0|A1_D1|A1_D2|A1_D3|A2_CS_N|A2_D0|A2_D1|A2_D2|A2_D3|A_CLK|B1_CS_N|B1_D0|B1_D1|B1_D2|B1_D3|B2_CS_N|B2_D0|B2_D1|B2_D2|B2_D3|B_CLK)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC5V0"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "QSPI0_(CLK|CS0_N|D0|D1|D2|D3)"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "QSPI1_(CLK|CS0_N|D0|D1|D2|D3)"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "QSPI0_CS1_N"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "ROT_QSPI_SCK"
+      },
+      {
+        "netclass": "QSPI",
+        "pattern": "ROT_QSPI_DQ(0|1|2|3)"
+      },
+      {
+        "netclass": "ESPI",
+        "pattern": "ESPI_(ALERT_N_1V8|CLK_1V8|CS0_N_1V8|IO0_1V8|IO1_1V8|IO2_1V8|IO3_1V8|RESET_N_1V8)"
+      },
+      {
+        "netclass": "ESPI",
+        "pattern": "ESPI_CS1_N_1V8"
+      },
+      {
+        "netclass": "NCSI",
+        "pattern": "NCSI_(CLK|CRS_DV|RXD0|RXD1|RXER|TXD0|TXD1|TXEN)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC1V0"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC1V8"
       }
     ]
   },
@@ -1076,7 +1162,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -1125,22 +1211,22 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -1153,14 +1239,134 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Color",
+          "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current",
+          "name": "Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "DNP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IMax",
+          "name": "IMax",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISat",
+          "name": "ISat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Pitch ",
+          "name": "Pitch ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Public",
+          "name": "Public",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VSD_Class",
+          "name": "VSD_Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VSD_class",
+          "name": "VSD_class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Val",
+          "name": "Val",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1221,7 +1427,7 @@
         "uuid": "f3cd042e-9a46-4397-9768-c62eb1c291be"
       }
     ],
-    "used_designators": "U26,R198-209",
+    "used_designators": "#PWR219-220,C258-260,U26,R198-209",
     "variants": []
   },
   "sheets": [
@@ -1289,11 +1495,11 @@
           },
           {
             "bottom_reference_layer": "In1.Cu",
-            "delay": 5463000,
+            "delay": 5581900,
             "diff_pair_gap": 0,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
-            "width": 175000
+            "width": 245000
           },
           {
             "bottom_reference_layer": "In6.Cu",
@@ -1302,6 +1508,14 @@
             "signal_layer": "In5.Cu",
             "top_reference_layer": "In4.Cu",
             "width": 175000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5581900,
+            "diff_pair_gap": 0,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 245000
           }
         ],
         "profile_name": "50 Ohm",
@@ -1344,6 +1558,14 @@
             "signal_layer": "In5.Cu",
             "top_reference_layer": "In4.Cu",
             "width": 110000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5530700,
+            "diff_pair_gap": 120000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 160000
           }
         ],
         "profile_name": "100 Ohm",
@@ -1370,10 +1592,68 @@
             "signal_layer": "In2.Cu",
             "top_reference_layer": "In1.Cu",
             "width": 110000
+          },
+          {
+            "bottom_reference_layer": "In6.Cu",
+            "delay": 6880100,
+            "diff_pair_gap": 110000,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In4.Cu",
+            "width": 110000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5613800,
+            "diff_pair_gap": 120000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 248989
           }
         ],
         "profile_name": "90 Ohm",
         "target_impedance": 90.0,
+        "type": 1,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      },
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5638300,
+            "diff_pair_gap": 120000,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 270000
+          },
+          {
+            "bottom_reference_layer": "In3.Cu",
+            "delay": 6880100,
+            "diff_pair_gap": 110000,
+            "signal_layer": "In2.Cu",
+            "top_reference_layer": "In1.Cu",
+            "width": 153000
+          },
+          {
+            "bottom_reference_layer": "In5.Cu",
+            "delay": 6880100,
+            "diff_pair_gap": 110000,
+            "signal_layer": "In5.Cu",
+            "top_reference_layer": "In3.Cu",
+            "width": 153000
+          },
+          {
+            "bottom_reference_layer": "UNDEFINED",
+            "delay": 5631800,
+            "diff_pair_gap": 120000,
+            "signal_layer": "B.Cu",
+            "top_reference_layer": "In6.Cu",
+            "width": 270000
+          }
+        ],
+        "profile_name": "85 Ohm",
+        "target_impedance": 85.0,
         "type": 1,
         "via_overrides": [],
         "via_prop_delay": 0

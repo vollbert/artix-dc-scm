@@ -54,3 +54,13 @@
 - Better stackup with thinner traces (other manufacturer)
 - replace 0402 with 0201 resistors and caps to improve routing
 - clock with higher than 400mhz ddr but check impedance (i think you need 40 ohm for this)
+
+## Pcie
+- Differential Pair 85 Ohm +- 10%
+
+## Qspi
+
+## New Caps
+- for 4.7uF use 0603: smaller packages have bigger voltage drop at 3.3V
+	- Voltage rating doesn't affect the voltage drop therefore use 6.3V rated 
+	- [**C0603C475K9PAC**](https://yageogroup.com/products?search=C0603C475K9PAC)  	
