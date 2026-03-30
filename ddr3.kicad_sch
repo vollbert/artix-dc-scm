@@ -10619,7 +10619,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 165.1 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10632,7 +10632,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 149.86 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10643,7 +10643,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 170.18 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10656,7 +10656,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 167.64 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10969,7 +10969,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +10982,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 156.21 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10993,7 +10993,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 176.53 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11006,7 +11006,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 173.99 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11144,7 +11144,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 119.38 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11157,7 +11157,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 104.14 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11168,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 124.46 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11181,7 +11181,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 121.92 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11319,7 +11319,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 127 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11332,7 +11332,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 111.76 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11343,7 +11343,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 132.08 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11356,7 +11356,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 129.54 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11494,7 +11494,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 134.62 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11507,7 +11507,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 119.38 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11518,7 +11518,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 139.7 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11531,7 +11531,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 137.16 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11669,7 +11669,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 142.24 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11682,7 +11682,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 127 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11693,7 +11693,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 147.32 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11706,7 +11706,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 144.78 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11844,7 +11844,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 149.86 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11857,7 +11857,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 134.62 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11868,7 +11868,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 154.94 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11881,7 +11881,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 152.4 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12019,7 +12019,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 157.48 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12032,7 +12032,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 142.24 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12043,7 +12043,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 162.56 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12056,7 +12056,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 160.02 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -12473,7 +12473,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12486,7 +12486,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 104.14 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12497,7 +12497,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 124.46 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12510,7 +12510,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 121.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12648,7 +12648,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 127 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12661,7 +12661,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 111.76 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12672,7 +12672,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 132.08 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12685,7 +12685,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 129.54 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12823,7 +12823,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 134.62 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12836,7 +12836,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 119.38 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12847,7 +12847,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 139.7 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12860,7 +12860,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 137.16 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -12998,7 +12998,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 142.24 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13011,7 +13011,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 127 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13022,7 +13022,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13035,7 +13035,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 144.78 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13173,7 +13173,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 149.86 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13186,7 +13186,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 134.62 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13197,7 +13197,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13210,7 +13210,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 152.4 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13348,7 +13348,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 157.48 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13361,7 +13361,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 142.24 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13372,7 +13372,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 162.56 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -13385,7 +13385,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 160.02 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -20738,7 +20738,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 186.69 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -20751,7 +20751,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 171.45 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20762,7 +20762,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 191.77 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -20775,7 +20775,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 189.23 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -20913,7 +20913,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 179.07 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -20926,7 +20926,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 163.83 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -20937,7 +20937,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 184.15 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -20950,7 +20950,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 181.61 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22022,7 +22022,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 194.31 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22035,7 +22035,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 179.07 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -22046,7 +22046,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 199.39 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22059,7 +22059,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 196.85 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22300,7 +22300,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+		(property "Datasheet" ""
 			(at 200.66 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22313,7 +22313,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
 			(at 185.42 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -22324,7 +22324,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Murata Electronics"
 			(at 205.74 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -22337,7 +22337,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1005X5R1E474M050BB"
+		(property "MPN" "GXT155C80J474KE01D"
 			(at 203.2 24.13 0)
 			(hide yes)
 			(show_name no)

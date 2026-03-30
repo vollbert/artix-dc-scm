@@ -612,7 +612,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.13,
+        "track_width": 0.1,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.2,
@@ -1154,6 +1154,10 @@
       {
         "netclass": "Power",
         "pattern": "VCC1V8"
+      },
+      {
+        "netclass": "RGMII_TX",
+        "pattern": "RGMII_REF_CLK"
       }
     ]
   },
