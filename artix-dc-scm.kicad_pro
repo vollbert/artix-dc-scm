@@ -284,6 +284,11 @@
         "bottomLayer": 6,
         "enabled": true,
         "topLayer": 2
+      },
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "topLayer": 12
       }
     ],
     "layer_presets": [],
@@ -304,6 +309,22 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "field_name_whitespace|2082800|1562100|00000000-0000-0000-0000-00006010d4e5|d0baf0a4-7976-4fec-9d15-b875616d9ede|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f",
+        ""
+      ],
+      [
+        "four_way_junction|1092200|965200|3a34b785-c337-4377-88c5-a448f84296a1|feabbdc4-9425-464d-8b1d-1cf02c09e328|/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60||",
+        ""
+      ],
+      [
+        "four_way_junction|622300|1968500|4aa54ef1-8b05-4d49-bf2c-f1845a3df898|9dc40814-f3c8-4ac6-8912-47958a948699|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb||",
+        ""
+      ],
+      [
+        "four_way_junction|622300|1968500|9dc40814-f3c8-4ac6-8912-47958a948699|4aa54ef1-8b05-4d49-bf2c-f1845a3df898|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb||",
+        ""
+      ],
       [
         "no_connect_connected|2336800|1219200|e995bf64-336c-440e-9d6c-e4e3e04ff8d2|9cc563cf-0257-4cc8-b755-c674c8345e5e|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd8ebc2||",
         ""
@@ -362,6 +383,10 @@
       ],
       [
         "same_local_global_label|1892300|1308100|1317d8df-33c1-4e10-b866-d5d235dde0f1|be1740ca-b9d2-4e88-9834-a6ea7ced6cd3|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-000060570c04",
+        ""
+      ],
+      [
+        "single_global_label|1435100|546100|d11301c4-6fa0-4cc7-881e-d0c6f8e51116|00000000-0000-0000-0000-000000000000|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000614223a1|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000614223a1|",
         ""
       ]
     ],
@@ -551,16 +576,16 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
-      "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "footprint_filter": "warning",
+      "footprint_link_issues": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
+      "lib_symbol_issues": "ignore",
       "lib_symbol_mismatch": "warning",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
@@ -579,7 +604,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -623,7 +648,7 @@
         "line_style": 0,
         "name": "DDR3_Address_T2",
         "pcb_color": "rgb(255, 245, 0)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgb(255, 0, 149)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -635,7 +660,7 @@
         "line_style": 0,
         "name": "DDR3_Address_T3",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(22, 255, 3)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -647,7 +672,7 @@
         "line_style": 0,
         "name": "DDR3_BYTE_0",
         "pcb_color": "rgb(0, 135, 255)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(76, 255, 247)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -660,7 +685,7 @@
         "line_style": 0,
         "name": "DDR3_BYTE_1",
         "pcb_color": "rgb(194, 255, 0)",
-        "priority": 13,
+        "priority": 14,
         "schematic_color": "rgb(0, 124, 255)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -674,7 +699,7 @@
         "diff_pair_width": 0.1,
         "name": "DDR3_CLK",
         "pcb_color": "rgb(0, 255, 216)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(255, 0, 27)",
         "track_width": 0.1,
         "tuning_profile": "100 Ohm",
@@ -688,7 +713,7 @@
         "line_style": 0,
         "name": "DDR3_DQS",
         "pcb_color": "rgb(97, 255, 0)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(127, 6, 255)",
         "track_width": 0.1,
         "tuning_profile": "100 Ohm",
@@ -698,7 +723,7 @@
       {
         "name": "ESPI",
         "pcb_color": "rgb(81, 89, 186)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": "50 Ohm"
       },
@@ -712,7 +737,7 @@
         "microvia_drill": 0.1,
         "name": "Ethernet",
         "pcb_color": "rgb(163, 0, 255)",
-        "priority": 14,
+        "priority": 15,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "100 Ohm",
@@ -724,7 +749,7 @@
         "clearance": 0.1,
         "name": "MMC",
         "pcb_color": "rgb(255, 255, 194)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 0, 132)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -734,7 +759,7 @@
       {
         "name": "NCSI",
         "pcb_color": "rgb(96, 80, 104)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(110, 155, 184)",
         "tuning_profile": "50 Ohm"
       },
@@ -748,7 +773,7 @@
         "microvia_drill": 0.2,
         "name": "PCIe",
         "pcb_color": "rgb(255, 176, 0)",
-        "priority": 15,
+        "priority": 16,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "85 Ohm",
@@ -766,7 +791,7 @@
         "microvia_drill": 0.1,
         "name": "PCIe_inner",
         "pcb_color": "rgb(7, 235, 255)",
-        "priority": 16,
+        "priority": 17,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "tuning_profile": "",
@@ -779,7 +804,7 @@
         "line_style": 0,
         "name": "Power",
         "pcb_color": "rgb(132, 0, 0)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(194, 0, 0)",
         "track_width": 0.2,
         "tuning_profile": "",
@@ -789,7 +814,7 @@
       {
         "name": "QSPI",
         "pcb_color": "rgb(132, 0, 132)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 132, 132)",
         "tuning_profile": "50 Ohm"
       },
@@ -797,7 +822,7 @@
         "clearance": 0.1,
         "name": "RGMII_RX",
         "pcb_color": "rgb(0, 194, 194)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(204, 102, 0)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -808,7 +833,7 @@
         "clearance": 0.1,
         "name": "RGMII_TX",
         "pcb_color": "rgb(0, 132, 132)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(132, 132, 0)",
         "track_width": 0.175,
         "tuning_profile": "50 Ohm",
@@ -818,7 +843,7 @@
       {
         "name": "ULPII",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(0, 72, 72)",
         "tuning_profile": "50 Ohm"
       },
@@ -832,13 +857,20 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgb(255, 0, 204)",
-        "priority": 17,
+        "priority": 18,
         "schematic_color": "rgb(72, 0, 72)",
         "track_width": 0.11,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
+      },
+      {
+        "name": "notSwapable",
+        "pcb_color": "rgb(72, 113, 114)",
+        "priority": 0,
+        "schematic_color": "rgb(84, 94, 50)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -1158,6 +1190,22 @@
       {
         "netclass": "RGMII_TX",
         "pattern": "RGMII_REF_CLK"
+      },
+      {
+        "netclass": "ESPI",
+        "pattern": "ESPI_CS1_N"
+      },
+      {
+        "netclass": "ESPI",
+        "pattern": "ESPI_(ALERT_N|CLK|CS0_N|IO0|IO1|IO2|IO3|RESET_N)"
+      },
+      {
+        "netclass": "notSwapable",
+        "pattern": "JTAG_T(CK|DI|DO|MS)"
+      },
+      {
+        "netclass": "notSwapable",
+        "pattern": "/FPGA banks 34-35 & CFG/MODE0|/FPGA banks 34-35 & CFG/MODE1|/FPGA banks 34-35 & CFG/MODE2|DONE|INIT|PROGRAM"
       }
     ]
   },
@@ -1431,7 +1479,7 @@
         "uuid": "f3cd042e-9a46-4397-9768-c62eb1c291be"
       }
     ],
-    "used_designators": "#PWR219-220,C258-260,U26,R198-209",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

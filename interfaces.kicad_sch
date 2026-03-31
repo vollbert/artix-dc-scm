@@ -37905,19 +37905,7 @@
 		)
 		(instances
 			(project "artix-dc-scm"
-				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86c51"
-					(reference "U14")
-					(unit 5)
-				)
-				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86ce4"
-					(reference "U14")
-					(unit 5)
-				)
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000614223a1"
-					(reference "U14")
-					(unit 5)
-				)
-				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60"
 					(reference "U14")
 					(unit 5)
 				)
