@@ -79,7 +79,7 @@
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
-        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_gap_out_of_range": "ignore",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
@@ -125,12 +125,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "error",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -284,11 +284,6 @@
         "bottomLayer": 6,
         "enabled": true,
         "topLayer": 2
-      },
-      {
-        "bottomLayer": 2,
-        "enabled": true,
-        "topLayer": 12
       }
     ],
     "layer_presets": [],
@@ -310,19 +305,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "field_name_whitespace|2082800|1562100|00000000-0000-0000-0000-00006010d4e5|d0baf0a4-7976-4fec-9d15-b875616d9ede|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f",
-        ""
-      ],
-      [
-        "four_way_junction|1092200|965200|3a34b785-c337-4377-88c5-a448f84296a1|feabbdc4-9425-464d-8b1d-1cf02c09e328|/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60||",
-        ""
-      ],
-      [
-        "four_way_junction|622300|1968500|4aa54ef1-8b05-4d49-bf2c-f1845a3df898|9dc40814-f3c8-4ac6-8912-47958a948699|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb||",
-        ""
-      ],
-      [
-        "four_way_junction|622300|1968500|9dc40814-f3c8-4ac6-8912-47958a948699|4aa54ef1-8b05-4d49-bf2c-f1845a3df898|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb||",
+        "field_name_whitespace|2082800|1562100|00000000-0000-0000-0000-00006010d4e5|901cdf2e-e7c6-4cc8-b016-c5f5495eebf1|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f|/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000624c566f",
         ""
       ],
       [
@@ -576,9 +559,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "warning",
+      "footprint_filter": "ignore",
       "footprint_link_issues": "ignore",
-      "four_way_junction": "warning",
+      "four_way_junction": "ignore",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -604,7 +587,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "warning",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -722,7 +705,7 @@
       },
       {
         "name": "ESPI",
-        "pcb_color": "rgb(81, 89, 186)",
+        "pcb_color": "rgb(64, 71, 148)",
         "priority": 2,
         "schematic_color": "rgb(0, 0, 255)",
         "tuning_profile": "50 Ohm"
@@ -762,6 +745,13 @@
         "priority": 1,
         "schematic_color": "rgb(110, 155, 184)",
         "tuning_profile": "50 Ohm"
+      },
+      {
+        "name": "NoSwap",
+        "pcb_color": "rgb(166, 119, 34)",
+        "priority": 0,
+        "schematic_color": "rgb(88, 154, 91)",
+        "tuning_profile": ""
       },
       {
         "bus_width": 12,
@@ -864,13 +854,6 @@
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
-      },
-      {
-        "name": "notSwapable",
-        "pcb_color": "rgb(72, 113, 114)",
-        "priority": 0,
-        "schematic_color": "rgb(84, 94, 50)",
-        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -1192,20 +1175,16 @@
         "pattern": "RGMII_REF_CLK"
       },
       {
-        "netclass": "ESPI",
-        "pattern": "ESPI_CS1_N"
+        "netclass": "NoSwap",
+        "pattern": "/FPGA banks 34-35 & CFG/MODE0|/FPGA banks 34-35 & CFG/MODE1|/FPGA banks 34-35 & CFG/MODE2|DONE|INIT|JTAG_TCK|JTAG_TDI|JTAG_TDO|JTAG_TMS|PROGRAM"
       },
       {
         "netclass": "ESPI",
         "pattern": "ESPI_(ALERT_N|CLK|CS0_N|IO0|IO1|IO2|IO3|RESET_N)"
       },
       {
-        "netclass": "notSwapable",
-        "pattern": "JTAG_T(CK|DI|DO|MS)"
-      },
-      {
-        "netclass": "notSwapable",
-        "pattern": "/FPGA banks 34-35 & CFG/MODE0|/FPGA banks 34-35 & CFG/MODE1|/FPGA banks 34-35 & CFG/MODE2|DONE|INIT|PROGRAM"
+        "netclass": "ESPI",
+        "pattern": "ESPI_CS1_N"
       }
     ]
   },
@@ -1590,15 +1569,15 @@
           {
             "bottom_reference_layer": "In1.Cu",
             "delay": 5530700,
-            "diff_pair_gap": 120000,
+            "diff_pair_gap": 115000,
             "signal_layer": "F.Cu",
             "top_reference_layer": "UNDEFINED",
-            "width": 160000
+            "width": 120000
           },
           {
             "bottom_reference_layer": "In3.Cu",
             "delay": 6880100,
-            "diff_pair_gap": 160000,
+            "diff_pair_gap": 130000,
             "signal_layer": "In2.Cu",
             "top_reference_layer": "In1.Cu",
             "width": 110000
@@ -1606,18 +1585,18 @@
           {
             "bottom_reference_layer": "In6.Cu",
             "delay": 6880100,
-            "diff_pair_gap": 160000,
+            "diff_pair_gap": 130000,
             "signal_layer": "In5.Cu",
             "top_reference_layer": "In4.Cu",
             "width": 110000
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5530700,
-            "diff_pair_gap": 120000,
+            "delay": 5436000,
+            "diff_pair_gap": 44360,
             "signal_layer": "B.Cu",
             "top_reference_layer": "In6.Cu",
-            "width": 160000
+            "width": 120000
           }
         ],
         "profile_name": "100 Ohm",
@@ -1655,11 +1634,11 @@
           },
           {
             "bottom_reference_layer": "UNDEFINED",
-            "delay": 5613800,
+            "delay": 5550400,
             "diff_pair_gap": 120000,
             "signal_layer": "B.Cu",
             "top_reference_layer": "In6.Cu",
-            "width": 248989
+            "width": 180000
           }
         ],
         "profile_name": "90 Ohm",

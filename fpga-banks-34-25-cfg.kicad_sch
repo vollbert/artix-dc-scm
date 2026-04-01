@@ -22410,29 +22410,6 @@
 		)
 		(uuid "dbbb448c-604c-4c9a-89c3-6d7b3edb7b25")
 	)
-	(global_label "SGPIO0_DO"
-		(shape input)
-		(at 265.43 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "025fcc07-7b3b-4c4d-8d42-70da8576f3be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 -46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "DDR3_CKE"
 		(shape input)
 		(at 334.01 166.37 0)
@@ -22516,6 +22493,29 @@
 		(uuid "06f14855-213c-446a-a1f5-ef41fb495831")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.845 -12.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "I2C[12]_SDA"
+		(shape input)
+		(at 265.43 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "083d0a63-10c3-4ed8-9559-eadaa49d016d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -29.21 -72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22739,29 +22739,6 @@
 			)
 		)
 	)
-	(global_label "SGPIO1_DO"
-		(shape input)
-		(at 265.43 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f975477-8ed5-40f1-8c10-3a7c94091d9e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 -29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "CHASI#_R"
 		(shape input)
 		(at 265.43 194.31 180)
@@ -22821,6 +22798,30 @@
 		(uuid "24a69b77-a21e-4b99-bf5a-ffb7ecd654a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -44.45 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SGPIO0_DI"
+		(shape input)
+		(at 265.43 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28e8be7b-accd-4322-b4d8-24cf31cebaab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.3623 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23090,29 +23091,6 @@
 			)
 		)
 	)
-	(global_label "I2C[10]_SDA"
-		(shape input)
-		(at 265.43 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36b0b4b9-f880-4744-adde-9aec394eae2e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 -24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "SYS_PWROK_R"
 		(shape input)
 		(at 265.43 138.43 180)
@@ -23157,6 +23135,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "I2C[11]_SDA"
+		(shape input)
+		(at 265.43 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4180a58a-8208-49ea-9756-7692ceb00d58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.3666 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -23254,6 +23256,53 @@
 			)
 		)
 	)
+	(global_label "I2C[11]_SCL"
+		(shape input)
+		(at 265.43 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d4d1ff0-8b60-4b8a-9759-d8b6cad01638")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.4271 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SGPIO_RESET_N"
+		(shape input)
+		(at 265.43 196.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d90ae7c-2459-4b9d-a1e9-36566365e716")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -29.21 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "DDR3_A14"
 		(shape input)
 		(at 334.01 171.45 0)
@@ -23267,6 +23316,30 @@
 		(uuid "4dbcfd4b-a606-48d2-85f0-c66056422ffa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -45.085 1.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SGPIO0_CLK"
+		(shape input)
+		(at 265.43 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50fcd8a1-63e0-47bf-bbdd-05d47e59676e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.669 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23372,6 +23445,30 @@
 			)
 		)
 	)
+	(global_label "I2C[10]_SCL"
+		(shape input)
+		(at 265.43 184.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56e2f4c6-ff0d-4880-906f-de5e2dc4ec35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.4271 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VCC3V3"
 		(shape input)
 		(at 176.53 228.6 0)
@@ -23392,6 +23489,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "RSVD2"
+		(shape input)
+		(at 265.43 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58ad234d-b8a6-4135-a303-7fc089d2823a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.0514 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -23442,30 +23563,7 @@
 			)
 		)
 	)
-	(global_label "I2C[12]_SDA"
-		(shape input)
-		(at 265.43 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "601a6e20-5a84-479c-8551-24df45ad0b8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "RSVD2"
+	(global_label "I2C[5]_SDA"
 		(shape input)
 		(at 265.43 87.63 180)
 		(fields_autoplaced yes)
@@ -23475,9 +23573,9 @@
 			)
 			(justify right)
 		)
-		(uuid "627d18fa-8c7e-4b66-bd25-d3605bf4dbaf")
+		(uuid "604b0dce-bfb7-4a91-b128-29e526cd1a3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 -80.01 0)
+			(at 252.5761 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23485,6 +23583,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 	)
@@ -23594,29 +23693,6 @@
 		(uuid "7211a115-9571-49a8-b051-6c5f932ba93a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 29.845 3.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "SGPIO_INTR_N"
-		(shape input)
-		(at 265.43 201.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "761701fa-7474-4683-bd9f-5a3673079fa7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23889,29 +23965,6 @@
 			)
 		)
 	)
-	(global_label "I2C[11]_SDA"
-		(shape input)
-		(at 265.43 196.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "87a0500f-9612-41d8-8cb5-de54d125926a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "DDR3_A4"
 		(shape input)
 		(at 334.01 189.23 0)
@@ -23936,7 +23989,31 @@
 			)
 		)
 	)
-	(global_label "I2C[11]_SCL"
+	(global_label "I2C[10]_SDA"
+		(shape input)
+		(at 265.43 201.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c4a985b-89b3-41aa-8cea-d8e85717ce70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.3666 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SGPIO1_LD"
 		(shape input)
 		(at 265.43 97.79 180)
 		(fields_autoplaced yes)
@@ -23946,32 +24023,9 @@
 			)
 			(justify right)
 		)
-		(uuid "89d25452-9c4e-4154-bed2-7cfaa3f681eb")
+		(uuid "8ddfe165-b965-42ab-bb8c-187ed821eefc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 -49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "I2C[9]_SDA"
-		(shape input)
-		(at 265.43 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8af54079-1cb8-4073-9213-80f5ea1fc894")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 26.67 0)
+			(at -29.21 -74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24099,29 +24153,6 @@
 			)
 		)
 	)
-	(global_label "SGPIO_RESET_N"
-		(shape input)
-		(at 265.43 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "944315c0-bee5-4639-99f5-d998361be6ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 -39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "SGPIO0_LD"
 		(shape input)
 		(at 265.43 102.87 180)
@@ -24230,6 +24261,29 @@
 		(uuid "98cacd7d-7f93-424e-a48f-540d7e68971c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -29.21 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SGPIO1_DI"
+		(shape input)
+		(at 265.43 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c52c0ce-92d7-4885-81a1-abb85ab4c304")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -29.21 -54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24404,29 +24458,6 @@
 			)
 		)
 	)
-	(global_label "I2C[9]_SCL"
-		(shape input)
-		(at 265.43 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "adfe3328-0342-4b48-99b7-2e2835d73e92")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "DDR3_BA1"
 		(shape input)
 		(at 334.01 151.13 0)
@@ -24569,29 +24600,6 @@
 			)
 		)
 	)
-	(global_label "I2C[12]_SCL"
-		(shape input)
-		(at 265.43 184.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7ad5ca8-f8b5-4b9d-896f-4fede315e7af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "DDR3_A6"
 		(shape input)
 		(at 334.01 173.99 0)
@@ -24613,6 +24621,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "SGPIO1_DO"
+		(shape input)
+		(at 265.43 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c84644a5-f573-47b4-bba1-f7359466f17d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -29.21 -26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 	)
@@ -24781,6 +24812,30 @@
 			)
 		)
 	)
+	(global_label "I2C[5]_SCL"
+		(shape input)
+		(at 265.43 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db2ab601-1dbb-45a9-8906-0c58467933cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.6366 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ULPI2_DIR"
 		(shape input)
 		(at 265.43 176.53 180)
@@ -24851,29 +24906,6 @@
 			)
 		)
 	)
-	(global_label "SGPIO0_CLK"
-		(shape input)
-		(at 265.43 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df41108b-b66b-49b3-aa82-bb45804844b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 -31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "JTAG_TDO"
 		(shape input)
 		(at 77.47 107.95 0)
@@ -24941,29 +24973,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SGPIO1_LD"
-		(shape input)
-		(at 265.43 199.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e936f269-e17d-4c6d-8602-e03c9bd4c796")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 	)
@@ -25085,6 +25094,30 @@
 			)
 		)
 	)
+	(global_label "SGPIO0_DO"
+		(shape input)
+		(at 265.43 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8c0605f-c168-48f1-a42e-f8a7f52d28c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.6366 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VCC3V3"
 		(shape input)
 		(at 81.28 228.6 0)
@@ -25098,29 +25131,6 @@
 		(uuid "fbec58ed-c7db-4be0-bab2-e7e59264c891")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at -203.835 199.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
-	(global_label "SGPIO1_DI"
-		(shape input)
-		(at 265.43 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd56356f-943a-40c7-8a12-f8e9a509168d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.21 -52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
