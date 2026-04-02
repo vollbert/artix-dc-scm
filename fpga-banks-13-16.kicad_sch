@@ -21844,6 +21844,30 @@
 			)
 		)
 	)
+	(global_label "ROT_MOSI"
+		(shape input)
+		(at 139.7 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "165080b1-6f8d-4f8a-9fbb-dc1ac9739342")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.1629 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RGMII_TXD1"
 		(shape input)
 		(at 250.19 127 180)
@@ -21915,6 +21939,54 @@
 			)
 		)
 	)
+	(global_label "ROT_RX"
+		(shape input)
+		(at 318.77 210.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22093d4c-8eaa-4731-bd08-b63ac15a84fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.1162 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ROT_GPIO2"
+		(shape input)
+		(at 139.7 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23d4b63c-fb0a-4170-8f93-1addb7736872")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.2447 142.1606 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ULPI1_RESET"
 		(shape input)
 		(at 139.7 144.78 0)
@@ -21939,30 +22011,6 @@
 			)
 		)
 	)
-	(global_label "ROT_GPIO2"
-		(shape input)
-		(at 318.77 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "254bd317-44a1-48bf-b4b4-02b150be5b9c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 331.3147 213.2806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "ULPI1_DATA6"
 		(shape input)
 		(at 139.7 129.54 0)
@@ -21976,30 +22024,6 @@
 		(uuid "255bd356-ff88-4493-81bd-1e4717812e8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.875 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ROT_SCLK"
-		(shape input)
-		(at 250.19 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "256387e0-cb8b-475f-a882-8aa39678247c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.5457 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22130,6 +22154,30 @@
 			)
 		)
 	)
+	(global_label "ROT_SCLK"
+		(shape input)
+		(at 250.19 210.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35f190e9-1661-49f3-b83e-84fe1a3e9fe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.5457 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ULPI1_DATA2"
 		(shape input)
 		(at 139.7 162.56 0)
@@ -22247,6 +22295,54 @@
 			)
 		)
 	)
+	(global_label "TPM_RST"
+		(shape input)
+		(at 139.7 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43f4da49-0c9b-475b-b2ad-01952f2078a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.955 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ROT_GPIO1"
+		(shape input)
+		(at 139.7 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "445df411-0234-4360-95c8-e5ca21f099ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.2515 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RGMII_REF_CLK"
 		(shape output)
 		(at 250.19 149.86 180)
@@ -22267,30 +22363,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "ROT_RDY\\ROT_GPIO0"
-		(shape input)
-		(at 318.77 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a67aa6a-ba9c-440d-9408-8c333e5e6f6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 340.3325 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -22649,33 +22721,9 @@
 			)
 		)
 	)
-	(global_label "ROT_MOSI"
+	(global_label "ROT_RDY\\ROT_GPIO0"
 		(shape input)
-		(at 250.19 203.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6edc45d9-822e-45aa-aed6-46abe1badf69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.7271 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ROT_SS"
-		(shape input)
-		(at 139.7 142.24 0)
+		(at 318.77 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22683,9 +22731,9 @@
 			)
 			(justify left)
 		)
-		(uuid "74e0e9bb-d23b-4993-8dfa-9bd6571928b4")
+		(uuid "76d64277-a5e9-43ac-a80a-5f4b1722abec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.979 142.1606 0)
+			(at 340.3325 213.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22907,6 +22955,29 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "TPM_PIRQ#"
+		(shape input)
+		(at 250.19 203.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7ee003d0-759d-422c-afa7-603a93f65fa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.455 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 	)
@@ -23458,29 +23529,6 @@
 			)
 		)
 	)
-	(global_label "TPM_PIRQ#"
-		(shape input)
-		(at 250.19 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a2e8931c-ca94-4255-9a05-f8298df79360")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.455 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-	)
 	(global_label "I2C[1]_SDA"
 		(shape input)
 		(at 250.19 205.74 180)
@@ -23791,30 +23839,6 @@
 			)
 		)
 	)
-	(global_label "ROT_RX"
-		(shape input)
-		(at 139.7 205.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c15d35bc-066d-46b5-a47d-2b0cf85f9636")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.0462 205.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "NCSI_TXD0"
 		(shape input)
 		(at 318.77 139.7 0)
@@ -23862,30 +23886,6 @@
 			)
 		)
 	)
-	(global_label "TPM_RST"
-		(shape input)
-		(at 139.7 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c988dd58-bb2f-4708-9b15-8e74cc9b2d2d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.955 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "I2C[8]_SDA"
 		(shape input)
 		(at 250.19 190.5 180)
@@ -23899,30 +23899,6 @@
 		(uuid "c9e496ca-c260-44d9-b9bf-79f348d05fb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.3361 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ROT_GPIO1"
-		(shape input)
-		(at 250.19 210.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cab132f8-961b-4790-9e21-f57eade3d087")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.6385 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24148,6 +24124,30 @@
 			)
 		)
 	)
+	(global_label "ROT_MISO"
+		(shape input)
+		(at 250.19 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9747547-b62a-4f3c-a08c-cd7f00dd9e98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.7271 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SPI0_CS_N_R"
 		(shape input)
 		(at 318.77 198.12 0)
@@ -24240,30 +24240,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-	)
-	(global_label "ROT_MISO"
-		(shape input)
-		(at 139.7 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef10f40c-c3f3-41da-a8ef-bdc718253ac2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.1561 114.2206 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -24385,6 +24361,30 @@
 			)
 		)
 	)
+	(global_label "ROT_TX"
+		(shape input)
+		(at 318.77 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f618990a-0c15-4237-b49f-2bd2aa261f24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 327.8138 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VCC3V3"
 		(shape input)
 		(at 15.24 50.8 180)
@@ -24432,6 +24432,30 @@
 			)
 		)
 	)
+	(global_label "ROT_SS"
+		(shape input)
+		(at 250.19 187.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f995b6b8-3337-4e57-b5ce-2472777fd2a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.9043 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ULPI1_DATA0"
 		(shape input)
 		(at 139.7 175.26 0)
@@ -24469,30 +24493,6 @@
 		(uuid "fca7c041-7400-46db-811f-aa665b82342d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.9404 49.6094 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "ROT_TX"
-		(shape input)
-		(at 318.77 210.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fdbf1b6a-fb22-4671-994b-a4bf09110280")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.8138 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

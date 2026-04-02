@@ -15,12 +15,7 @@
 
 - [ ] Do the Delay Matching for DDR3 memory
 ![[Pasted image 20260326165011.png]]
-	- [ ]  DQ/DM within ±50 of DQS in same byte lane 
-	- [ ] DQS/DQS# differential skew < 2 mil 
-	- [ ] DQS to CK within ±25 mil (MIG leveling handles the rest) 
-	- [ ] Fly-by topology for Addr/Cmd/CK 
-	- [ ] Solid GND reference plane, no splits under DDR3 signals 
-	- [ ] 50 Ω / 100 Ω impedance control
+![[Pasted image 20260402192206.png]]	Currently current configuration max dq skew 67ps for pair 1
 - [x] check the validation of the pinout
 	![[Pasted image 20260325133729.png]]
 	![[Pasted image 20260325133813.png]]
@@ -59,8 +54,10 @@
 - Differential Pair 85 Ohm +- 10%
 
 ## Qspi
+Routing is not optimal.. place flash further to the fpga and maybe only use one flash without ROT Module connector.
 
 ## New Caps
 - for 4.7uF use 0603: smaller packages have bigger voltage drop at 3.3V
 	- Voltage rating doesn't affect the voltage drop therefore use 6.3V rated 
 	- [**C0603C475K9PAC**](https://yageogroup.com/products?search=C0603C475K9PAC)  	
+	- 
