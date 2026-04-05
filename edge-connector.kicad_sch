@@ -10225,6 +10225,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 147.32 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "696b680e-7f24-4db9-a85b-1dc6d83c6f49")
 		)
@@ -10233,6 +10244,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "TP10")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -10355,6 +10369,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 147.32 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "05c9b020-61ff-4f15-b98e-cf824a808949")
 		)
@@ -10363,6 +10388,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "TP11")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -10438,7 +10466,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 278.13 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -10451,7 +10479,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 278.13 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -10525,6 +10553,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 257.81 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af30251a-18bd-4eef-8c42-63406c030694")
 		)
@@ -10536,6 +10575,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R136")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -10611,7 +10657,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 293.37 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -10624,7 +10670,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 293.37 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -10698,6 +10744,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 273.05 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59d465d7-956d-4baa-98d3-19340f762d56")
 		)
@@ -10709,6 +10766,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R137")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -10888,7 +10952,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 271.78 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10901,7 +10965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 271.78 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10975,6 +11039,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 292.1 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8816861-eb62-441e-b5be-5e27a1868b6d")
 		)
@@ -10986,6 +11061,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R145")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -11116,6 +11198,17 @@
 		)
 		(property "DNP" ""
 			(at 201.93 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 201.93 39.37 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11633,6 +11726,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "J9")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -12226,7 +12322,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -12239,7 +12335,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -12313,6 +12409,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "706dd893-9b20-494a-b56b-38a4655516b9")
 		)
@@ -12324,6 +12431,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R103")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -12502,7 +12616,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -12515,7 +12629,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -12589,6 +12703,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7f4a3a6-d4d1-4c19-9b51-9a81c2cceb3b")
 		)
@@ -12600,6 +12725,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R105")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -12675,7 +12807,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -12688,7 +12820,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -12762,6 +12894,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f198033c-2132-4ffd-9ff5-291749daf440")
 		)
@@ -12773,6 +12916,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R112")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -12849,7 +12999,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 271.78 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -12862,7 +13012,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 271.78 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -12936,6 +13086,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 292.1 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7856462e-82dc-499e-a3be-c1f06213342c")
 		)
@@ -12947,6 +13108,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R144")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -13126,7 +13294,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 271.78 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13139,7 +13307,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 271.78 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13213,6 +13381,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 292.1 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df263d75-4ef1-4ebf-8b29-40ef5f2132da")
 		)
@@ -13224,6 +13403,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R146")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -13715,7 +13901,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -13728,7 +13914,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -13802,6 +13988,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20e13a59-52d8-4c2f-bdaa-4241954a43ad")
 		)
@@ -13813,6 +14010,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R106")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -13888,7 +14092,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -13901,7 +14105,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -13975,6 +14179,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61566dbe-9143-427e-8cc9-495717264c5a")
 		)
@@ -13986,6 +14201,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R116")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -14062,7 +14284,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 158.75 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -14075,7 +14297,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 158.75 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -14149,6 +14371,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 179.07 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c763c00d-17cb-4b5f-a854-35dafa1bbb9e")
 		)
@@ -14160,6 +14393,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R108")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -14235,7 +14475,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -14248,7 +14488,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -14322,6 +14562,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9692b990-810e-4e4f-98ae-b2d58f2d1b3d")
 		)
@@ -14333,6 +14584,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R154")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -14408,7 +14666,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -14421,7 +14679,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -14495,6 +14753,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "984eea2b-08ee-43cf-985d-ce66e96fa17b")
 		)
@@ -14506,6 +14775,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R107")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -14685,7 +14961,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -14698,7 +14974,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -14772,6 +15048,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e9f8cca1-c991-48ba-95b8-aab483a4c9a4")
 		)
@@ -14783,6 +15070,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R104")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -14858,7 +15152,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 191.77 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14871,7 +15165,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 191.77 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14945,6 +15239,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 171.45 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "54b2e9af-b868-485a-a00a-01ea532f837b")
 		)
@@ -14956,6 +15261,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R115")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -15135,7 +15447,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 271.78 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15148,7 +15460,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 271.78 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15222,6 +15534,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 292.1 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "551d4cfe-a06a-4afa-a711-afb8949a445b")
 		)
@@ -15233,6 +15556,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R147")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -15308,7 +15638,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -15321,7 +15651,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -15395,6 +15725,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dceec605-2dae-4636-9a50-cd32f4134853")
 		)
@@ -15406,6 +15747,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R101")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -15482,7 +15830,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 158.75 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -15495,7 +15843,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 158.75 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -15569,6 +15917,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 179.07 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1bcbb6b3-eb0f-4d5d-bf61-c05919e1a641")
 		)
@@ -15580,6 +15939,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R111")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -15656,7 +16022,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 158.75 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -15669,7 +16035,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 158.75 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -15743,6 +16109,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 179.07 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7cb68d89-d04e-4ceb-be19-6aee07dd1047")
 		)
@@ -15754,6 +16131,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R110")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -15829,7 +16213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -15842,7 +16226,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -15916,6 +16300,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e01c020f-d937-4327-95f2-5dbe632b5e19")
 		)
@@ -15927,6 +16322,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R109")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -16003,7 +16405,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 233.68 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16016,7 +16418,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 233.68 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -16090,6 +16492,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 254 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b5c157b-16c2-4bb6-b130-c48da391678b")
 		)
@@ -16101,6 +16514,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R114")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -16176,7 +16596,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 194.31 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -16189,7 +16609,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 194.31 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -16263,6 +16683,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 173.99 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f85f1ba1-fdea-42e3-bd52-4541084b2936")
 		)
@@ -16274,6 +16705,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-0000625aec25"
 					(reference "R102")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)

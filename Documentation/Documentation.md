@@ -15,7 +15,8 @@
 
 - [ ] Do the Delay Matching for DDR3 memory
 ![[Pasted image 20260326165011.png]]
-![[Pasted image 20260402192206.png]]	Currently current configuration max dq skew 67ps for pair 1
+![[Pasted image 20260403101223.png]]
+Currently current configuration max dq skew 67ps for pair 1
 - [x] check the validation of the pinout
 	![[Pasted image 20260325133729.png]]
 	![[Pasted image 20260325133813.png]]
@@ -61,3 +62,10 @@ Routing is not optimal.. place flash further to the fpga and maybe only use one 
 	- Voltage rating doesn't affect the voltage drop therefore use 6.3V rated 
 	- [**C0603C475K9PAC**](https://yageogroup.com/products?search=C0603C475K9PAC)  	
 	- 
+
+# JTAG Chip not available
+- use this instead -> JTAG-HS3 Programming Cable
+- https://www.digikey.de/en/products/detail/digilent-inc/410-299/5015666?utm_source=oemsecrets&utm_medium=aggregator&utm_campaign=buynow
+
+# Consolidate BOM
+- Reassign all parts in Kicad directly

@@ -572,7 +572,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "ignore",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -1188,6 +1188,14 @@
       {
         "netclass": "ESPI",
         "pattern": "ESPI_CS1_N"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Interfaces/FT_VP(HY|LL)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Interfaces/V_Regout"
       }
     ]
   },
@@ -1254,7 +1262,7 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1393,6 +1401,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pitch",
+          "name": "Pitch",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1462,7 +1476,11 @@
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "name": "resistor"
+      }
+    ]
   },
   "sheets": [
     [

@@ -13961,6 +13961,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ad6834e-9af6-4cdd-869a-c10dbdc8c7e9")
 		)
@@ -13972,6 +13983,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R69")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "CRCW12060000Z0EAHP")
+						)
+						(field
+							(name "Manufacturer")
+							(value "Vishay")
+						)
+					)
 				)
 			)
 		)
@@ -14095,6 +14117,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "196127e2-3520-4124-a42a-fed9cdd72434")
 		)
@@ -14106,6 +14139,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "F1")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -14387,7 +14423,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 298.45 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -14400,7 +14436,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 298.45 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -14474,6 +14510,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 318.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56f93162-84be-4082-acad-dd881dfd7a57")
 		)
@@ -14485,6 +14532,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R14")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -14560,7 +14614,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 298.45 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14573,7 +14627,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 298.45 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -14647,6 +14701,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 318.77 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08135b17-bc40-4c8a-a938-b45335b5a12e")
 		)
@@ -14658,6 +14723,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R15")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -14822,6 +14894,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 316.23 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "937c8136-620f-41f8-8ed5-3caf1af63c4a")
 		)
@@ -14833,6 +14916,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C2")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "GRT188R61A106KE13D")
+						)
+					)
 				)
 			)
 		)
@@ -14957,6 +15047,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 323.85 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "6bd39132-d730-467d-854a-a4a30a9b2645")
 		)
@@ -14986,6 +15087,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "U16")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -15150,6 +15254,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 353.06 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "812f0db8-2eb8-4475-a12d-7fefa8c8ed92")
 		)
@@ -15161,6 +15276,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C3")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -15313,6 +15431,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe7ae68e-5d24-49cf-ac06-07252b584c45")
 		)
@@ -15324,6 +15453,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R187")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -15488,6 +15620,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 369.57 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe091595-3b74-415f-896b-9eb09254d64f")
 		)
@@ -15499,6 +15642,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C101")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -15663,6 +15809,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 377.19 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49c58eb6-39ae-4da3-b727-e599e0d9440e")
 		)
@@ -15674,6 +15831,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C103")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -15749,7 +15909,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 298.45 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -15762,7 +15922,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 298.45 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -15836,6 +15996,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 318.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2028248-74fa-4ebd-83f3-302194ce9b10")
 		)
@@ -15847,6 +16018,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R185")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -16024,6 +16202,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 346.71 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c9cd59b-b90b-4e56-96ee-56d13cada2b4")
 		)
@@ -16035,6 +16224,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "L6")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "IHLP1212AEEZR47M1Z")
+						)
+					)
 				)
 			)
 		)
@@ -16197,6 +16393,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 388.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94399d8a-b610-4661-b47e-39e8a4c39955")
 		)
@@ -16208,6 +16415,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R188")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -16372,6 +16582,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 62.23 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e3148777-a179-47d4-a3ee-da991cd17d38")
 		)
@@ -16383,6 +16604,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C250")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -16458,7 +16682,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 298.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -16471,7 +16695,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 298.45 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -16545,6 +16769,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 318.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2370ea44-8959-4914-b826-c9e6646bc039")
 		)
@@ -16556,6 +16791,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R138")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -16708,6 +16950,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 62.23 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "edb0af97-0189-4fb9-b9ef-689aa091e87f")
 		)
@@ -16719,6 +16972,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R68")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -16871,6 +17127,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 105.41 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b1c0bb6b-fc83-4ea8-be20-302d3532a68f")
 		)
@@ -16882,6 +17149,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R63")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -17009,6 +17279,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 35.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59512499-4ce9-4d79-bba0-3d4c099faef6")
 		)
@@ -17026,6 +17307,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "J5")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -17101,7 +17385,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic"
+		(property "Manufacturer" "YAGEO"
 			(at 298.45 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -17114,7 +17398,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "ERJ2GE0R00X"
+		(property "MPN" "RC0402JR-7D0RL"
 			(at 298.45 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -17188,6 +17472,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 318.77 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ef8447e-666e-438e-a069-8ec15c036366")
 		)
@@ -17199,6 +17494,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R16")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "Manufacturer")
+							(value "RC0402JR-7D0RL")
+						)
+					)
 				)
 			)
 		)
@@ -17351,6 +17653,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "01dc95c0-c2e2-45e9-94ff-cbb93e74c633")
 		)
@@ -17362,6 +17675,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R186")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -17514,6 +17830,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 113.03 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c85b039-bf48-4e3a-af9d-0b0c9990dfc9")
 		)
@@ -17525,6 +17852,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R64")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -17677,6 +18007,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 120.65 184.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b78f3b6-ba04-4a36-aa80-68e85ea6836c")
 		)
@@ -17688,6 +18029,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R65")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -17840,6 +18184,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 226.06 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c6312b2-42d8-47e2-a596-54dcc210978d")
 		)
@@ -17851,6 +18206,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R189")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "RC0402FR-7D10KL ")
+						)
+						(field
+							(name "Manufacturer")
+							(value "YAGEO")
+						)
+					)
 				)
 			)
 		)
@@ -18001,6 +18367,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 260.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3851a283-11a1-4191-8475-89146b518d20")
 		)
@@ -18012,6 +18389,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R190")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -18242,6 +18622,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 231.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "745d24b0-8eee-4a07-b597-e92579ad91c4")
 		)
@@ -18256,6 +18647,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "Q6")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "BSS138BKW,115")
+						)
+					)
 				)
 			)
 		)
@@ -18383,6 +18781,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 38.1 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "795845cd-48cd-4c6e-b14b-6c8bdc1079c6")
 		)
@@ -18400,6 +18809,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "J10")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -18625,6 +19037,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "65175cd1-2372-4193-a418-f42f319751e4")
 		)
@@ -18633,6 +19056,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "TP4")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -18810,6 +19236,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 346.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba8fae5d-b65b-4b91-8927-034d8bb972bd")
 		)
@@ -18821,6 +19258,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "L2")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "IHLP1212AEEZR47M1Z")
+						)
+					)
 				)
 			)
 		)
@@ -18998,6 +19442,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 346.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e298afba-3801-42e5-bf9e-b065bf156b72")
 		)
@@ -19009,6 +19464,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "L3")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "IHLP1212AEEZR47M1Z")
+						)
+					)
 				)
 			)
 		)
@@ -19186,6 +19648,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 346.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "651cf711-5ab8-4d5d-b606-c41d22a3a32e")
 		)
@@ -19197,6 +19670,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "L5")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "IHLP1212AEEZR47M1Z")
+						)
+					)
 				)
 			)
 		)
@@ -19374,6 +19854,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 346.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe2c7dcb-605f-4554-a3ab-62d461dcdaaa")
 		)
@@ -19385,6 +19876,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "L4")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "IHLP1212AEEZR47M1Z")
+						)
+					)
 				)
 			)
 		)
@@ -19548,6 +20046,17 @@
 				(justify left)
 			)
 		)
+		(property "Pitch " ""
+			(at 388.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7761bf8f-85bc-47d6-a062-2d48fa0143cd")
 		)
@@ -19559,6 +20068,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R139")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -19721,6 +20233,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 388.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "633e11c4-e44d-4b7b-a8b3-8d0423bc6bd8")
 		)
@@ -19732,6 +20255,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R140")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -19894,6 +20420,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 388.62 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de11c5c2-6952-4bc0-8bf1-1ada5aadaae3")
 		)
@@ -19905,6 +20442,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R142")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -20067,6 +20607,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 388.62 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9fdb9382-096e-47de-bb07-fc1dd2dcee33")
 		)
@@ -20078,6 +20629,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R141")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -20205,6 +20759,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 229.87 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec6e5eec-c7f8-4332-ab53-563e1fa2df1d")
 		)
@@ -20219,6 +20784,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "Q3")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "BSS138BKW,115")
+						)
+					)
 				)
 			)
 		)
@@ -20346,6 +20918,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 229.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38d0ef0e-d06a-43ad-8311-522bd90fd849")
 		)
@@ -20360,6 +20943,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "Q4")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "BSS138BKW,115")
+						)
+					)
 				)
 			)
 		)
@@ -20487,6 +21077,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 228.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d1ef04f-4076-4115-b21a-1edd6c143a8d")
 		)
@@ -20501,6 +21102,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "Q1")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "BSS138BKW,115")
+						)
+					)
 				)
 			)
 		)
@@ -20628,6 +21236,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 228.6 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d158c90e-3847-402b-8b63-8fdd42ecf206")
 		)
@@ -20642,6 +21261,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "Q2")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "BSS138BKW,115")
+						)
+					)
 				)
 			)
 		)
@@ -20769,6 +21395,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 231.14 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da822a42-7c20-4da1-a2f7-badcf1f77157")
 		)
@@ -20783,6 +21420,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "Q5")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "BSS138BKW,115")
+						)
+					)
 				)
 			)
 		)
@@ -20909,6 +21553,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ae50e23-6b06-49ef-9bba-aab923dfdd96")
 		)
@@ -20947,6 +21602,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "U25")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -21123,6 +21781,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 74.93 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6343fa06-ed43-456a-8400-9afbce0f95e9")
 		)
@@ -21134,6 +21803,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C65")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -21310,6 +21982,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 81.28 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8151663-e368-4bfa-a025-a854721d69a4")
 		)
@@ -21321,6 +22004,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C66")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -21497,6 +22183,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 87.63 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "390507b1-722c-46dd-a27a-854bce901672")
 		)
@@ -21508,6 +22205,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C67")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -21629,6 +22329,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 87.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8502fa69-fa8b-47f3-9984-edef09a1ce19")
 		)
@@ -21637,6 +22348,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "TP1")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -22098,6 +22812,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 80.01 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d2042ab-729c-400d-b7b3-22b12efd3218")
 		)
@@ -22109,6 +22834,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R67")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -22273,6 +23001,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 88.9 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a2ddf46-174c-4fad-a208-cfb4aa6acacb")
 		)
@@ -22284,6 +23023,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C69")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -22539,6 +23281,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 226.06 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2193b3d-53bb-4305-b290-ef64e3d2ea18")
 		)
@@ -22550,6 +23303,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R93")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "RC0402FR-7D10KL ")
+						)
+						(field
+							(name "Manufacturer")
+							(value "YAGEO")
+						)
+					)
 				)
 			)
 		)
@@ -22700,6 +23464,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 260.35 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc6b186f-2402-48d6-b7b2-701a79ea1c16")
 		)
@@ -22711,6 +23486,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R98")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -22966,6 +23744,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 224.79 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df8f7ac6-e046-47fb-834f-06a53359baf4")
 		)
@@ -22977,6 +23766,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R91")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "RC0402FR-7D10KL ")
+						)
+						(field
+							(name "Manufacturer")
+							(value "YAGEO")
+						)
+					)
 				)
 			)
 		)
@@ -23127,6 +23927,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 260.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab593206-b9ab-4140-a6b6-f8a6b8ea6f3d")
 		)
@@ -23138,6 +23949,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R96")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -23393,6 +24207,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 224.79 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "078cd461-36c2-476e-853b-41c3b2d24114")
 		)
@@ -23404,6 +24229,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R92")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "RC0402FR-7D10KL ")
+						)
+						(field
+							(name "Manufacturer")
+							(value "YAGEO")
+						)
+					)
 				)
 			)
 		)
@@ -23554,6 +24390,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 260.35 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6feef587-ee80-4917-8a6f-e8fa38d50887")
 		)
@@ -23565,6 +24412,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R97")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -23717,6 +24567,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 223.52 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91d956c0-0af7-444c-b20d-d23776a62c34")
 		)
@@ -23728,6 +24589,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R61")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "RC0402FR-7D10KL ")
+						)
+						(field
+							(name "Manufacturer")
+							(value "YAGEO")
+						)
+					)
 				)
 			)
 		)
@@ -23878,6 +24750,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 260.35 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b2647b2d-681b-4767-963f-6a2aa6a85c93")
 		)
@@ -23889,6 +24772,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R94")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -24142,6 +25028,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 260.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "263a83ca-2de8-45fc-80c2-f00745ddff14")
 		)
@@ -24153,6 +25050,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R95")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -24420,6 +25320,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 129.54 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68e86e8b-753c-4025-b7b0-a522c2877b60")
 		)
@@ -24431,6 +25342,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C68")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -24595,6 +25509,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 123.19 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67371fea-2695-4221-8e27-3ac3146bbf7e")
 		)
@@ -24606,6 +25531,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C70")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -24862,6 +25790,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 129.54 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2a75c854-40b5-4e3f-a2a7-451127cd322a")
 		)
@@ -24873,6 +25812,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R66")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -25049,6 +25991,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 121.92 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bfcc7ff0-cf4b-481c-bcb5-190b73b1f992")
 		)
@@ -25060,6 +26013,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C71")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -25419,6 +26375,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 154.94 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73ceb3ab-11ee-436f-8173-8b52a8a15cd9")
 		)
@@ -25430,6 +26397,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R72")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -25556,6 +26526,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 82.55 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d0c31778-6952-430f-a147-cc7b47bacf3b")
 		)
@@ -25585,6 +26566,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "U9")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -25737,6 +26721,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 154.94 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc5d3b85-9516-48d1-82a1-85d19b17f340")
 		)
@@ -25748,6 +26743,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R70")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -25900,6 +26898,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 154.94 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7bb00fdd-723c-4366-a28c-eb75400a48d0")
 		)
@@ -25911,6 +26920,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R71")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -26088,6 +27100,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebb7d8c4-057f-4abe-a65b-199f3cea3bf6")
 		)
@@ -26099,6 +27122,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "L1")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -26263,6 +27289,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 165.1 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "16f17b8a-fe50-4396-85ed-6b0356e1cabc")
 		)
@@ -26274,6 +27311,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C72")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -26438,6 +27478,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 171.45 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ac5e985-18d5-4928-a1b4-8977a5c82bfc")
 		)
@@ -26449,6 +27500,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C73")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -26613,6 +27667,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 177.8 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a09f582b-6e0d-4420-a262-0d21919fe7c0")
 		)
@@ -26624,6 +27689,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C74")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -26879,6 +27947,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "02796af1-db87-4278-ae3f-bad9576af53e")
 		)
@@ -26890,6 +27969,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R77")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -27054,6 +28136,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 316.23 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a3419c3-c8c3-40ee-87d5-b540cdbd56b8")
 		)
@@ -27065,6 +28158,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C75")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "GRT188R61A106KE13D")
+						)
+					)
 				)
 			)
 		)
@@ -27229,6 +28329,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 44.45 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8fb60e94-062f-4b29-82b9-4f68f3cbdf51")
 		)
@@ -27240,6 +28351,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C14")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -27364,6 +28478,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 323.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "49a96a36-d677-4ca6-8365-02fc32788d86")
 		)
@@ -27393,6 +28518,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "U10")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -27557,6 +28685,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 54.61 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa1f04e0-b4b6-42ac-9d57-5e6b08d45f57")
 		)
@@ -27568,6 +28707,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C15")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -27732,6 +28874,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 64.77 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9d4843c9-747c-44c6-b90e-7c9ddb3b6e15")
 		)
@@ -27743,6 +28896,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C16")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -27907,6 +29063,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 353.06 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1265078a-6e82-44cc-8521-e8bb1ba2aae5")
 		)
@@ -27918,6 +29085,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C79")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -28070,6 +29240,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "740f31ed-88b4-431d-ae40-9bc6d39cd538")
 		)
@@ -28081,6 +29262,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R73")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -28233,6 +29417,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d7fb08b-0c8c-403f-885a-f59e1dfa4b0f")
 		)
@@ -28244,6 +29439,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R74")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -28408,6 +29606,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 72.39 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a28f9720-289f-4dc5-8291-04306f5e21f6")
 		)
@@ -28419,6 +29628,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C64")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -28583,6 +29795,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 369.57 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb62c714-bc32-44e2-99c6-47942b46315c")
 		)
@@ -28594,6 +29817,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C83")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -28758,6 +29984,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 377.19 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd1f5eb4-2086-42b3-8bb2-1f5ac673c0f1")
 		)
@@ -28769,6 +30006,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C87")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -29036,6 +30276,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 316.23 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7af73485-3fa7-4b70-bae8-cd465644f2d3")
 		)
@@ -29047,6 +30298,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C76")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "GRT188R61A106KE13D")
+						)
+					)
 				)
 			)
 		)
@@ -29171,6 +30429,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 323.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "889bfd79-4a91-464a-85e6-9be7c971de4e")
 		)
@@ -29200,6 +30469,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "U11")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -29364,6 +30636,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 353.06 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ec91bce-8682-4d7d-b571-f3d2d82e3c56")
 		)
@@ -29375,6 +30658,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C80")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -29527,6 +30813,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e653e543-616c-44ec-985d-5120ec9641ae")
 		)
@@ -29538,6 +30835,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R76")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -29702,6 +31002,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 369.57 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26808740-d64b-4c30-9727-15963d58df7f")
 		)
@@ -29713,6 +31024,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C84")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -29877,6 +31191,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 377.19 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb9a65de-f632-4e70-abb5-0e72f3d57f35")
 		)
@@ -29888,6 +31213,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C88")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -30052,6 +31380,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 316.23 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e64fea4d-0638-4e81-a115-9053fcbed302")
 		)
@@ -30063,6 +31402,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C78")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "GRT188R61A106KE13D")
+						)
+					)
 				)
 			)
 		)
@@ -30187,6 +31533,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 323.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "8d919271-8555-4259-9f04-7027363825c8")
 		)
@@ -30216,6 +31573,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "U13")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -30380,6 +31740,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 353.06 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b13a9155-6fbc-456e-b8b9-3b5b86ef35c5")
 		)
@@ -30391,6 +31762,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C82")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -30543,6 +31917,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9cc8ff39-395a-4158-847c-cce62d67993c")
 		)
@@ -30554,6 +31939,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R80")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -30718,6 +32106,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "838efa2e-8d9e-4307-bd66-6aae77a81bd4")
 		)
@@ -30729,6 +32128,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C86")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -30893,6 +32295,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 377.19 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15f32c84-967e-422a-b69d-d74f2cca06e1")
 		)
@@ -30904,6 +32317,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C90")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -31056,6 +32472,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d35d56f1-270e-4e89-a608-b79d55839bb2")
 		)
@@ -31067,6 +32494,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R79")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -31231,6 +32661,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 316.23 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb994ffb-a94b-45f2-9b59-f7f3344b859e")
 		)
@@ -31242,6 +32683,13 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C77")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "GRT188R61A106KE13D")
+						)
+					)
 				)
 			)
 		)
@@ -31366,6 +32814,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 323.85 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "72afa2d2-2d30-4afe-9a66-18608408cc6e")
 		)
@@ -31395,6 +32854,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "U12")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -31559,6 +33021,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 353.06 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ac504be-0742-4c01-bf64-08f9bb2e767b")
 		)
@@ -31570,6 +33043,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C81")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -31722,6 +33198,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbd23daf-2b5f-4f3e-aa31-b225253ef31e")
 		)
@@ -31733,6 +33220,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R78")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -31897,6 +33387,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 369.57 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c3c4f06-1324-4644-88aa-eaeb241469e7")
 		)
@@ -31908,6 +33409,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C85")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -32072,6 +33576,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 377.19 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e229a04c-4fdd-4d80-ba22-241bd0f2e7d7")
 		)
@@ -32083,6 +33598,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "C89")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -33067,6 +34585,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 247.65 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e8a6aa8-dbc0-4106-88b0-c897b4fb5f87")
 		)
@@ -33078,6 +34607,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "D5")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "SML-D13FWT86C")
+						)
+						(field
+							(name "Manufacturer")
+							(value "ROHM Semiconductor")
+						)
+					)
 				)
 			)
 		)
@@ -34140,6 +35680,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 247.65 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dfadae04-6d09-4ba0-824a-7fa65ff77acc")
 		)
@@ -34151,6 +35702,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "D6")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "SML-D13FWT86C")
+						)
+						(field
+							(name "Manufacturer")
+							(value "ROHM Semiconductor")
+						)
+					)
 				)
 			)
 		)
@@ -34364,6 +35926,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 247.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1fa8ce0e-abb6-43a8-b872-e8af58152901")
 		)
@@ -34375,6 +35948,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "D14")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "SML-D13FWT86C")
+						)
+						(field
+							(name "Manufacturer")
+							(value "ROHM Semiconductor")
+						)
+					)
 				)
 			)
 		)
@@ -35017,6 +36601,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 139.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77b6d3cc-d3f8-45e8-8c4c-e6ecec8d0bf8")
 		)
@@ -35028,6 +36623,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "D3")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -35541,6 +37139,17 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch " ""
+			(at 360.68 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "319d75bf-8296-47bc-8090-edfe8b4a8280")
 		)
@@ -35552,6 +37161,9 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "R75")
 					(unit 1)
+					(variant
+						(name "resistor")
+					)
 				)
 			)
 		)
@@ -35687,6 +37299,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 247.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f64d4967-e1e2-4dd9-9b73-4b3ff362eed3")
 		)
@@ -35698,6 +37321,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "D8")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "SML-D13FWT86C")
+						)
+						(field
+							(name "Manufacturer")
+							(value "ROHM Semiconductor")
+						)
+					)
 				)
 			)
 		)
@@ -35833,6 +37467,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 247.65 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6e474e03-717f-476e-82f0-7d3ababc37c8")
 		)
@@ -35844,6 +37489,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "D7")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "SML-D13FWT86C")
+						)
+						(field
+							(name "Manufacturer")
+							(value "ROHM Semiconductor")
+						)
+					)
 				)
 			)
 		)
@@ -36082,6 +37738,17 @@
 				)
 			)
 		)
+		(property "Pitch " ""
+			(at 247.65 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb10d920-f46b-4a9e-8ef8-db80f24c787b")
 		)
@@ -36093,6 +37760,17 @@
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
 					(reference "D4")
 					(unit 1)
+					(variant
+						(name "resistor")
+						(field
+							(name "MPN")
+							(value "SML-D13FWT86C")
+						)
+						(field
+							(name "Manufacturer")
+							(value "ROHM Semiconductor")
+						)
+					)
 				)
 			)
 		)
