@@ -25330,17 +25330,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 101.6 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f2e5d814-9e8a-4705-bab4-fb2863197274")
 		)
@@ -25529,7 +25518,7 @@
 				)
 			)
 		)
-		(property "MPN" "XC7A100T-FGG484"
+		(property "MPN" "XC7A100T-2FGG484C"
 			(at 323.85 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -25604,17 +25593,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 267.97 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -27068,17 +27046,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 73.66 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7ba3ae8f-60de-45ac-9055-b2dd20b1e8c9")
 		)
@@ -27169,7 +27136,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 69.85 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -27182,7 +27149,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 72.39 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -27243,17 +27210,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 92.71 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -27354,7 +27310,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG L29K-G2J1-24-Z"
+		(property "MPN" "SML-D13FWT86C"
 			(at 62.23 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27365,7 +27321,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OSRAM"
+		(property "Manufacturer" "ROHM Semiconductor"
 			(at 82.55 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -27406,17 +27362,6 @@
 		)
 		(property "Color" "Green"
 			(at 62.23 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 59.69 196.85 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27522,7 +27467,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG L29K-G2J1-24-Z"
+		(property "MPN" "SML-D13FWT86C"
 			(at 157.48 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27533,7 +27478,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OSRAM"
+		(property "Manufacturer" "ROHM Semiconductor"
 			(at 177.8 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -27574,17 +27519,6 @@
 		)
 		(property "Color" "Green"
 			(at 157.48 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 154.94 260.35 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27985,17 +27919,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 241.3 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "bdc5999c-d74c-40f7-950b-d56561fb9823")
 		)
@@ -28185,17 +28108,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 349.25 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "18a873ce-9016-4a57-8f17-76efbabc4c93")
 		)
@@ -28286,7 +28198,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 54.61 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -28299,7 +28211,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 57.15 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -28360,17 +28272,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 77.47 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -28515,17 +28416,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 86.36 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -28938,7 +28828,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 250.19 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -29023,17 +28913,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 232.41 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -29422,17 +29301,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 259.08 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -29830,17 +29698,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 365.76 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "21d0c42c-71c5-4492-a9c3-767dc0c0fdbb")
 		)
@@ -29981,17 +29838,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 43.18 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -30186,17 +30032,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 123.19 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2ec4ce82-4ecb-4f1a-baa8-b1abadffbb29")
 		)
@@ -30382,17 +30217,6 @@
 		)
 		(property "DNP" ""
 			(at 340.36 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 340.36 63.5 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30698,7 +30522,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG L29K-G2J1-24-Z"
+		(property "MPN" "SML-D13FWT86C"
 			(at 62.23 252.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30709,7 +30533,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OSRAM"
+		(property "Manufacturer" "ROHM Semiconductor"
 			(at 82.55 278.13 0)
 			(hide yes)
 			(show_name no)
@@ -30750,17 +30574,6 @@
 		)
 		(property "Color" "Green"
 			(at 62.23 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 59.69 260.35 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30880,7 +30693,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 85.09 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -30965,17 +30778,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 67.31 77.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -31435,17 +31237,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 138.43 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b191443c-e51d-4f16-8b9b-c67454a51fda")
 		)
@@ -31627,17 +31418,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 232.41 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "13e7c397-63c1-44f5-8a88-9484b1f380d1")
 		)
@@ -31817,17 +31597,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 140.97 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "53b9c892-2aac-4522-8aec-26fe769907d6")
 		)
@@ -31972,17 +31741,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 138.43 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -32150,17 +31908,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 168.91 228.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -32558,17 +32305,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 349.25 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1f7c940a-fa03-4f85-9e28-f3ff6c8ccd80")
 		)
@@ -32758,17 +32494,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 356.87 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a9ba3803-28db-49fa-98a2-9c271544a1f3")
 		)
@@ -32931,17 +32656,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 73.66 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -33110,17 +32824,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 100.33 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "660e2320-39f2-4b3c-9b46-a1e11a7fb9c6")
 		)
@@ -33257,17 +32960,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 93.98 88.9 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3d0ad5a9-b7e8-436a-a286-25672979c5b7")
 		)
@@ -33355,7 +33047,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG L29K-G2J1-24-Z"
+		(property "MPN" "SML-D13FWT86C"
 			(at 62.23 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33366,7 +33058,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OSRAM"
+		(property "Manufacturer" "ROHM Semiconductor"
 			(at 82.55 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -33407,17 +33099,6 @@
 		)
 		(property "Color" "Green"
 			(at 62.23 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 59.69 228.6 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33613,17 +33294,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 123.19 138.43 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "da94e33c-b453-4a7b-a1fc-352055c80a00")
 		)
@@ -33718,7 +33388,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 86.36 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -33731,7 +33401,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1000GLF"
+		(property "MPN" "RC0402FR-7D100RL"
 			(at 88.9 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -33796,17 +33466,6 @@
 		)
 		(property "DNP" ""
 			(at 109.22 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 109.22 72.39 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34105,17 +33764,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 140.97 151.13 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "335e6dd6-fc32-48d6-9f68-df8905b1c119")
 		)
@@ -34298,17 +33946,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 259.08 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1754fbfb-78a1-4353-8731-e659bd0f866c")
 		)
@@ -34485,17 +34122,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 250.19 64.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -34687,17 +34313,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 340.36 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "df7fee87-162e-42c6-a844-a8718db11362")
 		)
@@ -34860,17 +34475,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 73.66 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -35065,7 +34669,7 @@
 				)
 			)
 		)
-		(property "MPN" "LG L29K-G2J1-24-Z"
+		(property "MPN" "SML-D13FWT86C"
 			(at 157.48 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35076,7 +34680,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "OSRAM"
+		(property "Manufacturer" "ROHM Semiconductor"
 			(at 177.8 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -35117,17 +34721,6 @@
 		)
 		(property "Color" "Green"
 			(at 157.48 223.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 154.94 228.6 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35298,17 +34891,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 107.95 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -35506,7 +35088,7 @@
 				)
 			)
 		)
-		(property "MPN" "XC7A100T-FGG484"
+		(property "MPN" "XC7A100T-2FGG484C"
 			(at 6.35 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -35581,17 +35163,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 62.23 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 62.23 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -37023,17 +36594,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 120.65 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2f072795-fed7-4d8d-b7cc-e3910e23d54a")
 		)
@@ -37218,17 +36778,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 250.19 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1cad2677-4be4-4b44-8011-0892bf723565")
 		)
@@ -37393,17 +36942,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 168.91 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "52c5875a-e34c-4021-9a8c-f689fbcea406")
 		)
@@ -37544,17 +37082,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 43.18 270.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -37957,17 +37484,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 356.87 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "047428db-4595-4ec9-93fd-b2af31e1b502")
 		)
@@ -38144,17 +37660,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 241.3 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -38351,7 +37856,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 62.23 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -38364,7 +37869,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 64.77 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -38425,17 +37930,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 85.09 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -38536,7 +38030,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 86.36 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -38549,7 +38043,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1000GLF"
+		(property "MPN" "RC0402FR-7D100RL"
 			(at 88.9 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -38614,17 +38108,6 @@
 		)
 		(property "DNP" ""
 			(at 109.22 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 109.22 105.41 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38883,17 +38366,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 43.18 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -39594,17 +39066,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 365.76 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c4c89d33-40a7-4287-b80e-3332869e8139")
 		)
@@ -39709,7 +39170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 355.6 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -39794,17 +39255,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 373.38 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

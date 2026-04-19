@@ -31891,17 +31891,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 358.14 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "33c40219-c115-4672-bf6f-43049938aa5d")
 		)
@@ -32173,17 +32162,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 27.94 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c028ac4a-b6d8-4ed1-b21d-ec2c5e3c4945")
 		)
@@ -32362,17 +32340,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 35.56 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e92fbc48-08ba-4561-9dd5-f7453711fa3c")
 		)
@@ -32549,17 +32516,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 43.18 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -32752,17 +32708,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 58.42 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e0dc6f50-3d58-42d0-9105-04b60aa361b6")
 		)
@@ -32951,17 +32896,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 50.8 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -33154,17 +33088,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 66.04 264.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "41c96d37-9a7f-4304-b36d-f5710f5cf386")
 		)
@@ -33341,17 +33264,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 58.42 264.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -33931,17 +33843,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 347.98 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "50988325-88f6-442b-a9ff-4e8127cd6324")
 		)
@@ -34120,17 +34021,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 393.7 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e2b006aa-6f29-458a-ba50-8f843a5483bf")
 		)
@@ -34295,17 +34185,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 140.97 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -34474,17 +34353,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 106.68 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2897292f-7fc9-4efc-99d7-ed8c61a504f7")
 		)
@@ -34651,17 +34519,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 110.49 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6749e892-638a-4a00-ad06-1e40fdb43eb1")
 		)
@@ -34826,17 +34683,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 114.3 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -35017,17 +34863,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 400.05 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f8844293-1653-445f-9de1-90e391c45719")
 		)
@@ -35206,17 +35041,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 400.05 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e134f1e8-1665-4325-80a5-1de6455212d3")
 		)
@@ -35381,17 +35205,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 118.11 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -35560,17 +35373,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 121.92 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3e6e7636-2209-4e39-84bc-29feb8ceb4f5")
 		)
@@ -35735,17 +35537,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 125.73 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -35914,17 +35705,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 129.54 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "daa10646-f211-483a-a331-cd5a20bdc8bb")
 		)
@@ -36089,17 +35869,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 133.35 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -36268,17 +36037,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 137.16 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "71aa7dbe-e327-46b5-8204-955af0595bed")
 		)
@@ -36416,17 +36174,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 358.14 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -36687,17 +36434,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 347.98 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3e178f25-1438-49f0-a13c-99364613c147")
 		)
@@ -36847,17 +36583,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 323.85 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "86203afc-155f-44aa-abea-0d15e02797e8")
 		)
@@ -36953,7 +36678,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 119.38 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -36966,7 +36691,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-22R0GLF"
+		(property "MPN" "RC0402FR-7D22RL"
 			(at 119.38 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -37026,17 +36751,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 99.06 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -37285,17 +36999,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 76.2 265.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1117c279-0000-420d-87d7-36ba88a44795")
 		)
@@ -37469,17 +37172,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 341.63 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -37660,17 +37352,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 334.01 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7027f679-bb92-43c2-8353-ac1cf5076eda")
 		)
@@ -37847,17 +37528,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 317.5 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -38038,17 +37708,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 326.39 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2cb51440-a425-4181-a53a-e2838e654be8")
 		)
@@ -38227,17 +37886,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 309.88 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "86a768e2-f495-4181-8407-296d5e3be833")
 		)
@@ -38414,17 +38062,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 177.8 214.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -38616,7 +38253,7 @@
 				)
 			)
 		)
-		(property "MPN" "XC7A100T-FGG484"
+		(property "MPN" "XC7A100T-2FGG484C"
 			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -38691,17 +38328,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 64.77 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 64.77 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -40169,17 +39795,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 177.8 165.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "39150637-a1fb-4a8d-8d2e-f049ce4b7645")
 		)
@@ -40416,17 +40031,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 187.96 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ea9cb8ac-7455-4e83-8e8c-46f554f34ec5")
 		)
@@ -40615,17 +40219,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 187.96 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -40919,17 +40512,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 393.7 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -41303,17 +40885,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 223.52 165.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "532065c2-73a5-4991-9822-3f5cd170b82d")
 		)
@@ -41463,17 +41034,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 323.85 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -41645,17 +41205,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 347.98 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -41833,17 +41382,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 349.25 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -42029,17 +41567,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 317.5 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e3f350f0-a196-4587-8f14-c275425b391d")
 		)
@@ -42216,17 +41743,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 326.39 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -42407,17 +41923,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 334.01 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "50a73079-c39a-425c-88de-4b189cc49557")
 		)
@@ -42594,17 +42099,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 341.63 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -42785,17 +42279,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 309.88 135.89 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6a95c67f-dde4-4590-bc76-875c6c5051cf")
 		)
@@ -42959,17 +42442,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 223.52 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -43150,17 +42622,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 393.7 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f66fc0ad-5eb9-4358-b48f-74a5436fc2cc")
 		)
@@ -43337,17 +42798,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 393.7 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -43539,17 +42989,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 36.83 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a64f1173-a694-4ca8-82cb-ad83f1448e60")
 		)
@@ -43739,17 +43178,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 39.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "75c92008-313e-4dd0-b997-fa3c3f96e244")
 		)
@@ -43926,17 +43354,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 313.69 181.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -44220,17 +43637,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 313.69 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "dce5fff9-681c-4e47-a605-443513d600ed")
 		)
@@ -44370,17 +43776,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 97.79 252.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "Voltage" ""
@@ -44888,17 +44283,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 214.63 213.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ba7721dc-1073-4450-ba7a-cee9e48870f7")
 		)
@@ -45192,17 +44576,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 27.94 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "35ac3764-f660-4ede-8831-7fd25e94cfa3")
 		)
@@ -45379,17 +44752,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 214.63 165.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -45685,17 +45047,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 36.83 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "fdfc4722-d449-4009-bb07-ca6e0a3f1151")
 		)
@@ -45884,17 +45235,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 46.99 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -46396,17 +45736,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 57.15 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7e9c26d9-8f93-4398-a716-772ada4bc257")
 		)
@@ -46597,17 +45926,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 66.04 250.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ff7d2648-c608-4c97-a003-187464ccb4bd")
 		)
@@ -46796,17 +46114,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 66.04 236.22 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -47283,17 +46590,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 347.98 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "cf0d7039-6b90-4aba-8b6b-da818e5e39e2")
 		)
@@ -47471,17 +46767,6 @@
 					(thickness 0.15)
 				)
 				(justify right)
-			)
-		)
-		(property "Pitch " ""
-			(at 349.25 137.16 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -47885,17 +47170,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 121.92 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a40c8bbc-8098-4e59-946c-bf49c6949f78")
 		)
@@ -48280,17 +47554,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 400.05 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9de03105-5f69-4ed8-837f-66291654b955")
 		)
@@ -48467,17 +47730,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 400.05 44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -48864,17 +48116,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 386.08 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "978d8d5f-43bc-4554-be21-ee6b5a3245da")
 		)
@@ -49156,17 +48397,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 386.08 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2809c3c2-6bac-43f1-8f81-c06701231f05")
 		)
@@ -49329,17 +48559,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 36.83 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -49506,17 +48725,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 40.64 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3de11f54-083e-4f66-990a-f597c7b48dfa")
 		)
@@ -49679,17 +48887,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 46.99 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -49856,17 +49053,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 53.34 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0b350d08-b03f-4903-89f1-d6aaf4ac37bb")
 		)
@@ -50029,17 +49215,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 49.53 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -50206,17 +49381,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 59.69 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2fa79c4c-1240-4ffc-bd6e-7a59e9edf943")
 		)
@@ -50381,17 +49545,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 55.88 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "19d9b412-d342-4df0-84ba-3718de7abb7b")
 		)
@@ -50553,17 +49706,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 77.47 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -50755,17 +49897,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 86.36 179.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -51008,17 +50139,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 115.57 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -51346,17 +50466,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 43.18 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4531ee0b-ec61-457a-8fc4-0239063c35b2")
 		)
@@ -51496,17 +50605,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 194.31 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -51800,17 +50898,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 157.48 -124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -52274,17 +51361,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 147.32 -7.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6b32dd77-58e4-4e58-9001-d5dca17c4a02")
 		)
@@ -52566,17 +51642,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 161.29 -7.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4606577f-1152-4e47-8884-981141206848")
 		)
@@ -52753,17 +51818,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 156.21 -105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -53057,17 +52111,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 320.04 -41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "4a8c93f5-40f7-45c1-83c9-92a1d6f3acf9")
 		)
@@ -53321,17 +52364,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 149.86 -105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3df7e1b3-87cf-4451-93de-e59115311e80")
 		)
@@ -53492,17 +52524,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 140.97 -134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -53683,17 +52704,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 87.63 -44.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "58ec069a-5abd-4138-bd3b-275d97e7c81c")
 		)
@@ -53837,8 +52847,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R_1k_0402"
 			(at 184.404 -48.768 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53881,7 +52892,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "CR0402-FX-1001GLF"
 			(at 182.88 -50.8 90)
 			(hide yes)
 			(show_name no)
@@ -53892,7 +52903,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer" "Bourns"
 			(at 182.88 -50.8 90)
 			(hide yes)
 			(show_name no)
@@ -53903,9 +52914,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 182.88 -50.8 90)
-			(hide yes)
+		(property "Val" "1k"
+			(at 182.626 -49.022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54077,8 +53087,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R_10k_0402"
 			(at 110.998 -39.116 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54121,7 +53132,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 113.03 -40.64 90)
 			(hide yes)
 			(show_name no)
@@ -54132,18 +53143,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 113.03 -40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 113.03 -40.64 90)
 			(hide yes)
 			(show_name no)
@@ -54263,7 +53263,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 323.85 -48.26 0)
 			(hide yes)
 			(show_name no)
@@ -54276,7 +53276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-22R0GLF"
+		(property "MPN" "RC0402FR-7D22RL"
 			(at 323.85 -50.8 0)
 			(hide yes)
 			(show_name no)
@@ -54337,17 +53337,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 303.53 -71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -54548,17 +53537,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 45.72 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0ed2bf5c-3f63-4b2e-b39b-eb41d28575be")
 		)
@@ -54599,8 +53577,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R_10k_0402"
 			(at 117.348 -39.116 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54643,7 +53622,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 119.38 -40.64 90)
 			(hide yes)
 			(show_name no)
@@ -54654,18 +53633,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 119.38 -40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 119.38 -40.64 90)
 			(hide yes)
 			(show_name no)
@@ -54915,8 +53883,9 @@
 				)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R_2k2_0402"
 			(at 125.984 -19.558 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54958,7 +53927,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "AC0402FR-7D2K2L"
 			(at 125.73 -21.59 90)
 			(hide yes)
 			(show_name no)
@@ -54969,7 +53938,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "Manufacturer" "YAGEO"
 			(at 125.73 -21.59 90)
 			(hide yes)
 			(show_name no)
@@ -54980,9 +53949,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
-			(at 125.73 -21.59 90)
-			(hide yes)
+		(property "Val" "2k2"
+			(at 125.73 -19.558 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55674,17 +54642,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 163.83 -105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "05b8d7b3-c9e0-48a9-b0e6-abcb18c50d85")
 		)
@@ -55825,17 +54782,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 157.48 -63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "72dec6db-aaf0-4293-a30f-8f2b73d4d950")
 		)
@@ -55928,7 +54874,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 292.1 -101.6 0)
 			(hide yes)
 			(show_name no)
@@ -55941,7 +54887,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-22R0GLF"
+		(property "MPN" "RC0402FR-7D22RL"
 			(at 292.1 -104.14 0)
 			(hide yes)
 			(show_name no)
@@ -56002,17 +54948,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 271.78 -124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -56280,17 +55215,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 119.38 -77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -56584,17 +55508,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 31.75 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -56982,17 +55895,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 170.18 -128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "38ced730-75c1-431f-87db-20b38b3d7d45")
 		)
@@ -57169,17 +56071,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 156.21 -83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -57578,17 +56469,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 27.94 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "06421463-bdec-42ee-ab76-f10f9d4e9212")
 		)
@@ -57955,17 +56835,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 140.97 -130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -58623,17 +57492,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 320.04 -49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "80ccf5b8-3e94-4199-8643-4d1e7c9627a5")
 		)
@@ -58899,17 +57757,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 184.15 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 184.15 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -59290,17 +58137,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 149.86 -83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "da483af8-bc32-4c1e-b568-b415699b626d")
 		)
@@ -59650,8 +58486,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Small"
+		(property "Value" "R_10k_0402"
 			(at 104.648 -39.116 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -59694,7 +58531,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 106.68 -40.64 90)
 			(hide yes)
 			(show_name no)
@@ -59705,18 +58542,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 106.68 -40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Bourns"
 			(at 106.68 -40.64 90)
 			(hide yes)
 			(show_name no)
@@ -59925,17 +58751,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 170.18 -83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "089b6b82-6c8d-49e2-8e06-39ef7d69db1c")
 		)
@@ -60102,17 +58917,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 179.07 -1.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c090275c-a16a-4605-b1ac-c051e9308ccc")
 		)
@@ -60251,17 +59055,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 283.21 -90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "11"
@@ -60477,17 +59270,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 177.8 -128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -60965,7 +59747,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 292.1 -99.06 0)
 			(hide yes)
 			(show_name no)
@@ -60978,7 +59760,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-22R0GLF"
+		(property "MPN" "RC0402FR-7D22RL"
 			(at 292.1 -101.6 0)
 			(hide yes)
 			(show_name no)
@@ -61039,17 +59821,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 271.78 -121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -61753,17 +60524,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 41.91 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5fc2ecdf-de8b-4ad5-a986-24fc6206847b")
 		)
@@ -61952,17 +60712,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 34.29 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -62246,17 +60995,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 177.8 -105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "75ef496a-8d74-4cac-a61d-de9690fa934a")
 		)
@@ -62342,7 +61080,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "FTDI Chip"
 			(at 220.98 -76.2 0)
 			(hide yes)
 			(show_name no)
@@ -62353,7 +61091,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "FT2232HQ-REEL"
 			(at 220.98 -76.2 0)
 			(hide yes)
 			(show_name no)
@@ -62387,17 +61125,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 220.98 -76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 220.98 -76.2 0)
 			(hide yes)
 			(show_name no)
@@ -62954,17 +61681,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 163.83 -83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "b29254d5-80a1-479f-a48d-ca4512f15f87")
 		)
@@ -63104,17 +61820,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 101.6 -24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "29db8c62-9f46-43a3-b2e5-ce5b3adf3617")
 		)
@@ -63220,7 +61925,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 323.85 -45.72 0)
 			(hide yes)
 			(show_name no)
@@ -63233,7 +61938,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-22R0GLF"
+		(property "MPN" "RC0402FR-7D22RL"
 			(at 323.85 -48.26 0)
 			(hide yes)
 			(show_name no)
@@ -63294,17 +61999,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 303.53 -68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -63699,17 +62393,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 170.18 -105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0e2fbb2e-48a8-4b59-ac18-3b3e1239f775")
 		)
@@ -63992,17 +62675,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 142.24 -83.82 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "461ea06b-40d8-4a3d-9b98-28284d7b0779")
 		)
@@ -64258,17 +62930,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 152.4 -13.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "410347d9-ab84-4386-8646-eadee82da92e")
 		)
@@ -64409,17 +63070,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 257.81 -111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -64920,17 +63570,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 269.24 -105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Voltage" ""
 			(at 269.24 -105.41 0)
 			(hide yes)
@@ -65091,7 +63730,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 38.1 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -65104,7 +63743,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1000GLF"
+		(property "MPN" "RC0402FR-7D100RL"
 			(at 40.64 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -65165,17 +63804,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 60.96 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -65995,17 +64623,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 53.34 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9dbc8e26-7776-4e04-943d-830cb1f23b86")
 		)
@@ -66095,7 +64712,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 292.1 -96.52 0)
 			(hide yes)
 			(show_name no)
@@ -66108,7 +64725,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-22R0GLF"
+		(property "MPN" "RC0402FR-7D22RL"
 			(at 292.1 -99.06 0)
 			(hide yes)
 			(show_name no)
@@ -66169,17 +64786,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 271.78 -119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -66455,17 +65061,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 320.04 -35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "bcaf6443-db59-484c-b55f-aa36d7940ea5")
 		)
@@ -66702,17 +65297,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 120.65 -64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -67276,17 +65860,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 25.4 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c04f6403-fa11-4524-b07c-263e3a499148")
 		)
@@ -67479,7 +66052,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 292.1 -93.98 0)
 			(hide yes)
 			(show_name no)
@@ -67492,7 +66065,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-22R0GLF"
+		(property "MPN" "RC0402FR-7D22RL"
 			(at 292.1 -96.52 0)
 			(hide yes)
 			(show_name no)
@@ -67553,17 +66126,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 271.78 -116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -67750,17 +66312,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 149.86 -124.46 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -67951,17 +66502,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 39.37 22.86 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

@@ -11542,17 +11542,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 199.39 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "72f116eb-8403-475c-8437-4c5ca03199f1")
 		)
@@ -11729,17 +11718,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 208.28 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11932,17 +11910,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 217.17 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "a145ec2a-d9d5-4220-9b9f-0ff8d92d6854")
 		)
@@ -12121,17 +12088,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 226.06 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f84204f2-7c5c-4fe9-ad20-fd4946825238")
 		)
@@ -12308,17 +12264,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 190.5 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12509,17 +12454,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 201.93 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12728,7 +12662,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 190.5 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12813,17 +12747,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 172.72 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13006,17 +12929,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 181.61 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13419,17 +13331,6 @@
 		)
 		(property "DNP" ""
 			(at 199.39 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 199.39 147.32 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13950,17 +13851,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 153.67 163.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7d29639d-afd5-4be3-8f00-3bdfcd92cd29")
 		)
@@ -14142,17 +14032,6 @@
 		)
 		(property "DNP" ""
 			(at 153.67 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 153.67 204.47 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14369,7 +14248,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 198.12 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -14458,17 +14337,6 @@
 		)
 		(property "DNP" ""
 			(at 215.9 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 215.9 204.47 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14662,17 +14530,6 @@
 		)
 		(property "DNP" ""
 			(at 153.67 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 153.67 147.32 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15088,17 +14945,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 162.56 163.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "aa2242df-1182-4cb9-8e2b-0b1cc3a8ca94")
 		)
@@ -15292,17 +15138,6 @@
 		)
 		(property "DNP" ""
 			(at 215.9 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 215.9 163.83 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15597,17 +15432,6 @@
 		)
 		(property "DNP" ""
 			(at 215.9 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 215.9 142.24 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15921,17 +15745,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 171.45 163.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7cc7d9de-153a-4ab9-9623-48b31edd6f1c")
 		)
@@ -16124,7 +15937,7 @@
 				)
 			)
 		)
-		(property "MPN" "XC7A100T-FGG484"
+		(property "MPN" "XC7A100T-2FGG484C"
 			(at 314.96 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16199,17 +16012,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 259.08 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 259.08 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17688,17 +17490,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 171.45 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "1db59c9b-156d-4341-a944-dcedba52461f")
 		)
@@ -17991,17 +17782,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 162.56 147.32 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3b1a0cef-1bad-4405-b184-6d1193ef91e3")
 		)
@@ -18195,17 +17975,6 @@
 		)
 		(property "DNP" ""
 			(at 162.56 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 162.56 204.47 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18707,17 +18476,6 @@
 		)
 		(property "DNP" ""
 			(at 180.34 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 180.34 147.32 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19237,17 +18995,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 199.39 204.47 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e3d37a37-cea8-4e00-a508-56fd8dbfba74")
 		)
@@ -19648,17 +19395,6 @@
 		)
 		(property "DNP" ""
 			(at 144.78 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 144.78 204.47 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20177,17 +19913,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 135.89 163.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "8c6d0aef-fcfb-4aa7-8fb8-81f72d04638f")
 		)
@@ -20389,17 +20114,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 144.78 163.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "9f7b95e0-74ee-43d9-9f31-35a3f09629d1")
 		)
@@ -20593,17 +20307,6 @@
 		)
 		(property "DNP" ""
 			(at 180.34 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 180.34 163.83 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20908,17 +20611,6 @@
 		)
 		(property "DNP" ""
 			(at 189.23 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 189.23 163.83 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21326,17 +21018,6 @@
 		)
 		(property "DNP" ""
 			(at 207.01 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 207.01 163.83 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21835,17 +21516,6 @@
 		)
 		(property "DNP" ""
 			(at 198.12 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 198.12 163.83 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

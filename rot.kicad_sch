@@ -7691,7 +7691,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 58.42 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7704,7 +7704,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 60.96 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7765,17 +7765,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 81.28 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -7952,17 +7941,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 73.66 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "10f12ab6-c439-4e06-94d9-05c1eef616a0")
 		)
@@ -8066,7 +8044,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 71.12 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8127,17 +8105,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 50.8 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8251,7 +8218,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 86.36 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8312,17 +8279,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 66.04 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8437,7 +8393,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 22.86 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8498,17 +8454,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 43.18 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8697,17 +8642,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 113.03 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "66b64355-4054-4f19-930d-7bf0fa4fd97b")
 		)
@@ -8811,7 +8745,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 78.74 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8872,17 +8806,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 58.42 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9030,17 +8953,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 92.71 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9357,7 +9269,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 58.42 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9370,7 +9282,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 60.96 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9431,17 +9343,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 81.28 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9618,17 +9519,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 73.66 96.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ee272c62-10bd-4504-b88c-32a987161fe5")
 		)
@@ -9732,7 +9622,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 71.12 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9793,17 +9683,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 50.8 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -9917,7 +9796,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 86.36 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9978,17 +9857,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 66.04 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10103,7 +9971,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 22.86 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10164,17 +10032,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 43.18 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10363,17 +10220,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 113.03 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e09344a8-860b-46a2-b3c0-b55f1e263637")
 		)
@@ -10477,7 +10323,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 78.74 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10538,17 +10384,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 58.42 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -10698,17 +10533,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 92.71 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2efc620b-7285-4f7b-91d8-d2bbaa48a642")
 		)
@@ -10817,7 +10641,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 58.42 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -10830,7 +10654,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 60.96 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -10891,17 +10715,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 81.28 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11078,17 +10891,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 73.66 172.72 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ef17caef-c68d-4851-8c1f-47a7c9bb44ed")
 		)
@@ -11192,7 +10994,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 71.12 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11253,17 +11055,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 50.8 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11377,7 +11168,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 86.36 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11438,17 +11229,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 66.04 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11563,7 +11343,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 22.86 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11624,17 +11404,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 43.18 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11823,17 +11592,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 113.03 189.23 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "113fa738-7e00-4b1a-bfa4-f5a48dd6ee87")
 		)
@@ -11937,7 +11695,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 78.74 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -11998,17 +11756,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 58.42 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12158,17 +11905,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 92.71 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f7124f8e-41c1-40dd-8848-67f4ec446ff0")
 		)
@@ -12277,7 +12013,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 58.42 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -12290,7 +12026,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 60.96 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -12351,17 +12087,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 81.28 223.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12538,17 +12263,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 73.66 223.52 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0238150e-b7dd-4f34-82d9-a784e1ba2dc2")
 		)
@@ -12652,7 +12366,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 71.12 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12713,17 +12427,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 50.8 228.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -12837,7 +12540,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 86.36 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -12898,17 +12601,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 66.04 228.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13023,7 +12715,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 22.86 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -13084,17 +12776,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 43.18 228.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13283,17 +12964,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 113.03 240.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f093875f-c401-4ff4-ad49-e9a1b1aa1e45")
 		)
@@ -13397,7 +13067,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-1002GLF"
+		(property "MPN" "CR0402AFX-1002GAS"
 			(at 78.74 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -13458,17 +13128,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 58.42 228.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13616,17 +13275,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 92.71 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13821,17 +13469,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 233.68 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 233.68 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14123,17 +13760,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 312.42 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -14515,17 +14141,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 220.98 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

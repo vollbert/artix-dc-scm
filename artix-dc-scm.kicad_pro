@@ -1280,7 +1280,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1338,12 +1338,6 @@
         },
         {
           "group_by": false,
-          "label": "Pitch ",
-          "name": "Pitch ",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Public",
           "name": "Public",
           "show": false
@@ -1394,7 +1388,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1688,7 +1682,7 @@
             "width": 153000
           },
           {
-            "bottom_reference_layer": "In5.Cu",
+            "bottom_reference_layer": "In6.Cu",
             "delay": 6880100,
             "diff_pair_gap": 110000,
             "signal_layer": "In5.Cu",

@@ -24664,17 +24664,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 41.91 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3deb0e25-1368-4867-95f2-214dde6c1588")
 		)
@@ -24819,7 +24808,8 @@
 			)
 		)
 		(property "Value" "R_33R_0402"
-			(at 218.186 158.75 90)
+			(at 222.504 161.29 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24861,7 +24851,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "MCS04020C3309FE000"
 			(at 214.63 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -24872,18 +24862,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 214.63 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / Beyschlag"
 			(at 214.63 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -25103,17 +25082,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 332.74 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "5853be74-cea3-42cc-98d9-5e3f52121402")
 		)
@@ -25290,17 +25258,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 236.22 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -25480,17 +25437,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 163.83 102.87 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "0ce148a2-ccd4-4aa2-84ca-fbbfa20e6401")
 		)
@@ -25581,7 +25527,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 101.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -25594,7 +25540,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-2201GLF"
+		(property "MPN" "AC0402FR-7D2K2L"
 			(at 104.14 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -25659,17 +25605,6 @@
 		)
 		(property "DNP" ""
 			(at 124.46 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 124.46 78.74 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25776,7 +25711,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 115.57 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -25789,7 +25724,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 118.11 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -25862,17 +25797,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 138.43 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2c06600f-4ac9-4b1b-93ff-d18b686c9103")
 		)
@@ -25921,7 +25845,8 @@
 			)
 		)
 		(property "Value" "R_33R_0402"
-			(at 218.186 163.83 90)
+			(at 222.504 166.624 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25963,7 +25888,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "MCS04020C3309FE000"
 			(at 214.63 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -25974,18 +25899,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 214.63 165.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / Beyschlag"
 			(at 214.63 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -26417,7 +26331,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Bourns"
+		(property "Manufacturer" "YAGEO"
 			(at 154.94 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -26430,7 +26344,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "CR0402-FX-4701GLF"
+		(property "MPN" "RC0402FR-7D4K7L "
 			(at 152.4 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -26491,17 +26405,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 132.08 85.09 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -26797,17 +26700,6 @@
 		)
 		(property "DNP" ""
 			(at 146.05 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 146.05 55.88 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27201,17 +27093,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 227.33 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "809e3553-f41a-4ce3-bf37-d00f9e0ea8a9")
 		)
@@ -27401,7 +27282,7 @@
 				)
 			)
 		)
-		(property "MPN" "XC7A100T-FGG484"
+		(property "MPN" "XC7A100T-2FGG484C"
 			(at 308.61 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -27476,17 +27357,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 252.73 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 252.73 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -29069,17 +28939,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 154.94 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "7b485318-24fc-4ece-8b15-c50d69cad605")
 		)
@@ -29269,17 +29128,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 341.63 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "29a97b67-c674-48a5-b5c6-1e86bddbb28f")
 		)
@@ -29383,7 +29231,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 236.22 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -29468,17 +29316,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 218.44 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -29663,17 +29500,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 50.8 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "6f7d9a11-d938-4705-a938-b74d30c13d26")
 		)
@@ -29778,7 +29604,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 137.16 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -29863,17 +29689,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 154.94 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -30379,17 +30194,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 323.85 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "96665b16-fcac-471f-a3b6-c5bfb3410a0c")
 		)
@@ -30430,7 +30234,8 @@
 			)
 		)
 		(property "Value" "R_33R_0402"
-			(at 218.186 138.43 90)
+			(at 223.012 141.224 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30472,7 +30277,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "MCS04020C3309FE000"
 			(at 214.63 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -30483,18 +30288,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 214.63 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / Beyschlag"
 			(at 214.63 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -30705,17 +30499,6 @@
 		)
 		(property "DNP" ""
 			(at 129.54 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 129.54 116.84 0)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31125,17 +30908,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 128.27 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3003217c-544c-4ecb-9ab5-c94e0fe96925")
 		)
@@ -31314,17 +31086,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 245.11 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "76fb6dfe-5044-4f04-959c-3e77afe9a73b")
 		)
@@ -31413,7 +31174,7 @@
 				)
 			)
 		)
-		(property "MPN" "AMJMEFB-100.0000T"
+		(property "MPN" "ASEMB-100.000MHZ-XY-T"
 			(at 328.93 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -31473,17 +31234,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 358.14 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -31600,7 +31350,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 35.56 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -31685,17 +31435,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 17.78 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -31878,17 +31617,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 227.33 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -32183,17 +31911,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 350.52 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "e775d64c-9526-446d-b766-14c09d3a3a59")
 		)
@@ -32385,7 +32102,7 @@
 				)
 			)
 		)
-		(property "MPN" "XC7A100T-FGG484"
+		(property "MPN" "XC7A100T-2FGG484C"
 			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -32460,17 +32177,6 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 58.42 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
 			(at 58.42 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -33938,17 +33644,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 50.8 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "ea371ef0-ec3d-48ab-93c9-f1338b696357")
 		)
@@ -34130,17 +33825,6 @@
 		)
 		(property "DNP" ""
 			(at 365.76 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 365.76 158.75 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34441,17 +34125,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 359.41 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c244a413-72c7-4dd4-bf3a-ba93b6317e16")
 		)
@@ -34737,17 +34410,6 @@
 		)
 		(property "DNP" ""
 			(at 341.63 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 341.63 69.85 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35339,17 +35001,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 163.83 95.25 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "74df0fec-3f14-44ef-a9fb-7d1f496c476a")
 		)
@@ -35526,17 +35177,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 218.44 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -36235,17 +35875,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 41.91 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "695b0e75-5e1a-413a-8ff7-707e90635156")
 		)
@@ -36389,7 +36018,8 @@
 			)
 		)
 		(property "Value" "R_33R_0402"
-			(at 218.186 153.67 90)
+			(at 223.266 156.21 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36431,7 +36061,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "MCS04020C3309FE000"
 			(at 214.63 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -36442,18 +36072,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 214.63 154.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / Beyschlag"
 			(at 214.63 154.94 90)
 			(hide yes)
 			(show_name no)
@@ -36795,7 +36414,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "C1210C476K8RACTU"
+		(property "MPN" "C1210C476K8RAC7210"
 			(at 341.63 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -36884,17 +36503,6 @@
 		)
 		(property "DNP" ""
 			(at 359.41 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 359.41 55.88 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37200,17 +36808,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 137.16 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c0300cee-9105-4dac-9c58-a1dca748c54d")
 		)
@@ -37355,7 +36952,8 @@
 			)
 		)
 		(property "Value" "R_33R_0402"
-			(at 218.186 133.35 90)
+			(at 222.504 135.89 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37397,7 +36995,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "MCS04020C3309FE000"
 			(at 214.63 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -37408,18 +37006,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 214.63 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / Beyschlag"
 			(at 214.63 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -37742,17 +37329,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 128.27 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c82c6ca8-36dd-4e7f-a8c7-5a4e0876dbdb")
 		)
@@ -37942,17 +37518,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 146.05 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "f7324cc5-d739-4925-bcd8-ed2a73e893e9")
 		)
@@ -37993,7 +37558,8 @@
 			)
 		)
 		(property "Value" "R_33R_0402"
-			(at 218.186 130.81 90)
+			(at 215.646 129.032 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38035,7 +37601,7 @@
 				)
 			)
 		)
-		(property "Pitch " ""
+		(property "MPN" "MCS04020C3309FE000"
 			(at 214.63 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -38046,18 +37612,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
-			(at 214.63 132.08 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay / Beyschlag"
 			(at 214.63 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -38369,17 +37924,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 245.11 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "527ffb05-51fb-4b7b-aee9-67515d8d4ed5")
 		)
@@ -38556,17 +38100,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 34.29 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -38750,17 +38283,6 @@
 		)
 		(property "DNP" ""
 			(at 323.85 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 323.85 55.88 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39062,17 +38584,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 350.52 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "c99cdd3e-a3f3-4560-9760-1756af8b324d")
 		)
@@ -39249,17 +38760,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 25.4 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -39443,17 +38943,6 @@
 		)
 		(property "DNP" ""
 			(at 137.16 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch " ""
-			(at 137.16 55.88 90)
-			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39651,17 +39140,6 @@
 				)
 			)
 		)
-		(property "Pitch " ""
-			(at 332.74 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "2a2b3f51-a67a-4e02-8467-4b9a6ce23698")
 		)
@@ -39838,17 +39316,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 236.22 71.12 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

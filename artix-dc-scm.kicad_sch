@@ -926,17 +926,6 @@
 				(justify left bottom)
 			)
 		)
-		(property "Pitch " ""
-			(at 337.82 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "87aa27ef-51a4-4c44-a7a7-971d071e1b67")
 		)
@@ -1047,17 +1036,6 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
-			)
-		)
-		(property "Pitch " ""
-			(at 337.82 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
