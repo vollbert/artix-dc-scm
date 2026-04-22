@@ -1,0 +1,10660 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6dbebd73-04af-4fdf-a048-152e8b15412d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroCapacitors0402:C_470n_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_470n_0402"
+				(at 20.32 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X5R1E474M050BB"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.47 µF, 25 V, 0402 [1005 Metric], ± 20%, X5R, C"
+				(at 20.32 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "C1005X5R1E474M050BB"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "470n"
+				(at 20.32 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_470n_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_470n_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroCapacitors0402:C_4u7_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_4u7_0402"
+				(at 20.32 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 10 V, 0402 [1005 Metric], ± 20%, X5R, GRM Series"
+				(at 20.32 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "GRM155R61A475MEAAD"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "4u7"
+				(at 20.32 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_4u7_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_4u7_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroCapacitorsmisc:C_100n_6V3_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_100n_6V3_0402"
+				(at 20.32 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "SMT Multilayer Ceramic Capacitor, 0.1 µF, 6.3 V, 0402 [1005 Metric], ± 10%, X5R, Walsin MLCC"
+				(at 20.32 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "0402X104K6R3CT"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Walsin"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "100n"
+				(at 20.32 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Public" "False"
+				(at 20.32 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_100n_6V3_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100n_6V3_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicropower:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 8.89 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "GND"
+				(at 8.89 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 8.89 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 8.89 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 8.89 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 8.89 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(symbol "GND_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "artix-dc-scm:IS43TR16K01S2AL-125KBL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 31.75 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "IS43TR16K01S2AL-125KBL"
+				(at 31.75 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BGA96C80P9X16_1000X1400X140"
+				(at 1.27 -123.952 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.in/datasheet/2/198/43-46TR16K01S2A-AL-1773473.pdf"
+				(at 31.75 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "16G, 1.35V, DDR3L, 1GX16,1600MT/S @ 11-11-11, 96 BALL BGA (10MM X 14MM) ROHS"
+				(at 9.144 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "1.4"
+				(at 31.75 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "870-TR16K01125KBL"
+				(at 31.75 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ISSI/IS43TR16K01S2AL-125KBL?qs=7MVldsJ5UazrhklWOpRUJA%3D%3D"
+				(at 31.75 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Integrated Silicon Solution Inc."
+				(at 31.75 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "IS43TR16K01S2AL-125KBL"
+				(at 31.75 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "IS43TR16K01S2AL-125KBL_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 30.48 -121.92)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 35.56 -39.37 180)
+					(length 5.08)
+					(name "DQU5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -44.45 180)
+					(length 5.08)
+					(name "DQU7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -36.83 180)
+					(length 5.08)
+					(name "DQU4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -21.59 180)
+					(length 5.08)
+					(name "DQSU#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -41.91 180)
+					(length 5.08)
+					(name "DQU6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -59.69 180)
+					(length 5.08)
+					(name "DQU3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -54.61 180)
+					(length 5.08)
+					(name "DQU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -19.05 180)
+					(length 5.08)
+					(name "DQSU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -57.15 180)
+					(length 5.08)
+					(name "DQU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -72.39 180)
+					(length 5.08)
+					(name "DMU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -52.07 180)
+					(length 5.08)
+					(name "DQU0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -26.67 180)
+					(length 5.08)
+					(name "DQL0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -46.99 180)
+					(length 5.08)
+					(name "DML"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -31.75 180)
+					(length 5.08)
+					(name "DQL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "DQSL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -29.21 180)
+					(length 5.08)
+					(name "DQL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -34.29 180)
+					(length 5.08)
+					(name "DQL3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "F8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -67.31 180)
+					(length 5.08)
+					(name "DQL6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "DQSL#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -1.27 180)
+					(length 5.08)
+					(name "VREFDQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -62.23 180)
+					(length 5.08)
+					(name "DQL4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -69.85 180)
+					(length 5.08)
+					(name "DQL7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -64.77 180)
+					(length 5.08)
+					(name "DQL5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -49.53 0)
+					(length 5.08)
+					(name "ODT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -34.29 0)
+					(length 5.08)
+					(name "RAS#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "CK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -54.61 0)
+					(length 5.08)
+					(name "CKE1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "J9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -46.99 0)
+					(length 5.08)
+					(name "ODT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -36.83 0)
+					(length 5.08)
+					(name "CAS#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "CK#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -52.07 0)
+					(length 5.08)
+					(name "CKE0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "K9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -44.45 0)
+					(length 5.08)
+					(name "CS1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -41.91 0)
+					(length 5.08)
+					(name "CS0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -39.37 0)
+					(length 5.08)
+					(name "WE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -90.17 0)
+					(length 5.08)
+					(name "A10/AP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -77.47 180)
+					(length 5.08)
+					(name "ZQ0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -80.01 180)
+					(length 5.08)
+					(name "ZQ1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -110.49 0)
+					(length 5.08)
+					(name "BA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -115.57 0)
+					(length 5.08)
+					(name "BA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -102.87 0)
+					(length 5.08)
+					(name "A15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -6.35 180)
+					(length 5.08)
+					(name "VREFCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "M8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -72.39 0)
+					(length 5.08)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -64.77 0)
+					(length 5.08)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -95.25 0)
+					(length 5.08)
+					(name "A12/BC#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -113.03 0)
+					(length 5.08)
+					(name "BA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "N8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -77.47 0)
+					(length 5.08)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -69.85 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -67.31 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -74.93 0)
+					(length 5.08)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -82.55 0)
+					(length 5.08)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -87.63 0)
+					(length 5.08)
+					(name "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -92.71 0)
+					(length 5.08)
+					(name "A11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -80.01 0)
+					(length 5.08)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -31.75 0)
+					(length 5.08)
+					(name "RESET#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -97.79 0)
+					(length 5.08)
+					(name "A13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -100.33 0)
+					(length 5.08)
+					(name "A14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -85.09 0)
+					(length 5.08)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDDQ_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[A1,A8,C1,C9,D2,E9,F1,H2,H9]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -102.87 180)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[A9,B3,E1,G8,J2,J8,M1,M9,P1,P9,T1,T9]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -120.65 180)
+					(length 5.08)
+					(name "VSSQ_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[B1,B9,D1,D8,E2,E8,F9,G1,G9]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 0)
+					(length 5.08)
+					(name "VDD_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[B2,D9,G7,K2,K8,N1,N9,R1,R9]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 120.65 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0356fafb-9a9e-40e2-a2c1-cb65c45bb75f")
+	)
+	(junction
+		(at 60.96 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14ad4bf1-5038-4e0c-b2f2-22ca546e97de")
+	)
+	(junction
+		(at 149.86 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199dd7ca-3ca9-4f0a-af1e-8a4bae8a9ad6")
+	)
+	(junction
+		(at 91.44 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aeec18b-b161-4b51-baa3-64d837e0c4f3")
+	)
+	(junction
+		(at 83.82 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b5bc24f-ce5b-45d0-8a01-79be28074375")
+	)
+	(junction
+		(at 210.82 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c08e645-f692-4c30-959d-f6450bed8636")
+	)
+	(junction
+		(at 128.27 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20720299-375a-4e10-bdee-a153d36f9d5e")
+	)
+	(junction
+		(at 91.44 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23849476-1c5e-4a68-97b1-124e4e8cd042")
+	)
+	(junction
+		(at 105.41 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "296c2012-5be3-46c0-ae8b-f52f263f3ee7")
+	)
+	(junction
+		(at 113.03 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b583553-4c8b-44f9-a9c6-0be9e748d2e6")
+	)
+	(junction
+		(at 76.2 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "343a3972-ee5d-4b3e-9ea6-ed09c7e898da")
+	)
+	(junction
+		(at 53.34 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3629e715-d142-47f0-9903-ae2e072989e2")
+	)
+	(junction
+		(at 189.23 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48940e98-1629-4f45-8d8c-bddf7c195f44")
+	)
+	(junction
+		(at 68.58 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c48bda4-a7bb-47b3-ab68-92bdcdfd03a9")
+	)
+	(junction
+		(at 68.58 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ce98057-093d-48e2-9270-5c8f3ce327b6")
+	)
+	(junction
+		(at 60.96 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fe77be4-6613-4c26-8bfb-4e794cfcae72")
+	)
+	(junction
+		(at 44.45 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52755d7d-4b9f-41c8-beb6-c82f00e42994")
+	)
+	(junction
+		(at 232.41 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "547401cf-50d9-4d44-82e2-68a5a86744fd")
+	)
+	(junction
+		(at 36.83 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b497084-1a1a-4a5d-b657-fc9e6224a1a1")
+	)
+	(junction
+		(at 76.2 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "671d2ccd-7caf-4060-a5a1-1d8c34bfa1d9")
+	)
+	(junction
+		(at 60.96 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b7d984a-cfcb-4ff0-b845-1f69f4d88191")
+	)
+	(junction
+		(at 91.44 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "798a974c-a1f6-4a70-9a83-c9bc3826fe2c")
+	)
+	(junction
+		(at 68.58 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c0bda2f-f3d5-4451-a22b-b8dabc04aec6")
+	)
+	(junction
+		(at 44.45 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9101b24f-2f01-4e77-8d44-81afba4fd493")
+	)
+	(junction
+		(at 99.06 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "928a15cf-ada9-4bd0-969c-e56739179c76")
+	)
+	(junction
+		(at 113.03 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "928b199a-dcde-4b53-a7b2-9d8971c913a4")
+	)
+	(junction
+		(at 53.34 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a1098b7-2714-428f-8ae6-4467839acb98")
+	)
+	(junction
+		(at 128.27 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0cc730b-6f44-4df5-9c8c-e6e02fe47046")
+	)
+	(junction
+		(at 53.34 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c5826e-e8ce-4772-8ea3-f8bd6d0ab644")
+	)
+	(junction
+		(at 53.34 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae62b553-85ef-4e9b-8623-17b3f7419e8f")
+	)
+	(junction
+		(at 83.82 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b04beb87-2a40-41b9-835f-3d07b9215a87")
+	)
+	(junction
+		(at 68.58 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c16575b7-4a87-4192-a087-854ac9b4c98e")
+	)
+	(junction
+		(at 241.3 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf8b6cff-f3d1-41be-aae9-fd2bb0f7e0e7")
+	)
+	(junction
+		(at 120.65 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d41bf70f-db80-4281-ae52-cc524952f90c")
+	)
+	(junction
+		(at 149.86 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9759028-0d48-48a1-acc4-aac0dffaf362")
+	)
+	(junction
+		(at 83.82 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dff1e28b-66a8-455d-b6d6-56b77f7b101e")
+	)
+	(junction
+		(at 232.41 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e538d895-7fdc-4a2d-8cb3-f363e647493f")
+	)
+	(junction
+		(at 76.2 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecc716d1-c603-463a-a332-2b2d1d45bf4b")
+	)
+	(junction
+		(at 83.82 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edd8d6fd-2e4f-46eb-bbdd-13666a37bf59")
+	)
+	(junction
+		(at 60.96 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee072974-6d69-4ec9-94da-1583e27ea1ee")
+	)
+	(junction
+		(at 99.06 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1fd0bf9-f4ca-4e64-882b-cedd7876a084")
+	)
+	(junction
+		(at 105.41 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4ce5588-4457-46ee-a0bb-54b88d5b5b70")
+	)
+	(junction
+		(at 134.62 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f705ac37-4829-4a26-ab1a-2677ec8b7434")
+	)
+	(junction
+		(at 76.2 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbee6b8c-f637-489e-bad8-2b1a357942eb")
+	)
+	(bus_entry
+		(at 214.63 92.71)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ecd2a4-72a6-43ae-8209-6794fce1b660")
+	)
+	(bus_entry
+		(at 128.27 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083d2a08-d309-4627-a5cd-f21abba597de")
+	)
+	(bus_entry
+		(at 128.27 143.51)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c102413-0a60-4d80-be62-83b401681e82")
+	)
+	(bus_entry
+		(at 128.27 110.49)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d8c44f-1e31-40af-9354-db9497f840dd")
+	)
+	(bus_entry
+		(at 128.27 105.41)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14100825-e15a-42e0-8dde-d353abf27960")
+	)
+	(bus_entry
+		(at 212.09 49.53)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1880a10e-795f-4380-a5c1-d758dc1a7023")
+	)
+	(bus_entry
+		(at 214.63 59.69)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22439a4c-0013-401a-9dac-707d4ea7a932")
+	)
+	(bus_entry
+		(at 128.27 125.73)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccae843-0312-4291-b0bc-af7eff70bf58")
+	)
+	(bus_entry
+		(at 214.63 90.17)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3085fa87-1d4d-4459-8b8a-0c6cfcd7c403")
+	)
+	(bus_entry
+		(at 214.63 69.85)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33546180-1069-41c5-b005-f9896acfe36e")
+	)
+	(bus_entry
+		(at 128.27 107.95)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ec12ee-0f3b-4be4-98cf-132ce4c8c1d1")
+	)
+	(bus_entry
+		(at 128.27 67.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0bd473-0364-4e18-82a9-19bdbfc696a8")
+	)
+	(bus_entry
+		(at 128.27 118.11)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a353469-d1ac-4c69-b1a1-20e59a01d332")
+	)
+	(bus_entry
+		(at 214.63 95.25)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa26064-83b3-4a38-9fd4-c19e881dc5af")
+	)
+	(bus_entry
+		(at 128.27 74.93)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6012ce2a-37ff-4db8-b930-d4698759f767")
+	)
+	(bus_entry
+		(at 128.27 82.55)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6760fbb2-a19c-4343-865e-01ea02ab4b42")
+	)
+	(bus_entry
+		(at 214.63 67.31)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "676d1f0f-5e38-4517-a71d-9bc92753e3b4")
+	)
+	(bus_entry
+		(at 214.63 85.09)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7046a028-a0e3-4d4d-aae2-b138a4381912")
+	)
+	(bus_entry
+		(at 128.27 140.97)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7565a17f-a9b0-4acf-b4a3-4412832d85eb")
+	)
+	(bus_entry
+		(at 212.09 45.72)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b39117e-d636-48a0-aa30-b3cf23811ad9")
+	)
+	(bus_entry
+		(at 214.63 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89cd4260-aa5a-400b-b389-0d55dcf31e09")
+	)
+	(bus_entry
+		(at 214.63 62.23)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbfd211-dd7f-4992-b6f1-fa58bf3fe94a")
+	)
+	(bus_entry
+		(at 128.27 102.87)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3f6900-1677-4614-8f04-c3efca64a448")
+	)
+	(bus_entry
+		(at 130.81 55.88)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f4b04e-609a-4725-9141-deae52ba6a8d")
+	)
+	(bus_entry
+		(at 128.27 100.33)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9242325c-dc3d-460b-ae60-a444d54d3dda")
+	)
+	(bus_entry
+		(at 128.27 120.65)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f31bd0-d3e5-4019-a037-365d9f2ba3ac")
+	)
+	(bus_entry
+		(at 128.27 59.69)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d968c0b-eb77-421d-8e54-fb82731e90cf")
+	)
+	(bus_entry
+		(at 128.27 97.79)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e93967e-64fb-471d-a254-775be8571e96")
+	)
+	(bus_entry
+		(at 128.27 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a237bf23-3d88-408c-a2a6-c15eedd51edf")
+	)
+	(bus_entry
+		(at 128.27 128.27)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4567ee6-0e85-497f-a8b2-fc1cd8e1bc8f")
+	)
+	(bus_entry
+		(at 128.27 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75dde2e-008d-4aa9-be91-bfb4a5e553e2")
+	)
+	(bus_entry
+		(at 214.63 40.64)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b9d616-a22c-4055-8a05-146a9d91a6f3")
+	)
+	(bus_entry
+		(at 128.27 92.71)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae533db8-58cd-42e6-9d6d-f70478716c34")
+	)
+	(bus_entry
+		(at 128.27 64.77)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0cde635-8e12-49d6-bf99-831af83f713e")
+	)
+	(bus_entry
+		(at 214.63 64.77)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2680ac5-bb57-4879-8d2c-3b4dc1c47371")
+	)
+	(bus_entry
+		(at 128.27 113.03)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b510ae8e-cb8a-43de-9713-2a2d80ad11b9")
+	)
+	(bus_entry
+		(at 214.63 87.63)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65d43d2-25a8-4893-9db4-c7bad531c188")
+	)
+	(bus_entry
+		(at 214.63 82.55)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b71111c9-6e90-4433-9ab1-f2c597882924")
+	)
+	(bus_entry
+		(at 128.27 62.23)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc005340-98c7-4132-8826-0e47fecc7970")
+	)
+	(bus_entry
+		(at 212.09 52.07)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc733a8-387d-4582-96e5-ede16ae80aed")
+	)
+	(bus_entry
+		(at 128.27 115.57)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff93193-d24d-47e2-acf3-482cfd98abe9")
+	)
+	(bus_entry
+		(at 214.63 97.79)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3090c76-8e9f-4945-bf18-830286eb4221")
+	)
+	(bus_entry
+		(at 214.63 72.39)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37c3f05-1cb0-41ac-8c8e-6cd97c0fee76")
+	)
+	(bus_entry
+		(at 214.63 57.15)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b3d21a-b577-41a7-97d3-d39dda0c2dbb")
+	)
+	(bus_entry
+		(at 128.27 95.25)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c63e418d-6704-4d56-b51e-403f90a1c8c6")
+	)
+	(bus_entry
+		(at 128.27 130.81)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c0bdc4-68e1-421b-afd7-475fdab5e088")
+	)
+	(bus_entry
+		(at 214.63 80.01)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce34bf1-0f38-42dd-946c-80984c25904b")
+	)
+	(bus_entry
+		(at 130.81 53.34)
+		(size -2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50e75b9-c16a-4740-8203-49bc2e623c36")
+	)
+	(bus_entry
+		(at 128.27 138.43)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1401ba-417e-45e6-b14d-07d6614f1e29")
+	)
+	(bus_entry
+		(at 128.27 123.19)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bb4355-b169-4c3a-b453-3e8119b90999")
+	)
+	(bus_entry
+		(at 128.27 77.47)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9207644-172d-4454-b2cf-f947b78a1e86")
+	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ef1550-2820-4fdc-9b1f-da73f7518e01")
+	)
+	(wire
+		(pts
+			(xy 149.86 34.29) (xy 149.86 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019628f4-9d46-4d91-b9b7-7a8cb1e45b8c")
+	)
+	(wire
+		(pts
+			(xy 212.09 82.55) (xy 189.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040b9cac-824b-4b41-ae2b-5a595b86078b")
+	)
+	(wire
+		(pts
+			(xy 130.81 130.81) (xy 153.67 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a2a508-10bd-4a3b-9497-705e671ff402")
+	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f86265-406c-4b95-b716-d1f1c4f73295")
+	)
+	(bus
+		(pts
+			(xy 214.63 54.61) (xy 214.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077cdc83-4f34-49b8-adba-a31e827e2a40")
+	)
+	(wire
+		(pts
+			(xy 105.41 20.32) (xy 113.03 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09233fb9-0821-49ce-9c89-902ba3910075")
+	)
+	(wire
+		(pts
+			(xy 130.81 77.47) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a14d5a0-ca9c-4ff4-80e2-ae02fbb728d6")
+	)
+	(bus
+		(pts
+			(xy 214.63 40.64) (xy 214.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4d804f-4aca-4167-9bd9-389d518ae39c")
+	)
+	(wire
+		(pts
+			(xy 105.41 27.94) (xy 113.03 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100378ef-5119-473b-907b-584200af93c4")
+	)
+	(wire
+		(pts
+			(xy 134.62 20.32) (xy 134.62 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1493743c-747c-46f3-8bd7-808870993e0b")
+	)
+	(wire
+		(pts
+			(xy 60.96 34.29) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c14bb9a-4248-4a6c-bbeb-f6bb9a119dc9")
+	)
+	(wire
+		(pts
+			(xy 212.09 62.23) (xy 189.23 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d070040-67b4-433d-9b46-e8ab0dcde631")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f23a60e-a031-46a9-b84e-991271505656")
+	)
+	(wire
+		(pts
+			(xy 130.81 118.11) (xy 153.67 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210ba55e-4fa2-400c-9bbf-498b1167e81f")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 153.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b04f5c-86a6-4215-99a6-86e77e05fc6d")
+	)
+	(wire
+		(pts
+			(xy 189.23 36.83) (xy 189.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d410f2-3806-4502-a142-79dffd43f1a9")
+	)
+	(wire
+		(pts
+			(xy 128.27 20.32) (xy 128.27 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22642756-9e08-48ab-816f-469294f9c625")
+	)
+	(wire
+		(pts
+			(xy 212.09 72.39) (xy 189.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24162656-356c-4a28-bcac-1813a5fefc94")
+	)
+	(wire
+		(pts
+			(xy 83.82 41.91) (xy 91.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2552f3d8-fd9f-4f8c-be4b-b48976d807f9")
+	)
+	(wire
+		(pts
+			(xy 60.96 41.91) (xy 68.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25841d04-ab73-43f1-ab8e-70960433ecdd")
+	)
+	(wire
+		(pts
+			(xy 113.03 26.67) (xy 113.03 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2711e68f-d34d-4eda-b8b4-86390a35c444")
+	)
+	(wire
+		(pts
+			(xy 232.41 31.75) (xy 241.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e517f8-2f21-4c43-a195-3e9bde6e6d68")
+	)
+	(wire
+		(pts
+			(xy 91.44 20.32) (xy 99.06 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f58538-7baa-4e3e-b5d9-bc07fcf8ac12")
+	)
+	(wire
+		(pts
+			(xy 130.81 72.39) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29aa7491-011d-46a5-a055-82ec2ca735c3")
+	)
+	(wire
+		(pts
+			(xy 232.41 31.75) (xy 232.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afe912e-3d84-46f9-a0ed-f7974b221445")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b10d244-3724-460d-857b-2187b4d781a9")
+	)
+	(wire
+		(pts
+			(xy 130.81 128.27) (xy 153.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e48edcd-1f96-4266-a7b6-026e2cc8125b")
+	)
+	(wire
+		(pts
+			(xy 130.81 62.23) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312d51ae-38c8-4f70-b820-3d60f653bc12")
+	)
+	(wire
+		(pts
+			(xy 53.34 20.32) (xy 53.34 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c62e9e-ff00-4778-a905-16ad7a0c67ee")
+	)
+	(wire
+		(pts
+			(xy 212.09 59.69) (xy 189.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345f1c00-bbd5-4ee4-8f33-34e1f5d1e64e")
+	)
+	(wire
+		(pts
+			(xy 130.81 143.51) (xy 153.67 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366c196c-eb7a-4444-85b7-094bc907ab24")
+	)
+	(wire
+		(pts
+			(xy 44.45 26.67) (xy 44.45 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37324805-7a25-4875-878e-b2192b9e5981")
+	)
+	(wire
+		(pts
+			(xy 120.65 27.94) (xy 128.27 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d8bce75-afee-418b-9fdc-39633cd206f0")
+	)
+	(wire
+		(pts
+			(xy 83.82 20.32) (xy 83.82 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3effbeb6-e42d-490c-ac8c-76ee33200d0f")
+	)
+	(wire
+		(pts
+			(xy 83.82 40.64) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40705561-fa75-4276-8bd7-0d7a2a4f239b")
+	)
+	(wire
+		(pts
+			(xy 91.44 20.32) (xy 91.44 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4155a9b1-2f68-4457-8ab5-83019db199fb")
+	)
+	(wire
+		(pts
+			(xy 36.83 20.32) (xy 44.45 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41577c30-fa34-43fe-bffd-1cc03aaaf44a")
+	)
+	(wire
+		(pts
+			(xy 134.62 27.94) (xy 134.62 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4266a4f2-8b85-4bff-a6b9-527a169ac2f5")
+	)
+	(wire
+		(pts
+			(xy 60.96 26.67) (xy 60.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "431860b7-2729-47dd-88ae-fc0c6e8e569f")
+	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 83.82 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45dbba3e-9bc9-4ba2-b3b8-7d368fee561f")
+	)
+	(wire
+		(pts
+			(xy 105.41 27.94) (xy 105.41 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ce7b26-5036-4b8d-a0dd-70aa32aa1416")
+	)
+	(wire
+		(pts
+			(xy 91.44 27.94) (xy 99.06 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49990b04-42d5-4a40-8e31-dc3cdc5d1dec")
+	)
+	(wire
+		(pts
+			(xy 212.09 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a32f5cf-4882-4a07-9409-a4a5ade62aae")
+	)
+	(wire
+		(pts
+			(xy 99.06 27.94) (xy 99.06 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530b9708-2d80-4bc9-9289-5acc792a7877")
+	)
+	(wire
+		(pts
+			(xy 113.03 27.94) (xy 120.65 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534086d3-6245-45a3-8a9c-ac43f3aa036c")
+	)
+	(bus
+		(pts
+			(xy 128.27 143.51) (xy 128.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c11e3c-4956-4b18-b2fd-af512a2b44e8")
+	)
+	(wire
+		(pts
+			(xy 68.58 34.29) (xy 68.58 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f847cf-75a9-4eba-b803-264a94d33d0c")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 60.96 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59731cc1-70d7-413a-ad39-aabdaa9df295")
+	)
+	(wire
+		(pts
+			(xy 130.81 69.85) (xy 153.67 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a25a32f-437d-42a1-895b-7be3304ee678")
+	)
+	(wire
+		(pts
+			(xy 130.81 100.33) (xy 153.67 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eaf9399-bbdd-4201-a354-e5b34e7ab949")
+	)
+	(wire
+		(pts
+			(xy 53.34 20.32) (xy 60.96 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f343464-3ccd-454b-8a71-7905cf34b928")
+	)
+	(wire
+		(pts
+			(xy 214.63 77.47) (xy 189.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601aeb6b-48d5-41ee-ad22-03552acc97fe")
+	)
+	(wire
+		(pts
+			(xy 212.09 64.77) (xy 189.23 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622a2df8-7fcd-4a1f-9090-cda991442c5a")
+	)
+	(wire
+		(pts
+			(xy 60.96 20.32) (xy 68.58 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626a1c91-5370-4100-8f4b-695d414a78ca")
+	)
+	(wire
+		(pts
+			(xy 120.65 26.67) (xy 120.65 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641fab6e-c71b-4f23-b627-c57e7a30c281")
+	)
+	(wire
+		(pts
+			(xy 130.81 133.35) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c807c1-b7ee-4997-924d-628add2549c1")
+	)
+	(wire
+		(pts
+			(xy 83.82 27.94) (xy 91.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6924dbac-6da7-4da9-a740-4df0b7c22fd2")
+	)
+	(wire
+		(pts
+			(xy 53.34 26.67) (xy 53.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a32d7a9-b582-495a-8719-569e593a4e99")
+	)
+	(wire
+		(pts
+			(xy 210.82 116.84) (xy 210.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7fa7f1-615f-494b-bd67-2ce686f03333")
+	)
+	(wire
+		(pts
+			(xy 44.45 27.94) (xy 53.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd21639-8804-46f9-acca-c766414b0e1c")
+	)
+	(wire
+		(pts
+			(xy 189.23 52.07) (xy 212.09 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f3b9d5b-b32e-4981-9219-368619ab9f24")
+	)
+	(wire
+		(pts
+			(xy 130.81 140.97) (xy 153.67 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716c272d-cca1-4332-a1cf-8b0e214755ac")
+	)
+	(wire
+		(pts
+			(xy 76.2 26.67) (xy 76.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719d1d8f-87d4-48ef-bfea-98d23b784887")
+	)
+	(wire
+		(pts
+			(xy 91.44 26.67) (xy 91.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733e7f4a-b831-42f2-b26f-216df888f750")
+	)
+	(wire
+		(pts
+			(xy 91.44 40.64) (xy 91.44 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748697c0-b10c-404d-a4b9-93a570e2ec54")
+	)
+	(wire
+		(pts
+			(xy 53.34 43.18) (xy 53.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e5771d-ef72-49e3-a761-e56ef262971d")
+	)
+	(wire
+		(pts
+			(xy 68.58 34.29) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763433ad-4c0e-4f87-8875-8c77a18c12b8")
+	)
+	(wire
+		(pts
+			(xy 189.23 110.49) (xy 200.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "783b944e-7fda-47b1-a2ab-31694b2288d0")
+	)
+	(wire
+		(pts
+			(xy 130.81 67.31) (xy 153.67 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d153c5-038d-435b-8ddd-fa8fc11993b5")
+	)
+	(wire
+		(pts
+			(xy 76.2 41.91) (xy 83.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8d7eec-6a7a-4e63-96f2-6b497adc370b")
+	)
+	(wire
+		(pts
+			(xy 60.96 27.94) (xy 68.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d98a966-dfdf-4716-a68c-616d50df3b36")
+	)
+	(wire
+		(pts
+			(xy 130.81 55.88) (xy 153.67 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81282a4c-c807-45d2-85df-a5fff0c966b9")
+	)
+	(wire
+		(pts
+			(xy 68.58 20.32) (xy 76.2 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83acb5e5-ce88-47a0-ad1d-1b178e32cf7b")
+	)
+	(wire
+		(pts
+			(xy 212.09 74.93) (xy 189.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860c059a-ae26-4055-845d-a7c881da5210")
+	)
+	(bus
+		(pts
+			(xy 214.63 80.01) (xy 214.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8611b5ce-d064-4841-92f5-eb06dea9d3fe")
+	)
+	(wire
+		(pts
+			(xy 189.23 151.13) (xy 210.82 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8837f762-951f-4c3c-a114-f40a49381100")
+	)
+	(wire
+		(pts
+			(xy 60.96 34.29) (xy 60.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886f19ed-ddf3-477c-b9b1-e54a99ddf7da")
+	)
+	(wire
+		(pts
+			(xy 212.09 97.79) (xy 189.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899a3e86-1c0f-4494-8534-8ebebf8e8c93")
+	)
+	(wire
+		(pts
+			(xy 34.29 20.32) (xy 36.83 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be2797b-54dd-4820-8d25-903313e4a6e6")
+	)
+	(wire
+		(pts
+			(xy 212.09 87.63) (xy 189.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0edab2-5574-40aa-a805-3ee7e3649bcc")
+	)
+	(wire
+		(pts
+			(xy 91.44 34.29) (xy 91.44 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f341722-b5b8-4391-a691-436b437cdeac")
+	)
+	(wire
+		(pts
+			(xy 83.82 34.29) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92683a39-254b-4415-94be-5184290c659b")
+	)
+	(wire
+		(pts
+			(xy 83.82 26.67) (xy 83.82 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9327f3f7-e30a-450d-a3bc-9475334babf6")
+	)
+	(wire
+		(pts
+			(xy 99.06 21.59) (xy 99.06 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e611f7-72f2-4562-afbd-3dd3e22ec9b1")
+	)
+	(wire
+		(pts
+			(xy 130.81 53.34) (xy 153.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9857a564-7db6-49b3-af30-d77704c9dfc0")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 153.67 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2ce21d-bd52-4c7c-b513-885b7e0d394f")
+	)
+	(wire
+		(pts
+			(xy 113.03 20.32) (xy 113.03 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfb6740-fcbd-4656-b8f0-b88fbed29c46")
+	)
+	(wire
+		(pts
+			(xy 232.41 38.1) (xy 232.41 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e89bd6a-610a-4395-abbe-a91fde2ce76c")
+	)
+	(wire
+		(pts
+			(xy 212.09 85.09) (xy 189.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f863ace-3db0-454b-884e-18767ce994e3")
+	)
+	(wire
+		(pts
+			(xy 245.11 31.75) (xy 241.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff09444-9489-43a0-99e7-c22af3b8b37d")
+	)
+	(wire
+		(pts
+			(xy 53.34 40.64) (xy 53.34 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ca76d5-c32f-4a6a-b3a4-62954d550aad")
+	)
+	(wire
+		(pts
+			(xy 212.09 90.17) (xy 189.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac63fea9-d1a4-425c-a9ce-03e924e0cdef")
+	)
+	(wire
+		(pts
+			(xy 200.66 121.92) (xy 200.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae279c1c-1170-4d5c-bf5e-40d00e5a1d15")
+	)
+	(bus
+		(pts
+			(xy 128.27 50.8) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecfad94-cd96-4947-98a9-db24f00ef16e")
+	)
+	(bus
+		(pts
+			(xy 123.19 59.69) (xy 128.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22df70b-88dd-4595-a99a-d1f470697b05")
+	)
+	(wire
+		(pts
+			(xy 76.2 27.94) (xy 83.82 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d166a5-9c3b-42de-96f1-1306e91e1870")
+	)
+	(wire
+		(pts
+			(xy 130.81 102.87) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37feb5d-0876-4539-a4e5-d320462725ad")
+	)
+	(wire
+		(pts
+			(xy 212.09 100.33) (xy 189.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c49088-9c26-4033-8830-b1d99f1a261e")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 153.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49748ba-cd03-4244-b8e6-64de62d41afa")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6069425-6273-4b85-a559-796f2ba7a601")
+	)
+	(wire
+		(pts
+			(xy 83.82 34.29) (xy 83.82 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74eca7f-50ae-483d-855d-1f187ad92e9d")
+	)
+	(wire
+		(pts
+			(xy 149.86 30.48) (xy 153.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80c020f-75d9-4a70-b172-541f2c93186d")
+	)
+	(wire
+		(pts
+			(xy 68.58 41.91) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ada787-903c-47cf-b8c9-715deec08144")
+	)
+	(wire
+		(pts
+			(xy 130.81 146.05) (xy 153.67 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d10498-d89b-4041-a491-f8d568648f36")
+	)
+	(wire
+		(pts
+			(xy 68.58 27.94) (xy 76.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba89ef3e-afe2-4357-a41c-8dd1485aed96")
+	)
+	(wire
+		(pts
+			(xy 149.86 34.29) (xy 149.86 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6592db-616d-4576-95ea-2e997fe57a12")
+	)
+	(wire
+		(pts
+			(xy 189.23 31.75) (xy 232.41 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb9927d0-4ca4-49bb-9c1d-7558bee9d4f7")
+	)
+	(wire
+		(pts
+			(xy 212.09 57.15) (xy 189.23 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc9c2f64-c555-47f5-8795-6c837cb21365")
+	)
+	(wire
+		(pts
+			(xy 44.45 20.32) (xy 53.34 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1db54a-d943-45f2-8b28-a4e2ce6498b6")
+	)
+	(wire
+		(pts
+			(xy 68.58 40.64) (xy 68.58 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bded9984-ddf5-4933-ac9b-495c5b2c4cee")
+	)
+	(bus
+		(pts
+			(xy 128.27 59.69) (xy 128.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c058ba33-50d3-459d-a251-36ee4a397c00")
+	)
+	(wire
+		(pts
+			(xy 130.81 64.77) (xy 153.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c1e696-4f17-41cd-93e6-db4e0c9aaa75")
+	)
+	(wire
+		(pts
+			(xy 210.82 107.95) (xy 189.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1de79f8-edaa-4032-b700-d0f6c67cbdf6")
+	)
+	(bus
+		(pts
+			(xy 128.27 64.77) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f5ac05-0449-4c23-bb92-fbecfc8d9ac4")
+	)
+	(wire
+		(pts
+			(xy 200.66 133.35) (xy 189.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6736f2c-c8f9-4745-a1a7-20ef82837787")
+	)
+	(wire
+		(pts
+			(xy 76.2 20.32) (xy 76.2 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7489f2c-a325-4266-aef9-2dd7b1434550")
+	)
+	(bus
+		(pts
+			(xy 127 50.8) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca25baf5-da0e-499b-a443-91f181dcf261")
+	)
+	(wire
+		(pts
+			(xy 130.81 82.55) (xy 153.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdc4ca3-d567-4548-a343-6d056c808e22")
+	)
+	(wire
+		(pts
+			(xy 68.58 20.32) (xy 68.58 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfcd8c2f-408e-444a-b0b5-8627ed1982e0")
+	)
+	(wire
+		(pts
+			(xy 128.27 27.94) (xy 128.27 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d030e419-a534-4d5e-835a-0f6bcdb6271e")
+	)
+	(bus
+		(pts
+			(xy 128.27 92.71) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22dc0e7-78f0-4522-9648-cfc0733f67ad")
+	)
+	(wire
+		(pts
+			(xy 212.09 43.18) (xy 189.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30c5ac2-8770-4821-ad0f-41d18a45a682")
+	)
+	(wire
+		(pts
+			(xy 53.34 27.94) (xy 60.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c37bb1-237e-4178-97b3-cc238aa06990")
+	)
+	(wire
+		(pts
+			(xy 232.41 39.37) (xy 241.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5416147-28f5-4e58-a2e2-0a7811728fb2")
+	)
+	(wire
+		(pts
+			(xy 68.58 26.67) (xy 68.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6577c4b-4f9a-4460-aaf4-163497b97627")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 76.2 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91cb407-bbf8-4553-8afd-62a2d4725c2b")
+	)
+	(wire
+		(pts
+			(xy 189.23 45.72) (xy 212.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97c2281-2e88-4241-a7c8-c2e0313794ae")
+	)
+	(wire
+		(pts
+			(xy 232.41 39.37) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da199bae-6310-4f4e-bb6b-015e5fb0c6f1")
+	)
+	(wire
+		(pts
+			(xy 130.81 74.93) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da43d3cb-bb3e-45de-b707-708fb2f06ef9")
+	)
+	(wire
+		(pts
+			(xy 83.82 20.32) (xy 91.44 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac2b1f9-bf41-49d2-ae71-4ac7fc44c475")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 153.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad20e39-f0e8-4837-b40e-c6c6f8f8938e")
+	)
+	(wire
+		(pts
+			(xy 44.45 27.94) (xy 44.45 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd0d5a0-3b8b-4d21-93ec-332c02c0be9c")
+	)
+	(wire
+		(pts
+			(xy 44.45 20.32) (xy 44.45 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd303890-c74b-4d83-9933-ea0a741088c4")
+	)
+	(wire
+		(pts
+			(xy 241.3 38.1) (xy 241.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1f5d32-f2e0-4e9e-8fce-1a8c0dd39173")
+	)
+	(wire
+		(pts
+			(xy 189.23 49.53) (xy 212.09 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e049a9be-d303-43b2-b673-342a0b555619")
+	)
+	(wire
+		(pts
+			(xy 60.96 20.32) (xy 60.96 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50fc569-bdbf-4dfe-acb1-efbb0b4b1916")
+	)
+	(wire
+		(pts
+			(xy 200.66 110.49) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5109968-c089-4999-b5f6-69829d11553e")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 53.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58709aa-c079-4cd8-bc27-67787f8e02bc")
+	)
+	(wire
+		(pts
+			(xy 99.06 20.32) (xy 105.41 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e90b6117-4a08-4c56-9fec-00fc915cd749")
+	)
+	(wire
+		(pts
+			(xy 130.81 80.01) (xy 153.67 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea3b69b6-0e89-4c2e-ac06-f2fca310ce49")
+	)
+	(wire
+		(pts
+			(xy 76.2 20.32) (xy 83.82 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaadb2d9-cc4e-4dff-89f9-666fd572bc1d")
+	)
+	(wire
+		(pts
+			(xy 36.83 20.32) (xy 36.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaed9a12-ef5b-4803-a802-1274682ffb6b")
+	)
+	(wire
+		(pts
+			(xy 130.81 85.09) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec97456c-85ce-4dbe-ba38-7b9332b9ba57")
+	)
+	(wire
+		(pts
+			(xy 149.86 20.32) (xy 149.86 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca8e4e1-f795-45be-b7bf-304f42488eec")
+	)
+	(wire
+		(pts
+			(xy 128.27 27.94) (xy 134.62 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee56b76c-ea6c-4b39-b63b-dd6bbf729cc1")
+	)
+	(wire
+		(pts
+			(xy 130.81 95.25) (xy 153.67 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0d6c3b-3228-425e-b86e-f3cffc3cd1c4")
+	)
+	(wire
+		(pts
+			(xy 113.03 20.32) (xy 120.65 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef50cfc4-da3b-47c2-a6e6-f5b935f15a5d")
+	)
+	(wire
+		(pts
+			(xy 130.81 125.73) (xy 153.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef89cbba-0a75-4dad-8e71-beb92d246957")
+	)
+	(wire
+		(pts
+			(xy 212.09 67.31) (xy 189.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28c99c1-9226-4be0-baf5-a7f44d737ca7")
+	)
+	(wire
+		(pts
+			(xy 241.3 31.75) (xy 241.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f354a4de-06cc-48f4-b139-9ea16b92a790")
+	)
+	(wire
+		(pts
+			(xy 212.09 69.85) (xy 189.23 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5031541-63a4-4a57-b7be-7eeeda8635bf")
+	)
+	(wire
+		(pts
+			(xy 128.27 20.32) (xy 134.62 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69c848c-f4f1-4592-9544-b8222bd53b57")
+	)
+	(wire
+		(pts
+			(xy 36.83 34.29) (xy 53.34 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6dc2a36-265f-4418-af59-389beaea14bf")
+	)
+	(wire
+		(pts
+			(xy 120.65 20.32) (xy 120.65 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f72c1311-df52-47c2-acd1-745c17239afc")
+	)
+	(wire
+		(pts
+			(xy 134.62 20.32) (xy 149.86 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f868026b-eeaa-4117-a92b-97ae1f5c31d0")
+	)
+	(wire
+		(pts
+			(xy 99.06 27.94) (xy 105.41 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f86abe6c-20dc-4ed5-b2cf-2721304901d2")
+	)
+	(wire
+		(pts
+			(xy 210.82 151.13) (xy 210.82 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8779e8a-794b-4056-8ad2-8c01f453caca")
+	)
+	(wire
+		(pts
+			(xy 214.63 102.87) (xy 189.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cd3e8b-4014-4cf0-8bd7-58774b084d63")
+	)
+	(wire
+		(pts
+			(xy 130.81 120.65) (xy 153.67 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7db785-6d49-4bbf-854d-2eb5dd0f70a8")
+	)
+	(wire
+		(pts
+			(xy 105.41 21.59) (xy 105.41 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac3ab12-7000-4f69-8d5b-9490ddd64a91")
+	)
+	(wire
+		(pts
+			(xy 212.09 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fade4a9b-eba3-4bb2-b129-21614e12aed4")
+	)
+	(wire
+		(pts
+			(xy 153.67 46.99) (xy 149.86 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb63f884-796e-415e-ba31-45b592ca27cb")
+	)
+	(wire
+		(pts
+			(xy 53.34 41.91) (xy 60.96 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbfe3c9-80ab-4928-8730-7c71c86483c2")
+	)
+	(wire
+		(pts
+			(xy 120.65 20.32) (xy 128.27 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce37cd8-2c20-4276-94e2-02ed6328b82a")
+	)
+	(wire
+		(pts
+			(xy 91.44 34.29) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5c5f49-5f91-4d53-bc68-d256f55fdf30")
+	)
+	(label "Control.ODT1"
+		(at 130.81 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08686185-86c7-424e-b8d2-3f78b075722b")
+	)
+	(label "Control.CKE0"
+		(at 130.81 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21d65c7a-337d-46da-9877-ca7c0195ffa5")
+	)
+	(label "DQS.DQSU#"
+		(at 212.09 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "246248c6-95ea-452c-9d95-2d24194f6e0d")
+	)
+	(label "DQU17"
+		(at 193.04 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "2477064a-cc0e-416d-b62a-dd2eb7f51685")
+	)
+	(label "Control.RAS#"
+		(at 130.81 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24b3a575-8aea-4c21-b9bc-d730e99ba2ea")
+	)
+	(label "Control.CAS#"
+		(at 130.81 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d1d3132-0590-4723-b307-02c055dc953c")
+	)
+	(label "Control.CKE1"
+		(at 130.81 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "437535fd-ab1e-4576-b694-878dd2de093b")
+	)
+	(label "Clk.CK"
+		(at 130.81 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56584685-dfb8-4f96-b986-3dac4d9004f6")
+	)
+	(label "Control.CS0#"
+		(at 130.81 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60aa09ca-31f8-471b-b16c-851a0fbfce8f")
+	)
+	(label "DQS.DQSL"
+		(at 212.09 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6165e843-ab5a-4696-a864-d638d55d836a")
+	)
+	(label "DQU16"
+		(at 193.04 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "644ecdb3-f2d6-4560-b56d-0028ae88115b")
+	)
+	(label "DQU14"
+		(at 193.04 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "6586b34e-8547-47df-a4c3-b7136f742053")
+	)
+	(label "Control.CS1#"
+		(at 130.81 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "945c0f98-dc3d-48e1-b529-5c0503a73f45")
+	)
+	(label "DQU11"
+		(at 193.04 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "97d78ca1-d7f3-44ae-b9f6-605f9b41c4e5")
+	)
+	(label "DQS.DQSU"
+		(at 212.09 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3ae7a72-00fe-451d-8077-612e09fd23fd")
+	)
+	(label "Control.WE#"
+		(at 130.81 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a52814cf-e1f4-4114-8497-0fd1d74b9287")
+	)
+	(label "Control.Reset#"
+		(at 130.81 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b519b156-e447-42c2-b169-fd4f6702a372")
+	)
+	(label "Control.ODT0"
+		(at 130.81 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b649b05f-00a0-4417-8b88-ccb4bed70c1c")
+	)
+	(label "DQU13"
+		(at 193.04 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7127aab-2a26-4b6a-b864-a8fc0251591c")
+	)
+	(label "DQU15"
+		(at 193.04 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7541ab8-d5cb-4a33-bb0c-b26a9c17d7be")
+	)
+	(label "DQS.DQSL#"
+		(at 212.09 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c14ff3a0-79c2-49c3-b9f9-43ecf8e80b2c")
+	)
+	(label "DQU12"
+		(at 193.04 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdc36e41-68ab-4835-b5ed-77717dbf753c")
+	)
+	(label "DQU10"
+		(at 193.04 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4d498dd-5643-436f-8952-3766a2f31557")
+	)
+	(label "Clk.CK#"
+		(at 130.81 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f84fb782-9960-4749-9d7b-0ca262d89c22")
+	)
+	(global_label "VCC1V35"
+		(shape input)
+		(at 34.29 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44bb9c13-d39d-4c2b-b4b0-47ac93e003e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -262.89 -40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(hierarchical_label "BA[0..2]"
+		(shape input)
+		(at 128.27 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27d63a59-6511-44e8-92c0-e5ae05893f7f")
+	)
+	(hierarchical_label "Control{DDR3Ctrl}"
+		(shape input)
+		(at 123.19 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59477848-1d51-42e3-bb40-60e08e933735")
+	)
+	(hierarchical_label "VREF"
+		(shape input)
+		(at 245.11 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "740fcac4-6883-4e2d-a0fc-ee4932fd8ca3")
+	)
+	(hierarchical_label "Clk{DDR3Clk}"
+		(shape input)
+		(at 127 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8abd808c-0d0f-4f0f-9f40-eb1256a5bb94")
+	)
+	(hierarchical_label "DQL[0..7]"
+		(shape input)
+		(at 214.63 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a96f4d17-4d9e-4933-ad72-1d8ffdd63448")
+	)
+	(hierarchical_label "DQU1[0..7]"
+		(shape input)
+		(at 214.63 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5b54b53-40a9-4c9a-94d6-a77ee7671b70")
+	)
+	(hierarchical_label "DMU"
+		(shape input)
+		(at 214.63 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de37322b-e51b-46f8-bca9-5394c2b47251")
+	)
+	(hierarchical_label "DQS{DDR3DQS}"
+		(shape input)
+		(at 214.63 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5badc83-8aed-4f70-9a5d-88df438a4052")
+	)
+	(hierarchical_label "A[0..15]"
+		(shape input)
+		(at 128.27 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb10d2fd-b4a4-40ed-92cf-dcda6834ac37")
+	)
+	(hierarchical_label "DML"
+		(shape input)
+		(at 214.63 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0660b0f-7076-4216-a83b-55e99b74a06c")
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 53.34 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0311a4b2-cf19-4fd4-943a-754428e8631c")
+		(property "Reference" "C269"
+			(at 53.975 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 63.5 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 66.04 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 53.34 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 73.66 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 71.12 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 53.975 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 76.2 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 78.74 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 81.28 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 83.82 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 53.34 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 53.34 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 53.34 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "376886f8-c5b1-4a5f-a994-620b19c15ea7")
+		)
+		(pin "2"
+			(uuid "4b233a58-d2a7-4d8e-adca-edc4933ab9a7")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C269")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 60.96 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15e09161-8a39-4083-b508-bd44e2bbc855")
+		(property "Reference" "C271"
+			(at 61.595 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 71.12 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 73.66 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 60.96 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 81.28 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 78.74 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 61.595 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 83.82 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 86.36 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 88.9 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 91.44 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 60.96 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 60.96 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 60.96 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b385aabc-7207-4e87-8d8d-c87b288c753f")
+		)
+		(pin "2"
+			(uuid "757ae68f-53af-408d-a505-226f37623e17")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C271")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 99.06 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16b0f14a-2224-40e9-b9c5-d7b2a4bc6baf")
+		(property "Reference" "C12"
+			(at 99.695 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 109.22 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 111.76 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 99.06 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 119.38 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 116.84 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 99.695 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 121.92 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 124.46 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 127 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 129.54 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 99.06 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 99.06 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 99.06 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "074ef0d9-34b8-4d21-bddc-8b0bec7528b2")
+		)
+		(pin "2"
+			(uuid "6fff16b1-e679-4738-94e3-2cc70102e164")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 210.82 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1af50347-8675-41a0-8798-24274dce9fd5")
+		(property "Reference" "R7"
+			(at 213.36 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "240"
+			(at 213.36 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 210.82 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5970658d-6560-4c59-89bf-58953c14dfb4")
+		)
+		(pin "2"
+			(uuid "b591ca39-51cb-4b15-b1e2-445d3da99277")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 134.62 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1afc5247-5659-432a-a3e0-f4c0b2ea3dab")
+		(property "Reference" "C284"
+			(at 135.255 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 144.78 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 147.32 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 134.62 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 154.94 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 152.4 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 135.255 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 157.48 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 160.02 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 162.56 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 165.1 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 134.62 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 134.62 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 134.62 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d3546da-3bd3-4194-9133-cb8c09bb5f23")
+		)
+		(pin "2"
+			(uuid "d4924411-ed38-4796-926b-876412713131")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C284")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "artix-dc-scm:IS43TR16K01S2AL-125KBL")
+		(at 153.67 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d617f4f-e4ac-427f-9a62-cbdf595cc6d7")
+		(property "Reference" "IC4"
+			(at 171.45 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IS43TR16K01S2AL-125KBL"
+			(at 171.45 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "artix-dc-scm:BGA96C80P9X16_1000X1400X140"
+			(at 154.94 154.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/198/43-46TR16K01S2A-AL-1773473.pdf"
+			(at 185.42 225.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "16G, 1.35V, DDR3L, 1GX16,1600MT/S @ 11-11-11, 96 BALL BGA (10MM X 14MM) ROHS"
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.4"
+			(at 185.42 425.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "870-TR16K01125KBL"
+			(at 185.42 525.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ISSI/IS43TR16K01S2AL-125KBL?qs=7MVldsJ5UazrhklWOpRUJA%3D%3D"
+			(at 185.42 625.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Integrated Silicon Solution Inc."
+			(at 185.42 725.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IS43TR16K01S2AL-125KBL"
+			(at 185.42 825.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 153.67 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "H7"
+			(uuid "5218fbfb-863c-4738-9fa9-62fdbae4958a")
+		)
+		(pin "F7"
+			(uuid "bab4c48a-3682-4fa5-a095-8254ff87886d")
+		)
+		(pin "F8"
+			(uuid "c6004aab-e2f7-40a3-ad47-bdb717a2818a")
+		)
+		(pin "F2"
+			(uuid "ab53069c-80fd-4df8-91ca-e0a3b4441da8")
+		)
+		(pin "C8"
+			(uuid "dfd17139-d198-48b3-9359-d2c462ad0855")
+		)
+		(pin "G2"
+			(uuid "304694a4-72e7-4b99-ae2f-3fb3e12d95cd")
+		)
+		(pin "H3"
+			(uuid "91681c7b-9882-4fd2-9930-3fca171b7781")
+		)
+		(pin "D7"
+			(uuid "d027040b-ba1d-44e3-94dd-c79f4fc68f32")
+		)
+		(pin "J1"
+			(uuid "71d826e6-350f-42c9-8ac3-2b52a368791c")
+		)
+		(pin "C7"
+			(uuid "654e93dd-45a5-42b5-b7a8-e73464b82cd2")
+		)
+		(pin "C3"
+			(uuid "76acb844-007f-498b-a356-65c8034a2983")
+		)
+		(pin "C2"
+			(uuid "3cfebbc7-ec0c-4e0d-9678-552da130621e")
+		)
+		(pin "B8"
+			(uuid "eca87305-86b2-4592-b495-c2e36980f5f9")
+		)
+		(pin "B7"
+			(uuid "e73a6cec-57d2-444b-88be-55a7a9c9f8e7")
+		)
+		(pin "A7"
+			(uuid "e06c51ac-07fa-4b01-8150-3bd069b24a42")
+		)
+		(pin "A3"
+			(uuid "966191d2-495b-4c20-bd8b-1a7204c51a09")
+		)
+		(pin "A2"
+			(uuid "ba04f8cb-eeaf-4c49-9bed-82d5ec788845")
+		)
+		(pin "[B2,D9,G7,K2,K8,N1,N9,R1,R9]"
+			(uuid "734b9442-81c3-4a7c-af6b-239cbf70424d")
+		)
+		(pin "N2"
+			(uuid "43a1cb50-9ab1-4645-bc81-fb8e55307c60")
+		)
+		(pin "H8"
+			(uuid "44d5916b-e207-4d36-af8a-95707f937e05")
+		)
+		(pin "D3"
+			(uuid "73c20125-2863-4c65-a436-64b294c2ed47")
+		)
+		(pin "R2"
+			(uuid "0faeb65b-c717-4618-bd0f-fcdd6f42ae5b")
+		)
+		(pin "[B1,B9,D1,D8,E2,E8,F9,G1,G9]"
+			(uuid "daaa4975-3b25-43fe-b541-01aacd61f7f9")
+		)
+		(pin "K3"
+			(uuid "0241326e-1044-449b-9c43-f61560922676")
+		)
+		(pin "[A9,B3,E1,G8,J2,J8,M1,M9,P1,P9,T1,T9]"
+			(uuid "04d33140-8e80-4a5c-8cb7-04de3535f5ca")
+		)
+		(pin "E7"
+			(uuid "3b5c9dcd-258a-4629-bfba-3c8d6336d0cc")
+		)
+		(pin "P3"
+			(uuid "a05dd131-2f8f-45f4-93f2-eb5481515af1")
+		)
+		(pin "R3"
+			(uuid "726adfa5-f83c-4dbe-88a5-8686308850ae")
+		)
+		(pin "F3"
+			(uuid "d4bd1e34-8941-4bc7-9d0a-780316d18a6c")
+		)
+		(pin "L9"
+			(uuid "ebfa2caa-a402-4fc5-ba2d-a6699a25cbfd")
+		)
+		(pin "N7"
+			(uuid "f1c037f7-d8c3-4386-b0c0-4abeb3e57f2f")
+		)
+		(pin "P7"
+			(uuid "08762b11-2ca9-47f6-99ca-eabb5f2f8a71")
+		)
+		(pin "K9"
+			(uuid "d5d13cb7-1b97-41fb-8bbd-2f2cc56cafed")
+		)
+		(pin "L3"
+			(uuid "e05dacd9-b657-4f20-8153-1b1061197c0c")
+		)
+		(pin "N3"
+			(uuid "a5c000cc-e935-4c59-b5fa-9e31f25ae091")
+		)
+		(pin "R7"
+			(uuid "82cac66c-0089-48a3-b850-cb7beb3d8aae")
+		)
+		(pin "P2"
+			(uuid "9a4285a8-05e3-40eb-8222-4bcbc22a957f")
+		)
+		(pin "[A1,A8,C1,C9,D2,E9,F1,H2,H9]"
+			(uuid "3d419cd0-0103-4636-9392-04bc45525c81")
+		)
+		(pin "K1"
+			(uuid "71edfbe0-7145-47b9-85ca-9ce9a65a4e39")
+		)
+		(pin "K7"
+			(uuid "71db3e7d-462e-4a58-834b-9efce5a2d5a9")
+		)
+		(pin "L2"
+			(uuid "5830b92d-013e-46e3-b432-96e0c2221c78")
+		)
+		(pin "T8"
+			(uuid "b69b2f68-a002-449a-96bf-5e608a480f4d")
+		)
+		(pin "J9"
+			(uuid "b23f675f-5acf-42ca-8c61-70acdef7dfed")
+		)
+		(pin "P8"
+			(uuid "8fc5f924-7d1a-46b4-8706-e762a9bac3f9")
+		)
+		(pin "N8"
+			(uuid "8062e513-17a6-4e5c-8859-c8460f5ed753")
+		)
+		(pin "E3"
+			(uuid "777a5161-90ec-4c8e-bc09-036b6bdb6808")
+		)
+		(pin "L8"
+			(uuid "b0d14c6b-7d67-4257-9e49-d62ee3359c6d")
+		)
+		(pin "M8"
+			(uuid "38e8149e-e2a9-4739-ad1f-c2bf5383df7d")
+		)
+		(pin "G3"
+			(uuid "0a419212-09c0-46ac-8ba0-7dceb835f340")
+		)
+		(pin "T7"
+			(uuid "4cf5d4c5-f433-435a-b7f8-082e123302da")
+		)
+		(pin "L7"
+			(uuid "0c089ab3-b2ae-42c0-9e21-59cce722ac9a")
+		)
+		(pin "M7"
+			(uuid "f7e29839-2724-43ba-ad9c-d57bf0e3f406")
+		)
+		(pin "J3"
+			(uuid "f5f7849e-2d00-4544-b51f-f3e2a7e8d238")
+		)
+		(pin "J7"
+			(uuid "4227f726-41ac-4a0f-8311-d2cb9d60dcb6")
+		)
+		(pin "M3"
+			(uuid "1e1c9b6a-11dd-478b-9747-48c0383e68f6")
+		)
+		(pin "T3"
+			(uuid "806d7217-89ca-4e04-b008-409982ef242c")
+		)
+		(pin "M2"
+			(uuid "cd875dd8-0081-47ca-acd1-c54e1260be7d")
+		)
+		(pin "T2"
+			(uuid "d89fb6a0-f54f-46d0-ae60-286fdfafdd65")
+		)
+		(pin "L1"
+			(uuid "8af58296-ffea-4cfa-aff4-562a52ccc183")
+		)
+		(pin "R8"
+			(uuid "9f146855-7ed4-41aa-8145-5a73f7659a5a")
+		)
+		(pin "H1"
+			(uuid "5de7a1ff-8308-47ff-a10d-d1f449706aa1")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 68.58 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36b3e0e8-3b80-493f-ba97-7a61cf5872da")
+		(property "Reference" "C273"
+			(at 69.215 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 78.74 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 68.58 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 88.9 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 86.36 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 69.215 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 91.44 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 93.98 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 96.52 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 99.06 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 68.58 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 68.58 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 68.58 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba9fa0c2-32d4-4e50-a8b7-ef5d4850ccd5")
+		)
+		(pin "2"
+			(uuid "dce3e286-c897-4bef-98ae-e72132fd5a28")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C273")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_4u7_0402")
+		(at 44.45 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "421f8cf0-36d9-4c16-a911-739f69a59149")
+		(property "Reference" "C268"
+			(at 45.085 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_4u7_0402"
+			(at 54.61 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 57.15 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61A475MEAA%23"
+			(at 59.69 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 4.7 µF, 10 V, 0402 [1005 Metric], ± 20%, X5R, GRM Series"
+			(at 44.45 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 64.77 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRM155R61A475MEAAD"
+			(at 62.23 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "4u7"
+			(at 45.085 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 67.31 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 69.85 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 72.39 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 74.93 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 44.45 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 44.45 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 44.45 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9892d17-9797-485c-b26c-ba924b77cb72")
+		)
+		(pin "2"
+			(uuid "7107deac-00ed-4ff6-b291-714151c13bfb")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a2a9acf-58a7-42bc-82d9-453c4217df16")
+		(property "Reference" "#PWR0101"
+			(at 210.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfebdb97-3494-4261-906f-08a29410114a")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitorsmisc:C_100n_6V3_0402")
+		(at 232.41 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5853ea05-7085-437f-ac0b-aa4705501662")
+		(property "Reference" "C253"
+			(at 233.045 33.655 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_6V3_0402"
+			(at 242.57 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 245.11 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 247.65 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMT Multilayer Ceramic Capacitor, 0.1 µF, 6.3 V, 0402 [1005 Metric], ± 10%, X5R, Walsin MLCC"
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 252.73 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "0402X104K6R3CT"
+			(at 250.19 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 233.045 37.465 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 255.27 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 257.81 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 260.35 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 262.89 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 265.43 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 232.41 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 232.41 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 232.41 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4cf9565d-b824-44de-a073-3637ad48fed5")
+		)
+		(pin "2"
+			(uuid "c9644731-b503-491b-a823-20d3f48f2fd8")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C253")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 113.03 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f7b1be2-bc6e-4eaf-af99-dc58a6f54428")
+		(property "Reference" "C281"
+			(at 113.665 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 123.19 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 125.73 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 113.03 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 133.35 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 130.81 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 113.665 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 135.89 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 138.43 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 140.97 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 143.51 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 113.03 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 113.03 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 113.03 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fbb06c1-f039-4ee5-8f72-eee2e73ebdf8")
+		)
+		(pin "2"
+			(uuid "b83e9ed9-5ae6-4be7-a2ff-3300ae82cc5f")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 91.44 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65680f96-fb16-46ad-ab2b-75f59400a897")
+		(property "Reference" "C280"
+			(at 92.075 36.195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 101.6 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 91.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 111.76 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 109.22 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 92.075 40.005 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 114.3 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 116.84 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 119.38 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 121.92 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 91.44 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 91.44 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 91.44 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "deed52f9-12fe-453b-8583-f8063e0fc960")
+		)
+		(pin "2"
+			(uuid "d59fe160-9bb8-4de7-ba5e-092b05110bf8")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C280")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 76.2 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86939118-0d9e-4e59-b167-692d0b68eefb")
+		(property "Reference" "C276"
+			(at 76.835 36.195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 86.36 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 76.2 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 96.52 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 93.98 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 76.835 40.005 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 99.06 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 101.6 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 106.68 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 76.2 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 76.2 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 76.2 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a92b2b7a-55e5-4113-b4ae-efdecad6f540")
+		)
+		(pin "2"
+			(uuid "22e59cd1-900a-4bc0-bebc-bdd8961d09fe")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C276")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 68.58 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "87a5329b-b7c0-4b7e-a2c9-4af6b7b843ab")
+		(property "Reference" "C274"
+			(at 69.215 36.195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 78.74 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 68.58 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 88.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 86.36 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 69.215 40.005 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 91.44 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 93.98 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 96.52 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 99.06 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 68.58 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 68.58 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 68.58 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "364a0f77-5850-4798-83e2-ebc662370954")
+		)
+		(pin "2"
+			(uuid "58cd3081-1c9a-45b0-ad44-61703fb1c0ce")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 232.41 40.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b5d9c2a-3fa4-4eeb-af9a-b490a74f974c")
+		(property "Reference" "#PWR093"
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 223.52 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 223.52 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "d8961ba5-b4f5-4bcf-9edd-a5c84270bb50")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 83.82 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bbd2253-3bbb-4310-8471-33b2fa660503")
+		(property "Reference" "C277"
+			(at 84.455 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 93.98 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 96.52 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 83.82 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 104.14 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 101.6 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 84.455 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 106.68 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 109.22 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 111.76 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 114.3 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 83.82 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 83.82 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 83.82 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e275d66-69d2-4962-8799-2a72de2ed0fe")
+		)
+		(pin "2"
+			(uuid "ba26668b-6e47-4ef2-a2b9-819df04f18eb")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 105.41 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90798c6b-5279-4f54-98d2-b2aa4aafa064")
+		(property "Reference" "C13"
+			(at 106.045 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 115.57 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 118.11 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 105.41 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 125.73 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 123.19 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 106.045 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 128.27 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 130.81 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 133.35 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 135.89 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 105.41 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 105.41 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 105.41 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d3f3df6-152d-48b0-98d5-63ea78f685e1")
+		)
+		(pin "2"
+			(uuid "27f2d4df-0dc2-4603-8919-fb2212fcee83")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 128.27 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93c0913f-4261-441e-8e3d-1b4d062265cc")
+		(property "Reference" "C283"
+			(at 128.905 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 138.43 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 140.97 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 128.27 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 148.59 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 146.05 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 128.905 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 151.13 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 153.67 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 156.21 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 158.75 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 128.27 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 128.27 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 128.27 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fde40b58-90d9-47ff-868d-ce3170047db4")
+		)
+		(pin "2"
+			(uuid "4eb31671-c7a1-4801-a57c-65e29b64eb5e")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C283")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 60.96 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96456b32-4c2d-4689-9bb1-9fe1ec3047e5")
+		(property "Reference" "C272"
+			(at 61.595 36.195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 71.12 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 73.66 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 81.28 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 78.74 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 61.595 40.005 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 83.82 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 86.36 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 88.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 91.44 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 60.96 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 60.96 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 60.96 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9d900c2-4006-41b3-bb5f-80a478ed1d14")
+		)
+		(pin "2"
+			(uuid "0bb870a5-47c7-48b4-81c4-83aec5f99174")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C272")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 53.34 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99380e8a-e1b0-4304-a926-165656c8494f")
+		(property "Reference" "C270"
+			(at 53.975 36.195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 63.5 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 66.04 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 53.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 73.66 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 71.12 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 53.975 40.005 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 76.2 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 78.74 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 81.28 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 83.82 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 53.34 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 53.34 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 53.34 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8066e738-8cb2-45b0-a1d7-8e8171666fff")
+		)
+		(pin "2"
+			(uuid "d31f59b6-abb5-474a-be5c-ce777756daab")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C270")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 120.65 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ceb6fab-d6e8-496a-bbf0-89a3517f565c")
+		(property "Reference" "C282"
+			(at 121.285 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 130.81 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 133.35 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 120.65 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 140.97 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 138.43 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 121.285 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 143.51 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 146.05 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 148.59 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 151.13 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 120.65 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 120.65 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 120.65 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c479fa7-fef3-49a8-ab81-363da494f77d")
+		)
+		(pin "2"
+			(uuid "23b5f03e-0ace-4bc3-8227-bbc74202e219")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C282")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 91.44 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a65e9974-658c-404c-89a7-6bfd783cf215")
+		(property "Reference" "C279"
+			(at 92.075 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 101.6 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 104.14 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 91.44 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 111.76 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 109.22 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 92.075 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 114.3 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 116.84 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 119.38 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 121.92 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 91.44 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 91.44 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 91.44 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed3fd1cb-724e-4664-b527-659c369ec426")
+		)
+		(pin "2"
+			(uuid "ad634dc3-8842-4fbd-b6a8-30b76aca217a")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C279")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 83.82 40.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa1252c3-c1b7-4e31-b5b3-2773c9834280")
+		(property "Reference" "C278"
+			(at 84.455 36.195 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 93.98 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 96.52 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 83.82 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 104.14 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 101.6 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 84.455 40.005 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 106.68 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 109.22 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 111.76 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 114.3 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 83.82 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 83.82 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 83.82 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b0b7c27-2dfe-4a89-9f7c-148a7a6b4b35")
+		)
+		(pin "2"
+			(uuid "284fec9c-4b1a-44ed-82f0-a05b8011f64b")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C278")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 53.34 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b0465df1-e40e-48f2-824a-0df0f650fad5")
+		(property "Reference" "#PWR095"
+			(at 53.34 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 62.23 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 62.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4762d11d-af58-42e7-9cea-6ec18d955dda")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitorsmisc:C_100n_6V3_0402")
+		(at 241.3 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b671f75a-6ad9-4b8d-9546-459549ca81ac")
+		(property "Reference" "C267"
+			(at 241.935 33.655 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_100n_6V3_0402"
+			(at 251.46 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 254 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 256.54 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMT Multilayer Ceramic Capacitor, 0.1 µF, 6.3 V, 0402 [1005 Metric], ± 10%, X5R, Walsin MLCC"
+			(at 241.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin"
+			(at 261.62 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "0402X104K6R3CT"
+			(at 259.08 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 241.935 37.465 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 264.16 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 266.7 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 269.24 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 271.78 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Public" "False"
+			(at 274.32 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 241.3 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 241.3 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 241.3 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ffb1b3b-df21-494c-adfb-75a8ca3f9176")
+		)
+		(pin "2"
+			(uuid "fac1ec55-8bf3-4333-bb34-30ad19b97725")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C267")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 200.66 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b84e6706-8174-4120-b888-6a64cd76c0fa")
+		(property "Reference" "R4"
+			(at 203.2 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "240"
+			(at 203.2 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 200.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e155ce1-147a-4456-b359-5f0204d919fe")
+		)
+		(pin "2"
+			(uuid "00bd7b03-ae1c-4883-ac8d-94293e793f6f")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_470n_0402")
+		(at 76.2 26.67 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db4ead5b-04a5-4bf1-87d7-bcf40db7db46")
+		(property "Reference" "C275"
+			(at 76.835 22.225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_470n_0402"
+			(at 86.36 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 6.3VDC 0.47uF 10% X6S AEC-Q200"
+			(at 76.2 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 96.52 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GXT155C80J474KE01D"
+			(at 93.98 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "470n"
+			(at 76.835 26.035 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 99.06 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 101.6 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Voltage" ""
+			(at 104.14 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 106.68 6.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 76.2 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 76.2 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 76.2 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aca4586f-33b7-4570-871e-88721c17c74b")
+		)
+		(pin "2"
+			(uuid "9271d9fb-aed0-4307-9c8b-38b29a2cfa13")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "C275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:GND")
+		(at 44.45 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe1917e8-3cea-4679-b405-a5de64789e82")
+		(property "Reference" "#PWR094"
+			(at 44.45 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 53.34 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "637b32c0-bf38-412f-b835-a81f86451428")
+		)
+		(instances
+			(project "artix-dc-scm"
+				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/ab7996b4-1de7-4ae0-9d5a-59d1d185cd60/9d0e5c15-0cb6-410b-b4c0-c3a886753050"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

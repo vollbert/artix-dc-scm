@@ -630,233 +630,53 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.1,
-        "line_style": 0,
-        "name": "DDR3_Address_T2",
-        "pcb_color": "rgb(255, 245, 0)",
-        "priority": 10,
-        "schematic_color": "rgb(255, 0, 149)",
-        "track_width": 0.175,
-        "tuning_profile": "50 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.1,
-        "line_style": 0,
-        "name": "DDR3_Address_T3",
-        "pcb_color": "rgb(0, 132, 0)",
-        "priority": 11,
-        "schematic_color": "rgb(22, 255, 3)",
-        "track_width": 0.175,
-        "tuning_profile": "50 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.1,
-        "line_style": 0,
-        "name": "DDR3_BYTE_0",
-        "pcb_color": "rgb(0, 135, 255)",
-        "priority": 12,
-        "schematic_color": "rgb(76, 255, 247)",
-        "track_width": 0.175,
-        "tuning_profile": "50 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
-        "bus_width": 6,
-        "clearance": 0.1,
-        "line_style": 0,
-        "name": "DDR3_BYTE_1",
-        "pcb_color": "rgb(194, 255, 0)",
-        "priority": 14,
-        "schematic_color": "rgb(0, 124, 255)",
-        "track_width": 0.175,
-        "tuning_profile": "50 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.16,
-        "diff_pair_width": 0.1,
-        "name": "DDR3_CLK",
-        "pcb_color": "rgb(0, 255, 216)",
-        "priority": 9,
-        "schematic_color": "rgb(255, 0, 27)",
-        "track_width": 0.1,
-        "tuning_profile": "100 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
-        "clearance": 0.1,
-        "diff_pair_gap": 0.16,
-        "diff_pair_width": 0.1,
-        "line_style": 0,
-        "name": "DDR3_DQS",
-        "pcb_color": "rgb(97, 255, 0)",
-        "priority": 13,
-        "schematic_color": "rgb(127, 6, 255)",
-        "track_width": 0.1,
-        "tuning_profile": "100 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
-        "name": "ESPI",
-        "pcb_color": "rgb(64, 71, 148)",
+        "name": "DDR3_ADDR_CTRL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgb(0, 0, 255)",
-        "tuning_profile": "50 Ohm"
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.12,
-        "diff_pair_width": 0.16,
-        "line_style": 0,
-        "microvia_diameter": 0.5,
-        "microvia_drill": 0.1,
-        "name": "Ethernet",
-        "pcb_color": "rgb(163, 0, 255)",
-        "priority": 15,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.11,
-        "tuning_profile": "100 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.1,
-        "name": "MMC",
-        "pcb_color": "rgb(255, 255, 194)",
-        "priority": 5,
-        "schematic_color": "rgb(0, 0, 132)",
-        "track_width": 0.175,
-        "tuning_profile": "50 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
-        "name": "NCSI",
-        "pcb_color": "rgb(96, 80, 104)",
-        "priority": 1,
-        "schematic_color": "rgb(110, 155, 184)",
-        "tuning_profile": "50 Ohm"
-      },
-      {
-        "name": "NoSwap",
-        "pcb_color": "rgb(166, 119, 34)",
-        "priority": 0,
-        "schematic_color": "rgb(88, 154, 91)",
+        "schematic_color": "rgb(132, 0, 132)",
         "tuning_profile": ""
       },
       {
-        "bus_width": 12,
-        "clearance": 0.1,
-        "diff_pair_gap": 0.1,
-        "diff_pair_width": 0.15,
-        "line_style": 0,
-        "microvia_diameter": 0.5,
-        "microvia_drill": 0.2,
-        "name": "PCIe",
-        "pcb_color": "rgb(255, 176, 0)",
-        "priority": 16,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.11,
-        "tuning_profile": "85 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.21,
-        "diff_pair_width": 0.11,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PCIe_inner",
-        "pcb_color": "rgb(7, 235, 255)",
-        "priority": 17,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.11,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
-      },
-      {
-        "clearance": 0.1,
-        "line_style": 0,
-        "name": "Power",
-        "pcb_color": "rgb(132, 0, 0)",
-        "priority": 8,
-        "schematic_color": "rgb(194, 0, 0)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
-        "name": "QSPI",
-        "pcb_color": "rgb(132, 0, 132)",
-        "priority": 3,
-        "schematic_color": "rgb(0, 132, 132)",
-        "tuning_profile": "50 Ohm"
-      },
-      {
-        "clearance": 0.1,
-        "name": "RGMII_RX",
-        "pcb_color": "rgb(0, 194, 194)",
-        "priority": 6,
+        "name": "DDR3_CLK",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgb(204, 102, 0)",
-        "track_width": 0.175,
-        "tuning_profile": "50 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
+        "tuning_profile": ""
       },
       {
-        "clearance": 0.1,
-        "name": "RGMII_TX",
-        "pcb_color": "rgb(0, 132, 132)",
-        "priority": 7,
+        "name": "DDR3_DQS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(132, 132, 0)",
-        "track_width": 0.175,
-        "tuning_profile": "50 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2
+        "tuning_profile": ""
       },
       {
-        "name": "ULPII",
-        "pcb_color": "rgb(255, 153, 0)",
+        "name": "DDR3_Data_L0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(0, 0, 132)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DDR3_Data_L1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 132, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DDR3_Data_U0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
-        "schematic_color": "rgb(0, 72, 72)",
-        "tuning_profile": "50 Ohm"
+        "schematic_color": "rgb(0, 132, 132)",
+        "tuning_profile": ""
       },
       {
-        "bus_width": 12,
-        "clearance": 0.11,
-        "diff_pair_gap": 0.11,
-        "diff_pair_width": 0.11,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB",
-        "pcb_color": "rgb(255, 0, 204)",
-        "priority": 18,
-        "schematic_color": "rgb(72, 0, 72)",
-        "track_width": 0.11,
-        "tuning_profile": "90 Ohm",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
-        "wire_width": 6
+        "name": "DDR3_Data_U1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(132, 0, 0)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -866,336 +686,40 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH1_N"
+        "netclass": "DDR3_Data_U0",
+        "pattern": "/FPGA banks 34-35 & CFG/D(MU00|QU00|QU0[0..7]|QU01|QU02|QU03|QU04|QU05|QU06|QU07)"
       },
       {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH1_P"
+        "netclass": "DDR3_Data_L0",
+        "pattern": "/FPGA banks 34-35 & CFG/D(ML00|QL00|QL0[0..7]|QL01|QL02|QL03|QL04|QL05|QL06|QL07)"
       },
       {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH2_N"
+        "netclass": "DDR3_Data_L1",
+        "pattern": "/FPGA banks 34-35 & CFG/D(ML1|QL1[0..7]|QL10|QL11|QL12|QL13|QL14|QL15|QL16|QL17)"
       },
       {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH2_P"
+        "netclass": "DDR3_Data_L1",
+        "pattern": "/FPGA banks 34-35 & CFG/DQL1[0..7]"
       },
       {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH3_N"
+        "netclass": "DDR3_Data_U1",
+        "pattern": "/FPGA banks 34-35 & CFG/D(MU1|QU1[0..7]|QU10|QU11|QU12|QU13|QU14|QU15|QU16|QU17)"
       },
       {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH3_P"
+        "netclass": "DDR3_Data_U1",
+        "pattern": "/FPGA banks 34-35 & CFG/DQU1[0..7]"
       },
       {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH4_N"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH4_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/Interfaces/PCIE_BMC_TX_C_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/Interfaces/PCIE_BMC_TX_C_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PCIe-connector/PCIE_HPM_TX0_C_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PCIe-connector/PCIE_HPM_TX0_C_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PCIe-connector/PCIE_HPM_TX1_C_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PCIe-connector/PCIE_HPM_TX1_C_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PCIe-connector/PCIE_HPM_TX2_C_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PCIe-connector/PCIE_HPM_TX2_C_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PCIe-connector/PCIE_HPM_TX3_C_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/PCIe-connector/PCIE_HPM_TX3_C_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_BMC_CLK_100_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_BMC_CLK_100_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_BMC_RX_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_BMC_RX_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_BMC_TX_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_BMC_TX_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_CLK_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_CLK_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_RX[0]_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_RX[0]_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_RX[1]_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_RX[1]_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_RX[2]_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_RX[2]_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_RX[3]_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_RX[3]_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_TX[0]_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_TX[0]_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_TX[1]_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_TX[1]_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_TX[2]_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_TX[2]_P"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_TX[3]_N"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "PCIE_HPM_TX[3]_P"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USB1_D_N"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USB1_D_P"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USB2_D_N"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "USB2_D_P"
-      },
-      {
-        "netclass": "DDR3_Address_T3",
-        "pattern": "DDR3_A(1|4|5|6|7|8|9|11|12|13|14)"
-      },
-      {
-        "netclass": "DDR3_CLK",
-        "pattern": "DDR3_CLK_(N|P)"
-      },
-      {
-        "netclass": "DDR3_Address_T2",
-        "pattern": "DDR3_(A0|A2|A3|A10|BA0|BA1|BA2|CAS|CKE|ODT|RAS|WE)"
-      },
-      {
-        "netclass": "DDR3_BYTE_0",
-        "pattern": "DDR3_D(M0|Q0|Q1|Q2|Q3|Q4|Q5|Q6|Q7)"
+        "netclass": "DDR3_ADDR_CTRL",
+        "pattern": "/FPGA banks 34-35 & CFG/DDR3L_0/(A0|A1|A2|A3|A4|A5|A6|A7|A8|A9|A10|A11|A12|A13|A14|A15|A[0..15]|BA0|BA1|BA2|BA[0..2]|Control.CAS#|Control.CKE0|Control.CKE1|Control.CS0#|Control.CS1#|Control.ODT0|Control.ODT1|Control.RAS#|Control.Reset#|Control.WE#|Control{DDR3Ctrl})"
       },
       {
         "netclass": "DDR3_DQS",
-        "pattern": "DDR3_DQS(0_N|0_P|1_N|1_P)"
+        "pattern": "/FPGA banks 34-35 & CFG/D(DR3L_0/DQS{DDR3DQS}|DR3L_1/DQS.DQSL|DR3L_1/DQS.DQSL#|DR3L_1/DQS.DQSU|DR3L_1/DQS.DQSU#|DR3L_1/DQS{DDR3DQS}|QS_1.DQSL|QS_1.DQSL#|QS_1.DQSU|QS_1.DQSU#)"
       },
       {
-        "netclass": "DDR3_BYTE_1",
-        "pattern": "DDR3_D(M1|Q8|Q9|Q10|Q11|Q12|Q13|Q14|Q15)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC1V35"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC3V3"
-      },
-      {
-        "netclass": "RGMII_TX",
-        "pattern": "RGMII_TX(D0|D1|D2|D3|_CLK|_DV)"
-      },
-      {
-        "netclass": "RGMII_RX",
-        "pattern": "RGMII_RX(D0|D1|D2|D3|_CLK|_DV)"
-      },
-      {
-        "netclass": "Ethernet",
-        "pattern": "/Ethernet/ETH(1_N|1_P|2_N|2_P|3_N|3_P|4_N|4_P)"
-      },
-      {
-        "netclass": "RGMII_TX",
-        "pattern": "/Ethernet/RGMII_(CLK_PHY|TXD0_PHY|TXD1_PHY|TXD2_PHY|TXD3_PHY|TX_EN_PHY)"
-      },
-      {
-        "netclass": "RGMII_RX",
-        "pattern": "/FPGA banks 13-16/RGMII_(CLK_FPGA|RXD0_FPGA|RXD1_FPGA|RXD2_FPGA|RXD3_FPGA|RX_DV_FPGA)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC1V2"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/Interfaces/DBG_USB_D_(N|P)"
-      },
-      {
-        "netclass": "MMC",
-        "pattern": "MMC_(CLK|CMD|DAT0|DAT1|DAT2|DAT3|DAT4|DAT5|DAT6|DAT7|RSTN)"
-      },
-      {
-        "netclass": "ULPII",
-        "pattern": "ULPI2_(CLKOUT|DATA0|DATA1|DATA2|DATA3|DATA4|DATA5|DATA6|DATA7|DIR|NXT|RESET|STP)"
-      },
-      {
-        "netclass": "ULPII",
-        "pattern": "ULPI1_(CLKOUT|DATA0|DATA1|DATA2|DATA3|DATA4|DATA5|DATA6|DATA7|DIR|NXT|RESET|STP)"
-      },
-      {
-        "netclass": "QSPI",
-        "pattern": "QSPI(A1_CS_N|A1_D0|A1_D1|A1_D2|A1_D3|A2_CS_N|A2_D0|A2_D1|A2_D2|A2_D3|A_CLK|B1_CS_N|B1_D0|B1_D1|B1_D2|B1_D3|B2_CS_N|B2_D0|B2_D1|B2_D2|B2_D3|B_CLK)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC5V0"
-      },
-      {
-        "netclass": "QSPI",
-        "pattern": "QSPI0_(CLK|CS0_N|D0|D1|D2|D3)"
-      },
-      {
-        "netclass": "QSPI",
-        "pattern": "QSPI1_(CLK|CS0_N|D0|D1|D2|D3)"
-      },
-      {
-        "netclass": "QSPI",
-        "pattern": "QSPI0_CS1_N"
-      },
-      {
-        "netclass": "QSPI",
-        "pattern": "ROT_QSPI_SCK"
-      },
-      {
-        "netclass": "QSPI",
-        "pattern": "ROT_QSPI_DQ(0|1|2|3)"
-      },
-      {
-        "netclass": "ESPI",
-        "pattern": "ESPI_(ALERT_N_1V8|CLK_1V8|CS0_N_1V8|IO0_1V8|IO1_1V8|IO2_1V8|IO3_1V8|RESET_N_1V8)"
-      },
-      {
-        "netclass": "ESPI",
-        "pattern": "ESPI_CS1_N_1V8"
-      },
-      {
-        "netclass": "NCSI",
-        "pattern": "NCSI_(CLK|CRS_DV|RXD0|RXD1|RXER|TXD0|TXD1|TXEN)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC1V0"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "VCC1V8"
-      },
-      {
-        "netclass": "RGMII_TX",
-        "pattern": "RGMII_REF_CLK"
-      },
-      {
-        "netclass": "NoSwap",
-        "pattern": "/FPGA banks 34-35 & CFG/MODE0|/FPGA banks 34-35 & CFG/MODE1|/FPGA banks 34-35 & CFG/MODE2|DONE|INIT|JTAG_TCK|JTAG_TDI|JTAG_TDO|JTAG_TMS|PROGRAM"
-      },
-      {
-        "netclass": "ESPI",
-        "pattern": "ESPI_(ALERT_N|CLK|CS0_N|IO0|IO1|IO2|IO3|RESET_N)"
-      },
-      {
-        "netclass": "ESPI",
-        "pattern": "ESPI_CS1_N"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Interfaces/FT_VP(HY|LL)"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "/Interfaces/V_Regout"
+        "netclass": "DDR3_CLK",
+        "pattern": "/FPGA banks 34-35 & CFG/DDR3L_0/Clk(.CK|.CK#|{DDR3Clk})"
       }
     ]
   },
@@ -1280,7 +804,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1338,6 +862,12 @@
         },
         {
           "group_by": false,
+          "label": "Pitch ",
+          "name": "Pitch ",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "Public",
           "name": "Public",
           "show": false
@@ -1388,7 +918,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1401,6 +931,36 @@
           "label": "Pitch",
           "name": "Pitch",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1408,9 +968,32 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Footprint"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "DDR3Clk": [
+        "CK",
+        "CK#"
+      ],
+      "DDR3Ctrl": [
+        "Reset#",
+        "RAS#",
+        "CAS#",
+        "WE#",
+        "CS0#",
+        "CS1#",
+        "ODT0",
+        "ODT1",
+        "CKE0",
+        "CKE1"
+      ],
+      "DDR3DQS": [
+        "DQSL",
+        "DQSL#",
+        "DQSU",
+        "DQSU#"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -1490,8 +1073,8 @@
       "FPGA power supply"
     ],
     [
-      "00000000-0000-0000-0000-00005fd17ef1",
-      "PCIe-connector"
+      "2d5bbb34-34f7-4393-bde8-d0c8ebf4e140",
+      "DDR3L_0"
     ],
     [
       "00000000-0000-0000-0000-00005fd86ce4",
@@ -1502,8 +1085,8 @@
       "RoT"
     ],
     [
-      "00000000-0000-0000-0000-0000625aec25",
-      "Edge connector"
+      "9d0e5c15-0cb6-410b-b4c0-c3a886753050",
+      "DDR3L_1"
     ],
     [
       "00000000-0000-0000-0000-0000614223a1",
@@ -1682,7 +1265,7 @@
             "width": 153000
           },
           {
-            "bottom_reference_layer": "In6.Cu",
+            "bottom_reference_layer": "In5.Cu",
             "delay": 6880100,
             "diff_pair_gap": 110000,
             "signal_layer": "In5.Cu",

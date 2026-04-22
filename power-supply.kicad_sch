@@ -8980,7 +8980,7 @@
 	)
 	(text "Delay capacitor calculated \nas 0->1.22V change via 100k to 5V\n(now set as 0.2 - 0.3s delay)"
 		(exclude_from_sim no)
-		(at 22.225 209.55 0)
+		(at 24.765 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9061,17 +9061,6 @@
 		)
 		(uuid "4b8e1a4e-1369-4b31-bbe6-3c4eaacbb017")
 	)
-	(text "To DC-SCM connector"
-		(exclude_from_sim no)
-		(at 45.72 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a95c994-8bb1-4a21-9962-7fb92592c7c4")
-	)
 	(text "3v3 required by I3C translator"
 		(exclude_from_sim no)
 		(at 200.025 150.495 0)
@@ -9085,7 +9074,7 @@
 	)
 	(text "STEP1: FPGA VCCINT (1V0)\nSTEP2: FPGA VCCAUX (1V8)\nSTEP3: FPGA VCCIO (3V3), HPM reset is de-asserted\nSTEP4: HPM boots"
 		(exclude_from_sim no)
-		(at 114.3 213.36 0)
+		(at 116.84 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9109,7 +9098,7 @@
 	)
 	(text "Power sequencer"
 		(exclude_from_sim no)
-		(at 20.32 177.165 0)
+		(at 22.86 121.285 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9183,19 +9172,6 @@
 		)
 		(uuid "c45442e3-0bc0-4c3d-a408-f60e978b3a44")
 	)
-	(text "Battery connector"
-		(exclude_from_sim no)
-		(at 25.4 111.76 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4c070ac-91eb-4312-8cb1-9597316780da")
-	)
 	(text "External 12V supply"
 		(exclude_from_sim no)
 		(at 19.685 45.085 0)
@@ -9258,13 +9234,13 @@
 		(uuid "1436158d-8d2b-4dcb-a357-07b4e00dba82")
 	)
 	(junction
-		(at 62.23 182.88)
+		(at 64.77 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1842a638-49ce-40ba-b901-630db8e6128b")
 	)
 	(junction
-		(at 113.03 196.85)
+		(at 115.57 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c77f480-e177-4540-bb0e-be035c6ea7b6")
@@ -9396,7 +9372,7 @@
 		(uuid "640dfa0b-1d3f-455d-abbc-8e08afb87424")
 	)
 	(junction
-		(at 120.65 199.39)
+		(at 123.19 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64d1eb98-e7d8-40b7-a328-438ff9c46aad")
@@ -9406,12 +9382,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6836d615-6d04-4482-aa48-75787b773fc5")
-	)
-	(junction
-		(at 39.37 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68acf259-96e8-48d4-8b78-d3dca367e2f6")
 	)
 	(junction
 		(at 93.98 54.61)
@@ -9432,7 +9402,7 @@
 		(uuid "6e54a8fa-be3b-458f-90d8-62a1072f0a09")
 	)
 	(junction
-		(at 105.41 182.88)
+		(at 107.95 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fdb40d8-fb21-4fff-8140-141029ea3e77")
@@ -9486,7 +9456,7 @@
 		(uuid "7f7058b3-d8c9-4413-9825-0c93a7e1fdea")
 	)
 	(junction
-		(at 113.03 182.88)
+		(at 115.57 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fadccc4-f266-47d8-922f-0cb6e4e283d7")
@@ -9504,7 +9474,7 @@
 		(uuid "80625648-e2c8-4cdd-955b-38496fb04f0e")
 	)
 	(junction
-		(at 105.41 194.31)
+		(at 107.95 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "845aa658-1763-47f2-8749-38a31c9bb20a")
@@ -9540,7 +9510,7 @@
 		(uuid "926e27b4-1bd9-48cf-9842-c02c958cc1e0")
 	)
 	(junction
-		(at 78.74 182.88)
+		(at 81.28 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92ceafcc-be51-4bc8-94cf-c6f5c7d31354")
@@ -9666,16 +9636,10 @@
 		(uuid "dfdf0d91-a8bc-4425-bc5c-fb60e0906f99")
 	)
 	(junction
-		(at 62.23 196.85)
+		(at 64.77 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2b596a0-1dc3-4db0-8c8a-6fa7afb2c1cf")
-	)
-	(junction
-		(at 39.37 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2bf0010-95d6-4345-ba5a-608a65469cf5")
 	)
 	(junction
 		(at 135.89 81.28)
@@ -9696,7 +9660,7 @@
 		(uuid "f01673fa-ad29-4fbf-ad68-cf7a532b1d15")
 	)
 	(junction
-		(at 78.74 194.31)
+		(at 81.28 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd6272f3-797d-427f-88df-fea10bc03611")
@@ -9793,7 +9757,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 182.88) (xy 113.03 182.88)
+			(xy 107.95 127) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
@@ -9833,17 +9797,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 128.27) (xy 39.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0944d111-9000-4cfb-b2ce-0a45814c3113")
-	)
-	(wire
-		(pts
-			(xy 82.55 194.31) (xy 78.74 194.31)
+			(xy 85.09 138.43) (xy 81.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9863,7 +9817,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 182.88) (xy 62.23 182.88)
+			(xy 58.42 127) (xy 64.77 127)
 		)
 		(stroke
 			(width 0)
@@ -9893,7 +9847,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 213.36) (xy 12.7 214.63)
+			(xy 15.24 157.48) (xy 15.24 158.75)
 		)
 		(stroke
 			(width 0)
@@ -10033,16 +9987,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 39.37 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bc8b6ee-4ae1-40ee-aaf8-61965df75464")
-	)
-	(wire
-		(pts
 			(xy 252.73 124.46) (xy 260.35 124.46)
 		)
 		(stroke
@@ -10103,7 +10047,7 @@
 	)
 	(polyline
 		(pts
-			(xy 68.58 198.12) (xy 68.58 214.63)
+			(xy 71.12 142.24) (xy 71.12 158.75)
 		)
 		(stroke
 			(width 0)
@@ -10143,7 +10087,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 196.85) (xy 62.23 196.85)
+			(xy 49.53 140.97) (xy 64.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10353,7 +10297,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 182.88) (xy 120.65 182.88)
+			(xy 115.57 127) (xy 123.19 127)
 		)
 		(stroke
 			(width 0)
@@ -10423,16 +10367,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 123.19) (xy 39.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31a10cf8-dbd7-41ca-a246-4d03469fed00")
-	)
-	(wire
-		(pts
 			(xy 316.23 24.13) (xy 316.23 25.4)
 		)
 		(stroke
@@ -10463,7 +10397,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 182.88) (xy 105.41 182.88)
+			(xy 81.28 127) (xy 107.95 127)
 		)
 		(stroke
 			(width 0)
@@ -10483,7 +10417,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 199.39) (xy 78.74 199.39)
+			(xy 85.09 143.51) (xy 81.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -10503,7 +10437,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 194.31) (xy 137.16 194.31)
+			(xy 107.95 138.43) (xy 139.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10513,7 +10447,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 182.88) (xy 78.74 194.31)
+			(xy 81.28 127) (xy 81.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10523,7 +10457,7 @@
 	)
 	(polyline
 		(pts
-			(xy 68.58 214.63) (xy 21.59 214.63)
+			(xy 71.12 158.75) (xy 24.13 158.75)
 		)
 		(stroke
 			(width 0)
@@ -10733,7 +10667,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 196.85) (xy 82.55 196.85)
+			(xy 64.77 140.97) (xy 85.09 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10743,7 +10677,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 182.88) (xy 113.03 184.15)
+			(xy 115.57 127) (xy 115.57 128.27)
 		)
 		(stroke
 			(width 0)
@@ -10793,7 +10727,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 201.93) (xy 101.6 201.93)
+			(xy 101.6 146.05) (xy 104.14 146.05)
 		)
 		(stroke
 			(width 0)
@@ -10863,7 +10797,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 189.23) (xy 62.23 196.85)
+			(xy 64.77 133.35) (xy 64.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -10973,7 +10907,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 201.93) (xy 72.39 201.93)
+			(xy 85.09 146.05) (xy 74.93 146.05)
 		)
 		(stroke
 			(width 0)
@@ -11153,7 +11087,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 182.88) (xy 78.74 182.88)
+			(xy 64.77 127) (xy 81.28 127)
 		)
 		(stroke
 			(width 0)
@@ -11263,7 +11197,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 196.85) (xy 113.03 196.85)
+			(xy 101.6 140.97) (xy 115.57 140.97)
 		)
 		(stroke
 			(width 0)
@@ -11273,7 +11207,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 199.39) (xy 137.16 199.39)
+			(xy 123.19 143.51) (xy 139.7 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11303,7 +11237,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 189.23) (xy 105.41 194.31)
+			(xy 107.95 133.35) (xy 107.95 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11333,7 +11267,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 182.88) (xy 105.41 184.15)
+			(xy 107.95 127) (xy 107.95 128.27)
 		)
 		(stroke
 			(width 0)
@@ -11393,7 +11327,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 189.23) (xy 120.65 199.39)
+			(xy 123.19 133.35) (xy 123.19 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11653,7 +11587,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 196.85) (xy 62.23 203.2)
+			(xy 64.77 140.97) (xy 64.77 147.32)
 		)
 		(stroke
 			(width 0)
@@ -11733,7 +11667,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 199.39) (xy 120.65 199.39)
+			(xy 101.6 143.51) (xy 123.19 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11813,7 +11747,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 194.31) (xy 105.41 194.31)
+			(xy 101.6 138.43) (xy 107.95 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11913,7 +11847,7 @@
 	)
 	(polyline
 		(pts
-			(xy 21.59 198.12) (xy 21.59 214.63)
+			(xy 24.13 142.24) (xy 24.13 158.75)
 		)
 		(stroke
 			(width 0)
@@ -11943,16 +11877,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 39.37 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2753a88-829c-437c-ac6a-dba9f0b85bae")
-	)
-	(wire
-		(pts
 			(xy 360.68 175.26) (xy 360.68 173.99)
 		)
 		(stroke
@@ -11960,16 +11884,6 @@
 			(type default)
 		)
 		(uuid "b2e45bf8-0afa-4c05-a09c-6cad9719ffbe")
-	)
-	(wire
-		(pts
-			(xy 39.37 128.27) (xy 39.37 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a06bb7-05e2-4d4a-87c5-c509855b6052")
 	)
 	(wire
 		(pts
@@ -12003,7 +11917,7 @@
 	)
 	(polyline
 		(pts
-			(xy 21.59 198.12) (xy 68.58 198.12)
+			(xy 24.13 142.24) (xy 71.12 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12093,7 +12007,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 201.93) (xy 72.39 203.2)
+			(xy 74.93 146.05) (xy 74.93 147.32)
 		)
 		(stroke
 			(width 0)
@@ -12173,7 +12087,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 182.88) (xy 62.23 184.15)
+			(xy 64.77 127) (xy 64.77 128.27)
 		)
 		(stroke
 			(width 0)
@@ -12213,7 +12127,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 196.85) (xy 137.16 196.85)
+			(xy 115.57 140.97) (xy 139.7 140.97)
 		)
 		(stroke
 			(width 0)
@@ -12293,7 +12207,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 199.39) (xy 78.74 194.31)
+			(xy 81.28 143.51) (xy 81.28 138.43)
 		)
 		(stroke
 			(width 0)
@@ -12313,7 +12227,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 182.88) (xy 120.65 184.15)
+			(xy 123.19 127) (xy 123.19 128.27)
 		)
 		(stroke
 			(width 0)
@@ -12623,16 +12537,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 125.73) (xy 39.37 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec5677d0-6327-4c16-82ac-0cde09b9068e")
-	)
-	(wire
-		(pts
 			(xy 360.68 34.29) (xy 360.68 35.56)
 		)
 		(stroke
@@ -12783,7 +12687,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 189.23) (xy 113.03 196.85)
+			(xy 115.57 133.35) (xy 115.57 140.97)
 		)
 		(stroke
 			(width 0)
@@ -12793,7 +12697,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 201.93) (xy 101.6 203.2)
+			(xy 104.14 146.05) (xy 104.14 147.32)
 		)
 		(stroke
 			(width 0)
@@ -12810,16 +12714,6 @@
 			(type default)
 		)
 		(uuid "f8e00c9e-84f7-4a7a-a0bf-9d4cbaea1548")
-	)
-	(wire
-		(pts
-			(xy 38.1 120.65) (xy 45.72 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9367e90-2613-4d76-bf87-ec4a0055acac")
 	)
 	(wire
 		(pts
@@ -12892,7 +12786,7 @@
 		(uuid "4095beb4-6788-4ea8-ae97-615f1bc3a09b")
 	)
 	(label "VCCAUX_EN"
-		(at 137.16 196.85 180)
+		(at 139.7 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12922,7 +12816,7 @@
 		(uuid "6e62ffb4-d499-42ad-a02b-55ebd15f24a1")
 	)
 	(label "VCCIO_EN"
-		(at 137.16 199.39 180)
+		(at 139.7 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12952,7 +12846,7 @@
 		(uuid "799f0e08-6b96-46e8-8269-a814159e55f9")
 	)
 	(label "5V0_PG"
-		(at 46.99 196.85 0)
+		(at 49.53 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13022,7 +12916,7 @@
 		(uuid "d31f8e3e-cf66-468b-a555-d7f21f957328")
 	)
 	(label "VCCINT_EN"
-		(at 137.16 194.31 180)
+		(at 139.7 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13070,30 +12964,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9d22fdb-e0eb-49ad-9461-3ada1d901c5a")
-	)
-	(global_label "3V0_BAT"
-		(shape output)
-		(at 45.72 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0451d06a-e4b0-4f5f-86df-5da51fef6a4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.8456 120.5706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(global_label "VCC5V0"
 		(shape input)
@@ -13562,7 +13432,7 @@
 	)
 	(global_label "VCC5V0"
 		(shape input)
-		(at 55.88 182.88 180)
+		(at 58.42 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13572,7 +13442,7 @@
 		)
 		(uuid "c785ad7d-5ce4-4024-b7bc-195816e4f28b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.4196 182.9594 0)
+			(at 48.9596 127.0794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13837,7 +13707,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 170.18 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -13958,6 +13828,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14106,6 +14009,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 44.45 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "196127e2-3520-4124-a42a-fed9cdd72434")
 		)
@@ -14228,109 +14164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicropower:GND")
-		(at 39.37 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ff71002")
-		(property "Reference" "#PWR059"
-			(at 39.37 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 48.26 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 48.26 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "656b66b5-4db2-4950-b361-5fd6209cdb90")
-		)
-		(instances
-			(project "artix-dc-scm"
-				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistors0402:R_0R_0402")
 		(at 318.77 40.64 180)
 		(unit 1)
@@ -14364,7 +14197,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 298.45 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -14488,6 +14321,39 @@
 				)
 			)
 		)
+		(property "Pitch" ""
+			(at 318.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 318.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 318.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "56f93162-84be-4082-acad-dd881dfd7a57")
 		)
@@ -14544,7 +14410,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 298.45 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -14665,6 +14531,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 318.77 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 318.77 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 318.77 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -14850,6 +14749,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 316.23 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 316.23 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 316.23 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "937c8136-620f-41f8-8ed5-3caf1af63c4a")
 		)
@@ -14990,6 +14922,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 323.85 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 323.85 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 323.85 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -15188,6 +15153,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 353.06 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 353.06 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 353.06 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "812f0db8-2eb8-4475-a12d-7fefa8c8ed92")
 		)
@@ -15241,7 +15239,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -15352,6 +15350,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 360.68 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 220.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15532,6 +15563,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 369.57 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 369.57 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 369.57 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe091595-3b74-415f-896b-9eb09254d64f")
 		)
@@ -15710,6 +15774,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 377.19 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 377.19 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 377.19 218.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "49c58eb6-39ae-4da3-b727-e599e0d9440e")
 		)
@@ -15762,7 +15859,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 298.45 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15883,6 +15980,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 318.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 318.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 318.77 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16081,6 +16211,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 346.71 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 346.71 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 346.71 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c9cd59b-b90b-4e56-96ee-56d13cada2b4")
 		)
@@ -16137,7 +16300,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.3 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -16261,6 +16424,39 @@
 				)
 			)
 		)
+		(property "Pitch" ""
+			(at 388.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 388.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 388.62 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94399d8a-b610-4661-b47e-39e8a4c39955")
 		)
@@ -16281,7 +16477,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_10u_0402")
-		(at 62.23 208.28 90)
+		(at 64.77 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16291,7 +16487,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060157b3c")
 		(property "Reference" "C250"
-			(at 62.865 203.835 90)
+			(at 65.405 147.955 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16302,7 +16498,7 @@
 			)
 		)
 		(property "Value" "C_10u_0402"
-			(at 72.39 187.96 0)
+			(at 74.93 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16315,7 +16511,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.93 187.96 0)
+			(at 77.47 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16328,7 +16524,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0402MRX5R5BB106"
-			(at 77.47 187.96 0)
+			(at 80.01 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16341,7 +16537,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 10 µF, 6.3 V, 0402 [1005 Metric], ± 20%, X5R, CC Series"
-			(at 62.23 208.28 0)
+			(at 64.77 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16352,7 +16548,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 82.55 187.96 0)
+			(at 85.09 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16365,7 +16561,7 @@
 			)
 		)
 		(property "MPN" "CC0402MRX5R5BB106"
-			(at 80.01 187.96 0)
+			(at 82.55 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16378,7 +16574,7 @@
 			)
 		)
 		(property "Val" "10u"
-			(at 62.865 207.645 90)
+			(at 65.405 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16390,7 +16586,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 85.09 187.96 0)
+			(at 87.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16403,7 +16599,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 87.63 187.96 0)
+			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16416,7 +16612,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 90.17 187.96 0)
+			(at 92.71 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16428,7 +16624,7 @@
 			)
 		)
 		(property "Dielectric" ""
-			(at 92.71 187.96 0)
+			(at 95.25 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16437,6 +16633,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 64.77 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 64.77 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 64.77 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16491,7 +16720,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 298.45 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16615,6 +16844,39 @@
 				)
 			)
 		)
+		(property "Pitch" ""
+			(at 318.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 318.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 318.77 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2370ea44-8959-4914-b826-c9e6646bc039")
 		)
@@ -16639,7 +16901,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_100k_0402")
-		(at 62.23 184.15 270)
+		(at 64.77 128.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16649,7 +16911,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006018651a")
 		(property "Reference" "R68"
-			(at 63.5 185.42 90)
+			(at 66.04 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16660,7 +16922,7 @@
 			)
 		)
 		(property "Value" "R_100k_0402"
-			(at 49.53 204.47 0)
+			(at 52.07 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16672,8 +16934,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 46.99 204.47 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.53 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16686,7 +16948,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 44.45 204.47 0)
+			(at 46.99 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16699,7 +16961,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 62.23 184.15 0)
+			(at 64.77 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16710,7 +16972,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 39.37 204.47 0)
+			(at 41.91 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16723,7 +16985,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 41.91 204.47 0)
+			(at 44.45 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16736,7 +16998,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 63.5 187.96 90)
+			(at 66.04 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16748,7 +17010,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 36.83 204.47 0)
+			(at 39.37 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16761,7 +17023,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 34.29 204.47 0)
+			(at 36.83 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16774,7 +17036,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 52.07 204.47 0)
+			(at 54.61 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16783,6 +17045,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 64.77 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 64.77 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 64.77 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16805,7 +17100,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_100k_0402")
-		(at 105.41 184.15 270)
+		(at 107.95 128.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16815,7 +17110,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000601ab42f")
 		(property "Reference" "R63"
-			(at 106.68 185.42 90)
+			(at 109.22 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16826,7 +17121,7 @@
 			)
 		)
 		(property "Value" "R_100k_0402"
-			(at 92.71 204.47 0)
+			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16838,8 +17133,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 90.17 204.47 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 92.71 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16852,7 +17147,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 87.63 204.47 0)
+			(at 90.17 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16865,7 +17160,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 105.41 184.15 0)
+			(at 107.95 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16876,7 +17171,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 82.55 204.47 0)
+			(at 85.09 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16889,7 +17184,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 85.09 204.47 0)
+			(at 87.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16902,7 +17197,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 106.68 187.96 90)
+			(at 109.22 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16914,7 +17209,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 80.01 204.47 0)
+			(at 82.55 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16927,7 +17222,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 77.47 204.47 0)
+			(at 80.01 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16940,7 +17235,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 95.25 204.47 0)
+			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16949,6 +17244,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 107.95 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 107.95 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 107.95 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17092,6 +17420,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 35.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 35.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 35.56 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59512499-4ce9-4d79-bba0-3d4c099faef6")
 		)
@@ -17150,7 +17511,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 298.45 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17274,6 +17635,39 @@
 				)
 			)
 		)
+		(property "Pitch" ""
+			(at 318.77 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 318.77 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 318.77 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3ef8447e-666e-438e-a069-8ec15c036366")
 		)
@@ -17331,7 +17725,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -17444,6 +17838,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 360.68 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 213.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "01dc95c0-c2e2-45e9-94ff-cbb93e74c633")
 		)
@@ -17464,7 +17891,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_100k_0402")
-		(at 113.03 184.15 270)
+		(at 115.57 128.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17474,7 +17901,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006022b33d")
 		(property "Reference" "R64"
-			(at 114.3 185.42 90)
+			(at 116.84 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17485,7 +17912,7 @@
 			)
 		)
 		(property "Value" "R_100k_0402"
-			(at 100.33 204.47 0)
+			(at 102.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17497,8 +17924,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 97.79 204.47 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 100.33 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17511,7 +17938,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 95.25 204.47 0)
+			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17524,7 +17951,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 113.03 184.15 0)
+			(at 115.57 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17535,7 +17962,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 90.17 204.47 0)
+			(at 92.71 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17548,7 +17975,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 92.71 204.47 0)
+			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17561,7 +17988,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 114.3 187.96 90)
+			(at 116.84 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17573,7 +18000,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 87.63 204.47 0)
+			(at 90.17 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17586,7 +18013,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 85.09 204.47 0)
+			(at 87.63 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17599,7 +18026,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 102.87 204.47 0)
+			(at 105.41 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17608,6 +18035,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 115.57 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 115.57 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 115.57 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17630,7 +18090,7 @@
 	)
 	(symbol
 		(lib_id "antmicroResistors0402:R_100k_0402")
-		(at 120.65 184.15 270)
+		(at 123.19 128.27 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17640,7 +18100,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006022b770")
 		(property "Reference" "R65"
-			(at 121.92 185.42 90)
+			(at 124.46 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17651,7 +18111,7 @@
 			)
 		)
 		(property "Value" "R_100k_0402"
-			(at 107.95 204.47 0)
+			(at 110.49 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17663,8 +18123,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
-			(at 105.41 204.47 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 107.95 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17677,7 +18137,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 102.87 204.47 0)
+			(at 105.41 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17690,7 +18150,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 100 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 120.65 184.15 0)
+			(at 123.19 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17701,7 +18161,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 97.79 204.47 0)
+			(at 100.33 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17714,7 +18174,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1003GLF"
-			(at 100.33 204.47 0)
+			(at 102.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17727,7 +18187,7 @@
 			)
 		)
 		(property "Val" "100k"
-			(at 121.92 187.96 90)
+			(at 124.46 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17739,7 +18199,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 95.25 204.47 0)
+			(at 97.79 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17752,7 +18212,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 92.71 204.47 0)
+			(at 95.25 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17765,7 +18225,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 110.49 204.47 0)
+			(at 113.03 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17774,6 +18234,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 123.19 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 123.19 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 123.19 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17829,7 +18322,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.82 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17942,6 +18435,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 226.06 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 226.06 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 226.06 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c6312b2-42d8-47e2-a596-54dcc210978d")
 		)
@@ -18002,7 +18528,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -18112,6 +18638,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 260.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 260.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 260.35 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18358,6 +18917,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 231.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 231.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 231.14 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "745d24b0-8eee-4a07-b597-e92579ad91c4")
 		)
@@ -18384,155 +18976,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroWire2BoardConnectors:Molex_Pico-Lock_1x2_504050-0291")
-		(at 38.1 120.65 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00000000-0000-0000-0000-0000602af987")
-		(property "Reference" "J10"
-			(at 33.02 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Molex_Pico-Lock_1x2_504050-0291"
-			(at 29.21 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:Conn_Molex_Pico-Lock_1x2_504050-0291"
-			(at 29.21 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/5040500291?display=pdf"
-			(at 29.21 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.059\" (1.50mm)"
-			(at 38.1 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "504050-0291"
-			(at 33.02 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 29.21 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 29.21 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 29.21 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "795845cd-48cd-4c6e-b14b-6c8bdc1079c6")
-		)
-		(pin "2"
-			(uuid "1fd78525-6a5f-4b15-8e15-90352cdf32bd")
-		)
-		(pin "MP1"
-			(uuid "13f9dfa0-06ab-4f54-bcbe-89739853f93c")
-		)
-		(pin "MP2"
-			(uuid "df4e817b-5b59-41ef-9cd5-8e3a9500e65c")
-		)
-		(instances
-			(project "artix-dc-scm"
-				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be/00000000-0000-0000-0000-00005fd86beb"
-					(reference "J10")
-					(unit 1)
-					(variant
-						(name "resistor")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicropower:GND")
-		(at 62.23 208.28 0)
+		(at 64.77 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18542,7 +18987,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006030f35c")
 		(property "Reference" "#PWR0157"
-			(at 62.23 214.63 0)
+			(at 64.77 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18553,7 +18998,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 212.09 0)
+			(at 64.77 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18563,7 +19008,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 208.28 0)
+			(at 64.77 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18574,7 +19019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 208.28 0)
+			(at 64.77 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18585,7 +19030,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 208.28 0)
+			(at 64.77 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18596,7 +19041,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 71.12 215.9 0)
+			(at 73.66 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18609,7 +19054,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 71.12 218.44 0)
+			(at 73.66 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18749,6 +19194,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 129.54 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18937,6 +19415,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 346.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 346.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 346.71 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19134,6 +19645,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 346.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 346.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 346.71 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e298afba-3801-42e5-bf9e-b065bf156b72")
 		)
@@ -19327,6 +19871,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 346.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 346.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 346.71 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19524,6 +20101,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 346.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 346.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 346.71 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fe2c7dcb-605f-4554-a3ab-62d461dcdaaa")
 		)
@@ -19580,7 +20190,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.3 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -19705,6 +20315,39 @@
 				(justify left)
 			)
 		)
+		(property "Pitch" ""
+			(at 388.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 388.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 388.62 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7761bf8f-85bc-47d6-a062-2d48fa0143cd")
 		)
@@ -19757,7 +20400,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.3 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -19881,6 +20524,39 @@
 				)
 			)
 		)
+		(property "Pitch" ""
+			(at 388.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 388.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 388.62 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "633e11c4-e44d-4b7b-a8b3-8d0423bc6bd8")
 		)
@@ -19933,7 +20609,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.3 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -20057,6 +20733,39 @@
 				)
 			)
 		)
+		(property "Pitch" ""
+			(at 388.62 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 388.62 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 388.62 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de11c5c2-6952-4bc0-8bf1-1ada5aadaae3")
 		)
@@ -20109,7 +20818,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 368.3 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20230,6 +20939,39 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 388.62 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 388.62 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 388.62 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -20372,6 +21114,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 229.87 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 229.87 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 229.87 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20522,6 +21297,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 229.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 229.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 229.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "38d0ef0e-d06a-43ad-8311-522bd90fd849")
 		)
@@ -20668,6 +21476,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 228.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 228.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 228.6 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20818,6 +21659,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 228.6 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 228.6 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 228.6 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d158c90e-3847-402b-8b63-8fdd42ecf206")
 		)
@@ -20966,6 +21840,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 231.14 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 231.14 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 231.14 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "da822a42-7c20-4da1-a2f7-badcf1f77157")
 		)
@@ -21111,6 +22018,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 95.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -21330,6 +22270,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 74.93 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 74.93 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 74.93 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6343fa06-ed43-456a-8400-9afbce0f95e9")
 		)
@@ -21518,6 +22491,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 81.28 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 81.28 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 81.28 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -21710,6 +22716,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 87.63 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 87.63 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 87.63 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "390507b1-722c-46dd-a27a-854bce901672")
 		)
@@ -21843,6 +22882,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 87.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 87.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 87.63 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22204,7 +23276,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 95.25 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -22315,6 +23387,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 80.01 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 80.01 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 80.01 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22495,6 +23600,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 88.9 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 88.9 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 88.9 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3a2ddf46-174c-4fad-a208-cfb4aa6acacb")
 		)
@@ -22651,7 +23789,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.82 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -22764,6 +23902,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 226.06 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 226.06 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 226.06 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d2193b3d-53bb-4305-b290-ef64e3d2ea18")
 		)
@@ -22824,7 +23995,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -22934,6 +24105,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 260.35 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 260.35 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 260.35 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23092,7 +24296,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 209.55 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -23205,6 +24409,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 224.79 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 224.79 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 224.79 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "df8f7ac6-e046-47fb-834f-06a53359baf4")
 		)
@@ -23265,7 +24502,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -23375,6 +24612,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 260.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 260.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 260.35 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23533,7 +24803,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 209.55 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -23646,6 +24916,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 224.79 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 224.79 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 224.79 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "078cd461-36c2-476e-853b-41c3b2d24114")
 		)
@@ -23706,7 +25009,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -23818,6 +25121,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 260.35 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 260.35 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 260.35 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6feef587-ee80-4917-8a6f-e8fa38d50887")
 		)
@@ -23871,7 +25207,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 208.28 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -23984,6 +25320,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 223.52 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 223.52 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 223.52 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "91d956c0-0af7-444c-b20d-d23776a62c34")
 		)
@@ -24044,7 +25413,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -24154,6 +25523,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 260.35 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 260.35 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 260.35 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24311,7 +25713,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 280.67 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -24421,6 +25823,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 260.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 260.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 260.35 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24704,6 +26139,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 129.54 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 129.54 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 129.54 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "68e86e8b-753c-4025-b7b0-a522c2877b60")
 		)
@@ -24882,6 +26350,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 123.19 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 123.19 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 123.19 105.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "67371fea-2695-4221-8e27-3ac3146bbf7e")
 		)
@@ -25039,7 +26540,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 114.3 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -25150,6 +26651,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 129.54 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 129.54 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 129.54 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25340,6 +26874,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 121.92 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 121.92 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 121.92 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25602,7 +27169,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -25715,6 +27282,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 154.94 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 154.94 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 154.94 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73ceb3ab-11ee-436f-8173-8b52a8a15cd9")
 		)
@@ -25735,7 +27335,7 @@
 	)
 	(symbol
 		(lib_id "antmicroPMICPowerSequencers:LM3881")
-		(at 82.55 194.31 0)
+		(at 85.09 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25746,7 +27346,7 @@
 		(fields_autoplaced yes)
 		(uuid "00000000-0000-0000-0000-00006113b8ab")
 		(property "Reference" "U9"
-			(at 90.805 187.325 0)
+			(at 93.345 131.445 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25756,7 +27356,7 @@
 			)
 		)
 		(property "Value" "LM3881"
-			(at 113.03 201.93 0)
+			(at 115.57 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25769,7 +27369,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:VSSOP-8_3x3mm_P0.65mm"
-			(at 113.03 204.47 0)
+			(at 115.57 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25782,7 +27382,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm3881.pdf"
-			(at 113.03 207.01 0)
+			(at 115.57 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25795,7 +27395,7 @@
 			)
 		)
 		(property "Description" "Power Sequencer, 3-Monitors, 2.7V-5.5Vin,VSSOP-8"
-			(at 82.55 194.31 0)
+			(at 85.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25806,7 +27406,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 113.03 209.55 0)
+			(at 115.57 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25819,7 +27419,7 @@
 			)
 		)
 		(property "MPN" "LM3881MME/NOPB"
-			(at 90.805 189.865 0)
+			(at 93.345 133.985 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25830,7 +27430,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 113.03 212.09 0)
+			(at 115.57 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25843,7 +27443,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 113.03 214.63 0)
+			(at 115.57 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25853,6 +27453,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 85.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 85.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 85.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25926,7 +27559,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -26039,6 +27672,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 154.94 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 154.94 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 154.94 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bc5d3b85-9516-48d1-82a1-85d19b17f340")
 		)
@@ -26092,7 +27758,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 139.7 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -26203,6 +27869,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 154.94 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 154.94 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 154.94 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26396,6 +28095,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 139.7 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebb7d8c4-057f-4abe-a65b-199f3cea3bf6")
 		)
@@ -26572,6 +28304,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 165.1 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 165.1 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 165.1 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26752,6 +28517,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 171.45 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 171.45 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 171.45 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ac5e985-18d5-4928-a1b4-8977a5c82bfc")
 		)
@@ -26930,6 +28728,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 177.8 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 177.8 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 177.8 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a09f582b-6e0d-4420-a262-0d21919fe7c0")
 		)
@@ -27086,7 +28917,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -27197,6 +29028,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 360.68 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27375,6 +29239,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 316.23 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 316.23 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 316.23 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27559,6 +29456,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 44.45 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 44.45 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 44.45 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8fb60e94-062f-4b29-82b9-4f68f3cbdf51")
 		)
@@ -27695,6 +29625,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 323.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 323.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 323.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -27893,6 +29856,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 54.61 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 54.61 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 54.61 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aa1f04e0-b4b6-42ac-9d57-5e6b08d45f57")
 		)
@@ -28069,6 +30065,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 64.77 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 64.77 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 64.77 63.5 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -28249,6 +30278,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 353.06 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 353.06 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 353.06 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1265078a-6e82-44cc-8521-e8bb1ba2aae5")
 		)
@@ -28302,7 +30364,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -28415,6 +30477,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 360.68 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 35.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "740f31ed-88b4-431d-ae40-9bc6d39cd538")
 		)
@@ -28468,7 +30563,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -28581,6 +30676,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 360.68 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6d7fb08b-0c8c-403f-885a-f59e1dfa4b0f")
 		)
@@ -28601,7 +30729,7 @@
 	)
 	(symbol
 		(lib_id "antmicroCapacitors0402:C_10n_0402")
-		(at 72.39 208.28 90)
+		(at 74.93 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28611,7 +30739,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006204b4b4")
 		(property "Reference" "C64"
-			(at 73.025 203.835 90)
+			(at 75.565 147.955 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28622,7 +30750,7 @@
 			)
 		)
 		(property "Value" "C_10n_0402"
-			(at 82.55 187.96 0)
+			(at 85.09 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28635,7 +30763,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 85.09 187.96 0)
+			(at 87.63 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28648,7 +30776,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R71H103KA88%23"
-			(at 87.63 187.96 0)
+			(at 90.17 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28661,7 +30789,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 10000 pF, 50 V, 0402 [1005 Metric], ± 10%, X7R, GRM Series"
-			(at 72.39 208.28 0)
+			(at 74.93 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28672,7 +30800,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 92.71 187.96 0)
+			(at 95.25 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28685,7 +30813,7 @@
 			)
 		)
 		(property "MPN" "GRM155R71H103KA88D"
-			(at 90.17 187.96 0)
+			(at 92.71 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28698,7 +30826,7 @@
 			)
 		)
 		(property "Val" "10n"
-			(at 73.025 207.645 90)
+			(at 75.565 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28710,7 +30838,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 95.25 187.96 0)
+			(at 97.79 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28723,7 +30851,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 97.79 187.96 0)
+			(at 100.33 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28736,7 +30864,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 100.33 187.96 0)
+			(at 102.87 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28748,7 +30876,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 102.87 187.96 0)
+			(at 105.41 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28757,6 +30885,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 74.93 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 74.93 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 74.93 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -28937,6 +31098,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 369.57 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 369.57 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 369.57 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb62c714-bc32-44e2-99c6-47942b46315c")
 		)
@@ -29115,6 +31309,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 377.19 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 377.19 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 377.19 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd1f5eb4-2086-42b3-8bb2-1f5ac673c0f1")
 		)
@@ -29135,7 +31362,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 72.39 208.28 0)
+		(at 74.93 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29145,7 +31372,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006211af82")
 		(property "Reference" "#PWR047"
-			(at 72.39 214.63 0)
+			(at 74.93 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29156,7 +31383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 212.09 0)
+			(at 74.93 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29166,7 +31393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 208.28 0)
+			(at 74.93 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29177,7 +31404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 208.28 0)
+			(at 74.93 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29188,7 +31415,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 208.28 0)
+			(at 74.93 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29199,7 +31426,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 81.28 215.9 0)
+			(at 83.82 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29212,7 +31439,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 81.28 218.44 0)
+			(at 83.82 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29396,6 +31623,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 316.23 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 316.23 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 316.23 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7af73485-3fa7-4b70-bae8-cd465644f2d3")
 		)
@@ -29536,6 +31796,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 323.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 323.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 323.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -29734,6 +32027,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 353.06 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 353.06 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 353.06 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6ec91bce-8682-4d7d-b571-f3d2d82e3c56")
 		)
@@ -29787,7 +32113,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -29898,6 +32224,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 360.68 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -30078,6 +32437,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 369.57 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 369.57 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 369.57 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "26808740-d64b-4c30-9727-15963d58df7f")
 		)
@@ -30254,6 +32646,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 377.19 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 377.19 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 377.19 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -30434,6 +32859,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 316.23 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 316.23 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 316.23 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e64fea4d-0638-4e81-a115-9053fcbed302")
 		)
@@ -30574,6 +33032,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 323.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 323.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 323.85 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -30772,6 +33263,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 353.06 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 353.06 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 353.06 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b13a9155-6fbc-456e-b8b9-3b5b86ef35c5")
 		)
@@ -30825,7 +33349,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -30936,6 +33460,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 360.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -31116,6 +33673,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "838efa2e-8d9e-4307-bd66-6aae77a81bd4")
 		)
@@ -31294,6 +33884,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 377.19 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 377.19 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 377.19 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "15f32c84-967e-422a-b69d-d74f2cca06e1")
 		)
@@ -31347,7 +33970,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -31458,6 +34081,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 360.68 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -31638,6 +34294,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 316.23 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 316.23 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 316.23 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb994ffb-a94b-45f2-9b59-f7f3344b859e")
 		)
@@ -31778,6 +34467,39 @@
 					(thickness 0.15)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 323.85 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 323.85 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 323.85 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -31976,6 +34698,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 353.06 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 353.06 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 353.06 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8ac504be-0742-4c01-bf64-08f9bb2e767b")
 		)
@@ -32029,7 +34784,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 345.44 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -32140,6 +34895,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 360.68 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -32320,6 +35108,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 369.57 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 369.57 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 369.57 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2c3c4f06-1324-4644-88aa-eaeb241469e7")
 		)
@@ -32496,6 +35317,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 377.19 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 377.19 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 377.19 173.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -33488,6 +36342,39 @@
 		)
 		(property "Color" "Green"
 			(at 250.19 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 247.65 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 247.65 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 247.65 187.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34580,6 +37467,39 @@
 				)
 			)
 		)
+		(property "Pitch" ""
+			(at 247.65 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 247.65 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 247.65 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dfadae04-6d09-4ba0-824a-7fa65ff77acc")
 		)
@@ -34807,6 +37727,39 @@
 		)
 		(property "Color" "Green"
 			(at 250.19 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 247.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 247.65 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 247.65 34.29 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35479,6 +38432,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 139.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 139.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 139.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "77b6d3cc-d3f8-45e8-8c4c-e6ecec8d0bf8")
 		)
@@ -35893,7 +38879,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "antmicro-footprints:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 375.92 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -36004,6 +38990,39 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+			)
+		)
+		(property "Pitch" ""
+			(at 360.68 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 360.68 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 360.68 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -36147,6 +39166,39 @@
 		)
 		(property "Color" "Green"
 			(at 250.19 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 247.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 247.65 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 247.65 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36304,6 +39356,39 @@
 		)
 		(property "Color" "Green"
 			(at 250.19 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 247.65 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 247.65 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 247.65 124.46 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36564,6 +39649,39 @@
 		)
 		(property "Color" "Green"
 			(at 250.19 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" ""
+			(at 247.65 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 247.65 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 247.65 157.48 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37089,7 +40207,7 @@
 	)
 	(symbol
 		(lib_id "antmicropower:GND")
-		(at 101.6 203.2 0)
+		(at 104.14 147.32 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -37100,7 +40218,7 @@
 		(dnp no)
 		(uuid "f8b1e896-1620-473d-8923-da7cc6411b8f")
 		(property "Reference" "#PWR0286"
-			(at 101.6 209.55 0)
+			(at 104.14 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37111,7 +40229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 207.01 0)
+			(at 104.14 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37121,7 +40239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 203.2 0)
+			(at 104.14 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37132,7 +40250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 203.2 0)
+			(at 104.14 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37143,7 +40261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 203.2 0)
+			(at 104.14 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37154,7 +40272,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 92.71 210.82 0)
+			(at 95.25 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37167,7 +40285,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 92.71 213.36 0)
+			(at 95.25 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

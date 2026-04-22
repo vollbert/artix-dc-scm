@@ -926,6 +926,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 337.82 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 337.82 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 337.82 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "87aa27ef-51a4-4c44-a7a7-971d071e1b67")
 		)
@@ -1038,6 +1071,39 @@
 				(justify left bottom)
 			)
 		)
+		(property "Pitch" ""
+			(at 337.82 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch " ""
+			(at 337.82 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VSD_Class" ""
+			(at 337.82 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1d9a1754-cf55-42f8-a6a4-699dabc24cab")
 		)
@@ -1049,52 +1115,6 @@
 					(variant
 						(name "resistor")
 					)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 114.3 166.37)
-		(size 27.94 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "00000000-0000-0000-0000-00005fd17ef1")
-		(property "Sheetname" "PCIe-connector"
-			(at 114.3 165.6584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pcie-conn.kicad_sch"
-			(at 114.3 186.0046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "artix-dc-scm"
-				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be"
-					(page "4")
 				)
 			)
 		)
@@ -1417,52 +1437,6 @@
 			(project "artix-dc-scm"
 				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 185.42 166.37)
-		(size 29.21 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "00000000-0000-0000-0000-0000625aec25")
-		(property "Sheetname" "Edge connector"
-			(at 185.42 165.6584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "edge-connector.kicad_sch"
-			(at 185.42 185.3696 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "artix-dc-scm"
-				(path "/f3cd042e-9a46-4397-9768-c62eb1c291be"
-					(page "7")
 				)
 			)
 		)
